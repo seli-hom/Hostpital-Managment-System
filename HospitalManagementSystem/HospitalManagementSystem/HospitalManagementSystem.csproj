@@ -73,6 +73,11 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="HospitalDatabaseDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HospitalDatabaseDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TimeUserControl.cs">
@@ -99,6 +104,17 @@
     <EmbeddedResource Include="TimeUserControl.resx">
       <DependentUpon>TimeUserControl.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="HospitalDatabaseDataSet.xsc">
+      <DependentUpon>HospitalDatabaseDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="HospitalDatabaseDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HospitalDatabaseDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="HospitalDatabaseDataSet.xss">
+      <DependentUpon>HospitalDatabaseDataSet.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

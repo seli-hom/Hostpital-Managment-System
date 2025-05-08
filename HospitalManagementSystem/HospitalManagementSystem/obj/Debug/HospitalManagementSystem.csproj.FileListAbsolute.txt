@@ -10,3 +10,5 @@ C:\Users\talia\OneDrive\Documents\VANIER\ComputerScienceTechnology\Y2S1\Applicat
 C:\Users\talia\OneDrive\Documents\VANIER\ComputerScienceTechnology\Y2S1\ApplicationDevelopment\Hostpital-Managment-System\HospitalManagementSystem\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.pdb
 C:\Users\talia\OneDrive\Documents\VANIER\ComputerScienceTechnology\Y2S1\ApplicationDevelopment\Hostpital-Managment-System\HospitalManagementSystem\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.DateUserControl.resources
 C:\Users\talia\OneDrive\Documents\VANIER\ComputerScienceTechnology\Y2S1\ApplicationDevelopment\Hostpital-Managment-System\HospitalManagementSystem\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.TimeUserControl.resources
+C:\Users\talia\OneDrive\Documents\VANIER\ComputerScienceTechnology\Y2S1\ApplicationDevelopment\Hostpital-Managment-System\HospitalManagementSystem\HospitalManagementSystem\bin\Debug\HospitalDatabase.mdf
+C:\Users\talia\OneDrive\Documents\VANIER\ComputerScienceTechnology\Y2S1\ApplicationDevelopment\Hostpital-Managment-System\HospitalManagementSystem\HospitalManagementSystem\bin\Debug\HospitalDatabase_log.ldf
