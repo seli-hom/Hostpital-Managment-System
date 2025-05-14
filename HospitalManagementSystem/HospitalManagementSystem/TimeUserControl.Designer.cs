@@ -47,7 +47,6 @@
             this.timeLabel.Name = "timeLabel";
             this.timeLabel.Size = new System.Drawing.Size(0, 41);
             this.timeLabel.TabIndex = 0;
-            this.timeLabel.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // TimeUserControl
             // 
