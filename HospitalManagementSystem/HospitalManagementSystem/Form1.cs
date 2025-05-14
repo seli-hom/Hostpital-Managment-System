@@ -35,5 +35,10 @@ namespace HospitalManagementSystem
             this.patientsTableAdapter.Fill(this.hospitalDatabaseDataSet.Patients);
 
         }
+
+        private void patientsTabPage_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

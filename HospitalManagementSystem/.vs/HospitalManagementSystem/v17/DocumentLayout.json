@@ -1,29 +1,37 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\marko\\Documents\\School_Docs\\ComputerScienceTech_W2025\\AppDev01_W2025\\FinalProject\\Hostpital-Managment-System\\HospitalManagementSystem\\",
+  "WorkspaceRootPath": "C:\\Users\\2057195\\Desktop\\Hostpital-Managment-System\\HospitalManagementSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5A5B220D-F524-4401-A1A1-14C6378CBA86}|HospitalManagementSystem\\HospitalManagementSystem.csproj|c:\\users\\marko\\documents\\school_docs\\computersciencetech_w2025\\appdev01_w2025\\finalproject\\hostpital-managment-system\\hospitalmanagementsystem\\hospitalmanagementsystem\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{5A5B220D-F524-4401-A1A1-14C6378CBA86}|HospitalManagementSystem\\HospitalManagementSystem.csproj|c:\\users\\2057195\\desktop\\hostpital-managment-system\\hospitalmanagementsystem\\hospitalmanagementsystem\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{5A5B220D-F524-4401-A1A1-14C6378CBA86}|HospitalManagementSystem\\HospitalManagementSystem.csproj|solutionrelative:hospitalmanagementsystem\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5A5B220D-F524-4401-A1A1-14C6378CBA86}|HospitalManagementSystem\\HospitalManagementSystem.csproj|C:\\Users\\marko\\Documents\\School_Docs\\ComputerScienceTech_W2025\\AppDev01_W2025\\FinalProject\\Hostpital-Managment-System\\HospitalManagementSystem\\hospitalmanagementsystem\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5A5B220D-F524-4401-A1A1-14C6378CBA86}|HospitalManagementSystem\\HospitalManagementSystem.csproj|C:\\Users\\2057195\\Desktop\\Hostpital-Managment-System\\HospitalManagementSystem\\hospitalmanagementsystem\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5A5B220D-F524-4401-A1A1-14C6378CBA86}|HospitalManagementSystem\\HospitalManagementSystem.csproj|solutionrelative:hospitalmanagementsystem\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5A5B220D-F524-4401-A1A1-14C6378CBA86}|HospitalManagementSystem\\HospitalManagementSystem.csproj|C:\\Users\\marko\\Documents\\School_Docs\\ComputerScienceTech_W2025\\AppDev01_W2025\\FinalProject\\Hostpital-Managment-System\\HospitalManagementSystem\\hospitalmanagementsystem\\timeusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{5A5B220D-F524-4401-A1A1-14C6378CBA86}|HospitalManagementSystem\\HospitalManagementSystem.csproj|C:\\Users\\2057195\\Desktop\\Hostpital-Managment-System\\HospitalManagementSystem\\hospitalmanagementsystem\\timeusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{5A5B220D-F524-4401-A1A1-14C6378CBA86}|HospitalManagementSystem\\HospitalManagementSystem.csproj|solutionrelative:hospitalmanagementsystem\\timeusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5A5B220D-F524-4401-A1A1-14C6378CBA86}|HospitalManagementSystem\\HospitalManagementSystem.csproj|C:\\Users\\marko\\Documents\\School_Docs\\ComputerScienceTech_W2025\\AppDev01_W2025\\FinalProject\\Hostpital-Managment-System\\HospitalManagementSystem\\hospitalmanagementsystem\\timeusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5A5B220D-F524-4401-A1A1-14C6378CBA86}|HospitalManagementSystem\\HospitalManagementSystem.csproj|c:\\users\\2057195\\desktop\\hostpital-managment-system\\hospitalmanagementsystem\\hospitalmanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A5B220D-F524-4401-A1A1-14C6378CBA86}|HospitalManagementSystem\\HospitalManagementSystem.csproj|solutionrelative:hospitalmanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A5B220D-F524-4401-A1A1-14C6378CBA86}|HospitalManagementSystem\\HospitalManagementSystem.csproj|c:\\users\\2057195\\desktop\\hostpital-managment-system\\hospitalmanagementsystem\\hospitalmanagementsystem\\hospitaldatabasedataset.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}",
+      "RelativeMoniker": "D:0:0:{5A5B220D-F524-4401-A1A1-14C6378CBA86}|HospitalManagementSystem\\HospitalManagementSystem.csproj|solutionrelative:hospitalmanagementsystem\\hospitaldatabasedataset.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A5B220D-F524-4401-A1A1-14C6378CBA86}|HospitalManagementSystem\\HospitalManagementSystem.csproj|C:\\Users\\2057195\\Desktop\\Hostpital-Managment-System\\HospitalManagementSystem\\hospitalmanagementsystem\\timeusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5A5B220D-F524-4401-A1A1-14C6378CBA86}|HospitalManagementSystem\\HospitalManagementSystem.csproj|solutionrelative:hospitalmanagementsystem\\timeusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5A5B220D-F524-4401-A1A1-14C6378CBA86}|HospitalManagementSystem\\HospitalManagementSystem.csproj|C:\\Users\\marko\\Documents\\School_Docs\\ComputerScienceTech_W2025\\AppDev01_W2025\\FinalProject\\Hostpital-Managment-System\\HospitalManagementSystem\\hospitalmanagementsystem\\dateusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{5A5B220D-F524-4401-A1A1-14C6378CBA86}|HospitalManagementSystem\\HospitalManagementSystem.csproj|C:\\Users\\2057195\\Desktop\\Hostpital-Managment-System\\HospitalManagementSystem\\hospitalmanagementsystem\\dateusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{5A5B220D-F524-4401-A1A1-14C6378CBA86}|HospitalManagementSystem\\HospitalManagementSystem.csproj|solutionrelative:hospitalmanagementsystem\\dateusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5A5B220D-F524-4401-A1A1-14C6378CBA86}|HospitalManagementSystem\\HospitalManagementSystem.csproj|C:\\Users\\marko\\Documents\\School_Docs\\ComputerScienceTech_W2025\\AppDev01_W2025\\FinalProject\\Hostpital-Managment-System\\HospitalManagementSystem\\hospitalmanagementsystem\\dateusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5A5B220D-F524-4401-A1A1-14C6378CBA86}|HospitalManagementSystem\\HospitalManagementSystem.csproj|C:\\Users\\2057195\\Desktop\\Hostpital-Managment-System\\HospitalManagementSystem\\hospitalmanagementsystem\\dateusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5A5B220D-F524-4401-A1A1-14C6378CBA86}|HospitalManagementSystem\\HospitalManagementSystem.csproj|solutionrelative:hospitalmanagementsystem\\dateusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -34,38 +42,69 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DateUserControl.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\marko\\Documents\\School_Docs\\ComputerScienceTech_W2025\\AppDev01_W2025\\FinalProject\\Hostpital-Managment-System\\HospitalManagementSystem\\HospitalManagementSystem\\DateUserControl.cs",
-              "RelativeDocumentMoniker": "HospitalManagementSystem\\DateUserControl.cs",
-              "ToolTip": "C:\\Users\\marko\\Documents\\School_Docs\\ComputerScienceTech_W2025\\AppDev01_W2025\\FinalProject\\Hostpital-Managment-System\\HospitalManagementSystem\\HospitalManagementSystem\\DateUserControl.cs [Design]",
-              "RelativeToolTip": "HospitalManagementSystem\\DateUserControl.cs [Design]",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\2057195\\Desktop\\Hostpital-Managment-System\\HospitalManagementSystem\\HospitalManagementSystem\\Program.cs",
+              "RelativeDocumentMoniker": "HospitalManagementSystem\\Program.cs",
+              "ToolTip": "C:\\Users\\2057195\\Desktop\\Hostpital-Managment-System\\HospitalManagementSystem\\HospitalManagementSystem\\Program.cs",
+              "RelativeToolTip": "HospitalManagementSystem\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T22:19:54.959Z"
+              "WhenOpened": "2025-05-14T18:14:45.466Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TimeUserControl.cs",
-              "DocumentMoniker": "C:\\Users\\marko\\Documents\\School_Docs\\ComputerScienceTech_W2025\\AppDev01_W2025\\FinalProject\\Hostpital-Managment-System\\HospitalManagementSystem\\HospitalManagementSystem\\TimeUserControl.cs",
-              "RelativeDocumentMoniker": "HospitalManagementSystem\\TimeUserControl.cs",
-              "ToolTip": "C:\\Users\\marko\\Documents\\School_Docs\\ComputerScienceTech_W2025\\AppDev01_W2025\\FinalProject\\Hostpital-Managment-System\\HospitalManagementSystem\\HospitalManagementSystem\\TimeUserControl.cs",
-              "RelativeToolTip": "HospitalManagementSystem\\TimeUserControl.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAqwBEAAAAeAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "HospitalDatabaseDataSet.xsd",
+              "DocumentMoniker": "C:\\Users\\2057195\\Desktop\\Hostpital-Managment-System\\HospitalManagementSystem\\HospitalManagementSystem\\HospitalDatabaseDataSet.xsd",
+              "RelativeDocumentMoniker": "HospitalManagementSystem\\HospitalDatabaseDataSet.xsd",
+              "ToolTip": "C:\\Users\\2057195\\Desktop\\Hostpital-Managment-System\\HospitalManagementSystem\\HospitalManagementSystem\\HospitalDatabaseDataSet.xsd",
+              "RelativeToolTip": "HospitalManagementSystem\\HospitalDatabaseDataSet.xsd",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003579|",
+              "WhenOpened": "2025-05-14T18:14:42.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DateUserControl.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\2057195\\Desktop\\Hostpital-Managment-System\\HospitalManagementSystem\\HospitalManagementSystem\\DateUserControl.cs",
+              "RelativeDocumentMoniker": "HospitalManagementSystem\\DateUserControl.cs",
+              "ToolTip": "C:\\Users\\2057195\\Desktop\\Hostpital-Managment-System\\HospitalManagementSystem\\HospitalManagementSystem\\DateUserControl.cs [Design]",
+              "RelativeToolTip": "HospitalManagementSystem\\DateUserControl.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T22:17:08.976Z"
+              "WhenOpened": "2025-05-07T22:19:54.959Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TimeUserControl.cs",
+              "DocumentMoniker": "C:\\Users\\2057195\\Desktop\\Hostpital-Managment-System\\HospitalManagementSystem\\HospitalManagementSystem\\TimeUserControl.cs",
+              "RelativeDocumentMoniker": "HospitalManagementSystem\\TimeUserControl.cs",
+              "ToolTip": "C:\\Users\\2057195\\Desktop\\Hostpital-Managment-System\\HospitalManagementSystem\\HospitalManagementSystem\\TimeUserControl.cs",
+              "RelativeToolTip": "HospitalManagementSystem\\TimeUserControl.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T22:17:08.976Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\marko\\Documents\\School_Docs\\ComputerScienceTech_W2025\\AppDev01_W2025\\FinalProject\\Hostpital-Managment-System\\HospitalManagementSystem\\HospitalManagementSystem\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\2057195\\Desktop\\Hostpital-Managment-System\\HospitalManagementSystem\\HospitalManagementSystem\\Form1.cs",
               "RelativeDocumentMoniker": "HospitalManagementSystem\\Form1.cs",
-              "ToolTip": "C:\\Users\\marko\\Documents\\School_Docs\\ComputerScienceTech_W2025\\AppDev01_W2025\\FinalProject\\Hostpital-Managment-System\\HospitalManagementSystem\\HospitalManagementSystem\\Form1.cs [Design]*",
+              "ToolTip": "C:\\Users\\2057195\\Desktop\\Hostpital-Managment-System\\HospitalManagementSystem\\HospitalManagementSystem\\Form1.cs [Design]*",
               "RelativeToolTip": "HospitalManagementSystem\\Form1.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-22T14:46:05.818Z",
@@ -75,11 +114,11 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\marko\\Documents\\School_Docs\\ComputerScienceTech_W2025\\AppDev01_W2025\\FinalProject\\Hostpital-Managment-System\\HospitalManagementSystem\\HospitalManagementSystem\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\2057195\\Desktop\\Hostpital-Managment-System\\HospitalManagementSystem\\HospitalManagementSystem\\Form1.cs",
               "RelativeDocumentMoniker": "HospitalManagementSystem\\Form1.cs",
-              "ToolTip": "C:\\Users\\marko\\Documents\\School_Docs\\ComputerScienceTech_W2025\\AppDev01_W2025\\FinalProject\\Hostpital-Managment-System\\HospitalManagementSystem\\HospitalManagementSystem\\Form1.cs*",
+              "ToolTip": "C:\\Users\\2057195\\Desktop\\Hostpital-Managment-System\\HospitalManagementSystem\\HospitalManagementSystem\\Form1.cs*",
               "RelativeToolTip": "HospitalManagementSystem\\Form1.cs*",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAuwBQAAAAAAAAAAAAAAA==",
+              "ViewState": "AQIAABYAAAAAAAAAAAAUwCgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-07T23:17:37.497Z",
               "EditorCaption": ""
@@ -88,24 +127,25 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "TimeUserControl.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\marko\\Documents\\School_Docs\\ComputerScienceTech_W2025\\AppDev01_W2025\\FinalProject\\Hostpital-Managment-System\\HospitalManagementSystem\\HospitalManagementSystem\\TimeUserControl.cs",
+              "DocumentMoniker": "C:\\Users\\2057195\\Desktop\\Hostpital-Managment-System\\HospitalManagementSystem\\HospitalManagementSystem\\TimeUserControl.cs",
               "RelativeDocumentMoniker": "HospitalManagementSystem\\TimeUserControl.cs",
-              "ToolTip": "C:\\Users\\marko\\Documents\\School_Docs\\ComputerScienceTech_W2025\\AppDev01_W2025\\FinalProject\\Hostpital-Managment-System\\HospitalManagementSystem\\HospitalManagementSystem\\TimeUserControl.cs [Design]",
+              "ToolTip": "C:\\Users\\2057195\\Desktop\\Hostpital-Managment-System\\HospitalManagementSystem\\HospitalManagementSystem\\TimeUserControl.cs [Design]",
               "RelativeToolTip": "HospitalManagementSystem\\TimeUserControl.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T22:11:38.107Z"
+              "WhenOpened": "2025-05-07T22:11:38.107Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "DateUserControl.cs",
-              "DocumentMoniker": "C:\\Users\\marko\\Documents\\School_Docs\\ComputerScienceTech_W2025\\AppDev01_W2025\\FinalProject\\Hostpital-Managment-System\\HospitalManagementSystem\\HospitalManagementSystem\\DateUserControl.cs",
+              "DocumentMoniker": "C:\\Users\\2057195\\Desktop\\Hostpital-Managment-System\\HospitalManagementSystem\\HospitalManagementSystem\\DateUserControl.cs",
               "RelativeDocumentMoniker": "HospitalManagementSystem\\DateUserControl.cs",
-              "ToolTip": "C:\\Users\\marko\\Documents\\School_Docs\\ComputerScienceTech_W2025\\AppDev01_W2025\\FinalProject\\Hostpital-Managment-System\\HospitalManagementSystem\\HospitalManagementSystem\\DateUserControl.cs",
+              "ToolTip": "C:\\Users\\2057195\\Desktop\\Hostpital-Managment-System\\HospitalManagementSystem\\HospitalManagementSystem\\DateUserControl.cs",
               "RelativeToolTip": "HospitalManagementSystem\\DateUserControl.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAmwBcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T22:21:47.048Z"
+              "WhenOpened": "2025-05-07T22:21:47.048Z",
+              "EditorCaption": ""
             }
           ]
         }
