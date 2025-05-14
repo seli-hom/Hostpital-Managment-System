@@ -1031,8 +1031,6 @@ namespace HospitalManagementSystem {
             
             private global::System.Data.DataColumn columnSex;
             
-            private global::System.Data.DataColumn columnFamilyDoctor;
-            
             private global::System.Data.DataColumn columnBloodType;
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -1126,14 +1124,6 @@ namespace HospitalManagementSystem {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public global::System.Data.DataColumn FamilyDoctorColumn {
-                get {
-                    return this.columnFamilyDoctor;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public global::System.Data.DataColumn BloodTypeColumn {
                 get {
                     return this.columnBloodType;
@@ -1177,7 +1167,7 @@ namespace HospitalManagementSystem {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public PatientsRow AddPatientsRow(string FirstName, string LastName, string Address, string Contact, string DateOfBirth, string Sex, string FamilyDoctor, string BloodType) {
+            public PatientsRow AddPatientsRow(string FirstName, string LastName, string Address, string Contact, string DateOfBirth, string Sex, string BloodType) {
                 PatientsRow rowPatientsRow = ((PatientsRow)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
                         null,
@@ -1187,7 +1177,6 @@ namespace HospitalManagementSystem {
                         Contact,
                         DateOfBirth,
                         Sex,
-                        FamilyDoctor,
                         BloodType};
                 rowPatientsRow.ItemArray = columnValuesArray;
                 this.Rows.Add(rowPatientsRow);
@@ -1225,7 +1214,6 @@ namespace HospitalManagementSystem {
                 this.columnContact = base.Columns["Contact"];
                 this.columnDateOfBirth = base.Columns["DateOfBirth"];
                 this.columnSex = base.Columns["Sex"];
-                this.columnFamilyDoctor = base.Columns["FamilyDoctor"];
                 this.columnBloodType = base.Columns["BloodType"];
             }
             
@@ -1246,8 +1234,6 @@ namespace HospitalManagementSystem {
                 base.Columns.Add(this.columnDateOfBirth);
                 this.columnSex = new global::System.Data.DataColumn("Sex", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnSex);
-                this.columnFamilyDoctor = new global::System.Data.DataColumn("FamilyDoctor", typeof(string), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnFamilyDoctor);
                 this.columnBloodType = new global::System.Data.DataColumn("BloodType", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnBloodType);
                 this.Constraints.Add(new global::System.Data.UniqueConstraint("Constraint1", new global::System.Data.DataColumn[] {
@@ -1270,7 +1256,6 @@ namespace HospitalManagementSystem {
                 this.columnDateOfBirth.MaxLength = 50;
                 this.columnSex.AllowDBNull = false;
                 this.columnSex.MaxLength = 6;
-                this.columnFamilyDoctor.MaxLength = 50;
                 this.columnBloodType.AllowDBNull = false;
                 this.columnBloodType.MaxLength = 50;
             }
@@ -1665,22 +1650,6 @@ namespace HospitalManagementSystem {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public string FamilyDoctor {
-                get {
-                    try {
-                        return ((string)(this[this.tablePatients.FamilyDoctorColumn]));
-                    }
-                    catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("The value for column \'FamilyDoctor\' in table \'Patients\' is DBNull.", e);
-                    }
-                }
-                set {
-                    this[this.tablePatients.FamilyDoctorColumn] = value;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
             public string BloodType {
                 get {
                     return ((string)(this[this.tablePatients.BloodTypeColumn]));
@@ -1688,18 +1657,6 @@ namespace HospitalManagementSystem {
                 set {
                     this[this.tablePatients.BloodTypeColumn] = value;
                 }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public bool IsFamilyDoctorNull() {
-                return this.IsNull(this.tablePatients.FamilyDoctorColumn);
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
-            public void SetFamilyDoctorNull() {
-                this[this.tablePatients.FamilyDoctorColumn] = global::System.Convert.DBNull;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -2680,12 +2637,11 @@ SELECT DoctorId, FirstName, LastName, Contact, Specialty FROM Doctors WHERE (Doc
             tableMapping.ColumnMappings.Add("Contact", "Contact");
             tableMapping.ColumnMappings.Add("DateOfBirth", "DateOfBirth");
             tableMapping.ColumnMappings.Add("Sex", "Sex");
-            tableMapping.ColumnMappings.Add("FamilyDoctor", "FamilyDoctor");
             tableMapping.ColumnMappings.Add("BloodType", "BloodType");
             this._adapter.TableMappings.Add(tableMapping);
             this._adapter.DeleteCommand = new global::System.Data.SqlClient.SqlCommand();
             this._adapter.DeleteCommand.Connection = this.Connection;
-            this._adapter.DeleteCommand.CommandText = @"DELETE FROM [dbo].[Patients] WHERE (([PatientId] = @Original_PatientId) AND ([FirstName] = @Original_FirstName) AND ([LastName] = @Original_LastName) AND ([Address] = @Original_Address) AND ([Contact] = @Original_Contact) AND ([DateOfBirth] = @Original_DateOfBirth) AND ([Sex] = @Original_Sex) AND ((@IsNull_FamilyDoctor = 1 AND [FamilyDoctor] IS NULL) OR ([FamilyDoctor] = @Original_FamilyDoctor)) AND ([BloodType] = @Original_BloodType))";
+            this._adapter.DeleteCommand.CommandText = @"DELETE FROM [dbo].[Patients] WHERE (([PatientId] = @Original_PatientId) AND ([FirstName] = @Original_FirstName) AND ([LastName] = @Original_LastName) AND ([Address] = @Original_Address) AND ([Contact] = @Original_Contact) AND ([DateOfBirth] = @Original_DateOfBirth) AND ([Sex] = @Original_Sex) AND ([BloodType] = @Original_BloodType))";
             this._adapter.DeleteCommand.CommandType = global::System.Data.CommandType.Text;
             this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_PatientId", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "PatientId", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
             this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_FirstName", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "FirstName", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
@@ -2694,13 +2650,11 @@ SELECT DoctorId, FirstName, LastName, Contact, Specialty FROM Doctors WHERE (Doc
             this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_Contact", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Contact", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
             this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_DateOfBirth", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "DateOfBirth", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
             this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_Sex", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Sex", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
-            this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@IsNull_FamilyDoctor", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "FamilyDoctor", global::System.Data.DataRowVersion.Original, true, null, "", "", ""));
-            this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_FamilyDoctor", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "FamilyDoctor", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
             this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_BloodType", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "BloodType", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
             this._adapter.InsertCommand = new global::System.Data.SqlClient.SqlCommand();
             this._adapter.InsertCommand.Connection = this.Connection;
-            this._adapter.InsertCommand.CommandText = @"INSERT INTO [dbo].[Patients] ([FirstName], [LastName], [Address], [Contact], [DateOfBirth], [Sex], [FamilyDoctor], [BloodType]) VALUES (@FirstName, @LastName, @Address, @Contact, @DateOfBirth, @Sex, @FamilyDoctor, @BloodType);
-SELECT PatientId, FirstName, LastName, Address, Contact, DateOfBirth, Sex, FamilyDoctor, BloodType FROM Patients WHERE (PatientId = SCOPE_IDENTITY())";
+            this._adapter.InsertCommand.CommandText = @"INSERT INTO [dbo].[Patients] ([FirstName], [LastName], [Address], [Contact], [DateOfBirth], [Sex], [BloodType]) VALUES (@FirstName, @LastName, @Address, @Contact, @DateOfBirth, @Sex, @BloodType);
+SELECT PatientId, FirstName, LastName, Address, Contact, DateOfBirth, Sex, BloodType FROM Patients WHERE (PatientId = SCOPE_IDENTITY())";
             this._adapter.InsertCommand.CommandType = global::System.Data.CommandType.Text;
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@FirstName", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "FirstName", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@LastName", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "LastName", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
@@ -2708,12 +2662,11 @@ SELECT PatientId, FirstName, LastName, Address, Contact, DateOfBirth, Sex, Famil
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Contact", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Contact", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@DateOfBirth", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "DateOfBirth", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Sex", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Sex", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@FamilyDoctor", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "FamilyDoctor", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@BloodType", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "BloodType", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.UpdateCommand = new global::System.Data.SqlClient.SqlCommand();
             this._adapter.UpdateCommand.Connection = this.Connection;
-            this._adapter.UpdateCommand.CommandText = @"UPDATE [dbo].[Patients] SET [FirstName] = @FirstName, [LastName] = @LastName, [Address] = @Address, [Contact] = @Contact, [DateOfBirth] = @DateOfBirth, [Sex] = @Sex, [FamilyDoctor] = @FamilyDoctor, [BloodType] = @BloodType WHERE (([PatientId] = @Original_PatientId) AND ([FirstName] = @Original_FirstName) AND ([LastName] = @Original_LastName) AND ([Address] = @Original_Address) AND ([Contact] = @Original_Contact) AND ([DateOfBirth] = @Original_DateOfBirth) AND ([Sex] = @Original_Sex) AND ((@IsNull_FamilyDoctor = 1 AND [FamilyDoctor] IS NULL) OR ([FamilyDoctor] = @Original_FamilyDoctor)) AND ([BloodType] = @Original_BloodType));
-SELECT PatientId, FirstName, LastName, Address, Contact, DateOfBirth, Sex, FamilyDoctor, BloodType FROM Patients WHERE (PatientId = @PatientId)";
+            this._adapter.UpdateCommand.CommandText = @"UPDATE [dbo].[Patients] SET [FirstName] = @FirstName, [LastName] = @LastName, [Address] = @Address, [Contact] = @Contact, [DateOfBirth] = @DateOfBirth, [Sex] = @Sex, [BloodType] = @BloodType WHERE (([PatientId] = @Original_PatientId) AND ([FirstName] = @Original_FirstName) AND ([LastName] = @Original_LastName) AND ([Address] = @Original_Address) AND ([Contact] = @Original_Contact) AND ([DateOfBirth] = @Original_DateOfBirth) AND ([Sex] = @Original_Sex) AND ([BloodType] = @Original_BloodType));
+SELECT PatientId, FirstName, LastName, Address, Contact, DateOfBirth, Sex, BloodType FROM Patients WHERE (PatientId = @PatientId)";
             this._adapter.UpdateCommand.CommandType = global::System.Data.CommandType.Text;
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@FirstName", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "FirstName", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@LastName", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "LastName", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
@@ -2721,7 +2674,6 @@ SELECT PatientId, FirstName, LastName, Address, Contact, DateOfBirth, Sex, Famil
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Contact", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Contact", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@DateOfBirth", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "DateOfBirth", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Sex", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Sex", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
-            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@FamilyDoctor", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "FamilyDoctor", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@BloodType", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "BloodType", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_PatientId", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "PatientId", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_FirstName", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "FirstName", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
@@ -2730,8 +2682,6 @@ SELECT PatientId, FirstName, LastName, Address, Contact, DateOfBirth, Sex, Famil
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_Contact", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Contact", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_DateOfBirth", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "DateOfBirth", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_Sex", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Sex", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
-            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@IsNull_FamilyDoctor", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "FamilyDoctor", global::System.Data.DataRowVersion.Original, true, null, "", "", ""));
-            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_FamilyDoctor", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "FamilyDoctor", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_BloodType", global::System.Data.SqlDbType.VarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "BloodType", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@PatientId", global::System.Data.SqlDbType.Int, 4, global::System.Data.ParameterDirection.Input, 0, 0, "PatientId", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
         }
@@ -2749,8 +2699,8 @@ SELECT PatientId, FirstName, LastName, Address, Contact, DateOfBirth, Sex, Famil
             this._commandCollection = new global::System.Data.SqlClient.SqlCommand[1];
             this._commandCollection[0] = new global::System.Data.SqlClient.SqlCommand();
             this._commandCollection[0].Connection = this.Connection;
-            this._commandCollection[0].CommandText = "SELECT PatientId, FirstName, LastName, Address, Contact, DateOfBirth, Sex, Family" +
-                "Doctor, BloodType FROM dbo.Patients";
+            this._commandCollection[0].CommandText = "SELECT PatientId, FirstName, LastName, Address, Contact, DateOfBirth, Sex, BloodT" +
+                "ype FROM dbo.Patients";
             this._commandCollection[0].CommandType = global::System.Data.CommandType.Text;
         }
         
@@ -2811,7 +2761,7 @@ SELECT PatientId, FirstName, LastName, Address, Contact, DateOfBirth, Sex, Famil
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Delete, true)]
-        public virtual int Delete(int Original_PatientId, string Original_FirstName, string Original_LastName, string Original_Address, string Original_Contact, string Original_DateOfBirth, string Original_Sex, string Original_FamilyDoctor, string Original_BloodType) {
+        public virtual int Delete(int Original_PatientId, string Original_FirstName, string Original_LastName, string Original_Address, string Original_Contact, string Original_DateOfBirth, string Original_Sex, string Original_BloodType) {
             this.Adapter.DeleteCommand.Parameters[0].Value = ((int)(Original_PatientId));
             if ((Original_FirstName == null)) {
                 throw new global::System.ArgumentNullException("Original_FirstName");
@@ -2849,19 +2799,11 @@ SELECT PatientId, FirstName, LastName, Address, Contact, DateOfBirth, Sex, Famil
             else {
                 this.Adapter.DeleteCommand.Parameters[6].Value = ((string)(Original_Sex));
             }
-            if ((Original_FamilyDoctor == null)) {
-                this.Adapter.DeleteCommand.Parameters[7].Value = ((object)(1));
-                this.Adapter.DeleteCommand.Parameters[8].Value = global::System.DBNull.Value;
-            }
-            else {
-                this.Adapter.DeleteCommand.Parameters[7].Value = ((object)(0));
-                this.Adapter.DeleteCommand.Parameters[8].Value = ((string)(Original_FamilyDoctor));
-            }
             if ((Original_BloodType == null)) {
                 throw new global::System.ArgumentNullException("Original_BloodType");
             }
             else {
-                this.Adapter.DeleteCommand.Parameters[9].Value = ((string)(Original_BloodType));
+                this.Adapter.DeleteCommand.Parameters[7].Value = ((string)(Original_BloodType));
             }
             global::System.Data.ConnectionState previousConnectionState = this.Adapter.DeleteCommand.Connection.State;
             if (((this.Adapter.DeleteCommand.Connection.State & global::System.Data.ConnectionState.Open) 
@@ -2883,7 +2825,7 @@ SELECT PatientId, FirstName, LastName, Address, Contact, DateOfBirth, Sex, Famil
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Insert, true)]
-        public virtual int Insert(string FirstName, string LastName, string Address, string Contact, string DateOfBirth, string Sex, string FamilyDoctor, string BloodType) {
+        public virtual int Insert(string FirstName, string LastName, string Address, string Contact, string DateOfBirth, string Sex, string BloodType) {
             if ((FirstName == null)) {
                 throw new global::System.ArgumentNullException("FirstName");
             }
@@ -2920,17 +2862,11 @@ SELECT PatientId, FirstName, LastName, Address, Contact, DateOfBirth, Sex, Famil
             else {
                 this.Adapter.InsertCommand.Parameters[5].Value = ((string)(Sex));
             }
-            if ((FamilyDoctor == null)) {
-                this.Adapter.InsertCommand.Parameters[6].Value = global::System.DBNull.Value;
-            }
-            else {
-                this.Adapter.InsertCommand.Parameters[6].Value = ((string)(FamilyDoctor));
-            }
             if ((BloodType == null)) {
                 throw new global::System.ArgumentNullException("BloodType");
             }
             else {
-                this.Adapter.InsertCommand.Parameters[7].Value = ((string)(BloodType));
+                this.Adapter.InsertCommand.Parameters[6].Value = ((string)(BloodType));
             }
             global::System.Data.ConnectionState previousConnectionState = this.Adapter.InsertCommand.Connection.State;
             if (((this.Adapter.InsertCommand.Connection.State & global::System.Data.ConnectionState.Open) 
@@ -2959,7 +2895,6 @@ SELECT PatientId, FirstName, LastName, Address, Contact, DateOfBirth, Sex, Famil
                     string Contact, 
                     string DateOfBirth, 
                     string Sex, 
-                    string FamilyDoctor, 
                     string BloodType, 
                     int Original_PatientId, 
                     string Original_FirstName, 
@@ -2968,7 +2903,6 @@ SELECT PatientId, FirstName, LastName, Address, Contact, DateOfBirth, Sex, Famil
                     string Original_Contact, 
                     string Original_DateOfBirth, 
                     string Original_Sex, 
-                    string Original_FamilyDoctor, 
                     string Original_BloodType, 
                     int PatientId) {
             if ((FirstName == null)) {
@@ -3007,70 +2941,56 @@ SELECT PatientId, FirstName, LastName, Address, Contact, DateOfBirth, Sex, Famil
             else {
                 this.Adapter.UpdateCommand.Parameters[5].Value = ((string)(Sex));
             }
-            if ((FamilyDoctor == null)) {
-                this.Adapter.UpdateCommand.Parameters[6].Value = global::System.DBNull.Value;
-            }
-            else {
-                this.Adapter.UpdateCommand.Parameters[6].Value = ((string)(FamilyDoctor));
-            }
             if ((BloodType == null)) {
                 throw new global::System.ArgumentNullException("BloodType");
             }
             else {
-                this.Adapter.UpdateCommand.Parameters[7].Value = ((string)(BloodType));
+                this.Adapter.UpdateCommand.Parameters[6].Value = ((string)(BloodType));
             }
-            this.Adapter.UpdateCommand.Parameters[8].Value = ((int)(Original_PatientId));
+            this.Adapter.UpdateCommand.Parameters[7].Value = ((int)(Original_PatientId));
             if ((Original_FirstName == null)) {
                 throw new global::System.ArgumentNullException("Original_FirstName");
             }
             else {
-                this.Adapter.UpdateCommand.Parameters[9].Value = ((string)(Original_FirstName));
+                this.Adapter.UpdateCommand.Parameters[8].Value = ((string)(Original_FirstName));
             }
             if ((Original_LastName == null)) {
                 throw new global::System.ArgumentNullException("Original_LastName");
             }
             else {
-                this.Adapter.UpdateCommand.Parameters[10].Value = ((string)(Original_LastName));
+                this.Adapter.UpdateCommand.Parameters[9].Value = ((string)(Original_LastName));
             }
             if ((Original_Address == null)) {
                 throw new global::System.ArgumentNullException("Original_Address");
             }
             else {
-                this.Adapter.UpdateCommand.Parameters[11].Value = ((string)(Original_Address));
+                this.Adapter.UpdateCommand.Parameters[10].Value = ((string)(Original_Address));
             }
             if ((Original_Contact == null)) {
                 throw new global::System.ArgumentNullException("Original_Contact");
             }
             else {
-                this.Adapter.UpdateCommand.Parameters[12].Value = ((string)(Original_Contact));
+                this.Adapter.UpdateCommand.Parameters[11].Value = ((string)(Original_Contact));
             }
             if ((Original_DateOfBirth == null)) {
                 throw new global::System.ArgumentNullException("Original_DateOfBirth");
             }
             else {
-                this.Adapter.UpdateCommand.Parameters[13].Value = ((string)(Original_DateOfBirth));
+                this.Adapter.UpdateCommand.Parameters[12].Value = ((string)(Original_DateOfBirth));
             }
             if ((Original_Sex == null)) {
                 throw new global::System.ArgumentNullException("Original_Sex");
             }
             else {
-                this.Adapter.UpdateCommand.Parameters[14].Value = ((string)(Original_Sex));
-            }
-            if ((Original_FamilyDoctor == null)) {
-                this.Adapter.UpdateCommand.Parameters[15].Value = ((object)(1));
-                this.Adapter.UpdateCommand.Parameters[16].Value = global::System.DBNull.Value;
-            }
-            else {
-                this.Adapter.UpdateCommand.Parameters[15].Value = ((object)(0));
-                this.Adapter.UpdateCommand.Parameters[16].Value = ((string)(Original_FamilyDoctor));
+                this.Adapter.UpdateCommand.Parameters[13].Value = ((string)(Original_Sex));
             }
             if ((Original_BloodType == null)) {
                 throw new global::System.ArgumentNullException("Original_BloodType");
             }
             else {
-                this.Adapter.UpdateCommand.Parameters[17].Value = ((string)(Original_BloodType));
+                this.Adapter.UpdateCommand.Parameters[14].Value = ((string)(Original_BloodType));
             }
-            this.Adapter.UpdateCommand.Parameters[18].Value = ((int)(PatientId));
+            this.Adapter.UpdateCommand.Parameters[15].Value = ((int)(PatientId));
             global::System.Data.ConnectionState previousConnectionState = this.Adapter.UpdateCommand.Connection.State;
             if (((this.Adapter.UpdateCommand.Connection.State & global::System.Data.ConnectionState.Open) 
                         != global::System.Data.ConnectionState.Open)) {
@@ -3091,25 +3011,8 @@ SELECT PatientId, FirstName, LastName, Address, Contact, DateOfBirth, Sex, Famil
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Update, true)]
-        public virtual int Update(
-                    string FirstName, 
-                    string LastName, 
-                    string Address, 
-                    string Contact, 
-                    string DateOfBirth, 
-                    string Sex, 
-                    string FamilyDoctor, 
-                    string BloodType, 
-                    int Original_PatientId, 
-                    string Original_FirstName, 
-                    string Original_LastName, 
-                    string Original_Address, 
-                    string Original_Contact, 
-                    string Original_DateOfBirth, 
-                    string Original_Sex, 
-                    string Original_FamilyDoctor, 
-                    string Original_BloodType) {
-            return this.Update(FirstName, LastName, Address, Contact, DateOfBirth, Sex, FamilyDoctor, BloodType, Original_PatientId, Original_FirstName, Original_LastName, Original_Address, Original_Contact, Original_DateOfBirth, Original_Sex, Original_FamilyDoctor, Original_BloodType, Original_PatientId);
+        public virtual int Update(string FirstName, string LastName, string Address, string Contact, string DateOfBirth, string Sex, string BloodType, int Original_PatientId, string Original_FirstName, string Original_LastName, string Original_Address, string Original_Contact, string Original_DateOfBirth, string Original_Sex, string Original_BloodType) {
+            return this.Update(FirstName, LastName, Address, Contact, DateOfBirth, Sex, BloodType, Original_PatientId, Original_FirstName, Original_LastName, Original_Address, Original_Contact, Original_DateOfBirth, Original_Sex, Original_BloodType, Original_PatientId);
         }
     }
     
