@@ -54,3 +54,4 @@ C:\Users\Markololo\Documents\School\ComputerScienceTech_W2025\AppDev01\Final_Pro
 C:\Users\Markololo\Documents\School\ComputerScienceTech_W2025\AppDev01\Final_Project\Hostpital-Managment-System\HospitalManagementSystem\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.ManagementForm.resources
 C:\Users\Markololo\Documents\School\ComputerScienceTech_W2025\AppDev01\Final_Project\Hostpital-Managment-System\HospitalManagementSystem\HospitalManagementSystem\bin\Debug\HospitalDatabase.mdf
 C:\Users\Markololo\Documents\School\ComputerScienceTech_W2025\AppDev01\Final_Project\Hostpital-Managment-System\HospitalManagementSystem\HospitalManagementSystem\bin\Debug\HospitalDatabase_log.ldf
+C:\Users\Markololo\Documents\School\ComputerScienceTech_W2025\AppDev01\Final_Project\Hostpital-Managment-System\HospitalManagementSystem\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.LoginForm.resources

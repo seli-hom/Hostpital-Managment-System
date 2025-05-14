@@ -839,7 +839,7 @@
             this.patientsDataGridView.Margin = new System.Windows.Forms.Padding(2);
             this.patientsDataGridView.Name = "patientsDataGridView";
             this.patientsDataGridView.RowHeadersWidth = 82;
-            this.patientsDataGridView.Size = new System.Drawing.Size(903, 243);
+            this.patientsDataGridView.Size = new System.Drawing.Size(909, 220);
             this.patientsDataGridView.TabIndex = 12;
             // 
             // dataGridViewTextBoxColumn1
