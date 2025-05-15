@@ -82,7 +82,7 @@ namespace HospitalManagementSystem
                 displayAppintmentsBtn.Text = "Voir tous les rendez-vous";
                 patientInfo.Text = "Informations du Patient";
                 displayAppintmentsBtn.Text = "Id du Patient";
-              //  patientFirstNameLabelRecords.Text = "Prenom";
+             //   patientFirstNameLabelRecords.Text = "Prenom";
                // patientLastNameLabelRecords.Text = "Nom du famille";
             }
         }
