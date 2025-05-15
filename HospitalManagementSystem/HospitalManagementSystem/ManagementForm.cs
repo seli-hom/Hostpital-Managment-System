@@ -46,16 +46,6 @@ namespace HospitalManagementSystem
             this.Close();
         }
 
-        private void doctorFilterButton_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void patientAgeLabel_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void languageComboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (languageComboBox.SelectedIndex == 0)

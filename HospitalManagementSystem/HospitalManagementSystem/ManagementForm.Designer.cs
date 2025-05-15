@@ -314,7 +314,7 @@
             this.patientAgeLabel.Size = new System.Drawing.Size(43, 20);
             this.patientAgeLabel.TabIndex = 20;
             this.patientAgeLabel.Text = "Age:";
-            this.patientAgeLabel.Click += new System.EventHandler(this.patientAgeLabel_Click);
+//            this.patientAgeLabel.Click += new System.EventHandler(this.patientAgeLabel_Click);
             // 
             // displayIcuPatientsBtn
             // 
@@ -417,7 +417,7 @@
             this.doctorFilterButton.Text = "Filter by Doctor:";
             this.findPatientTip.SetToolTip(this.doctorFilterButton, "Enter the ID of the patient in the text field to the right.");
             this.doctorFilterButton.UseVisualStyleBackColor = true;
-            this.doctorFilterButton.Click += new System.EventHandler(this.doctorFilterButton_Click);
+//            this.doctorFilterButton.Click += new System.EventHandler(this.doctorFilterButton_Click);
             // 
             // findPatientBtn
             // 
