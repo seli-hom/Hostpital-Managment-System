@@ -29,25 +29,33 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.Label patientIdLabel;
-            System.Windows.Forms.Label familyDoctorLabel;
-            System.Windows.Forms.Label firstNameLabel;
+            System.Windows.Forms.Label patientIdLabelRecords;
+            System.Windows.Forms.Label doctorFirstNameLabelRecords;
             System.Windows.Forms.Label specialtyLabel;
-            System.Windows.Forms.Label lastNameLabel;
-            System.Windows.Forms.Label firstNameLabel1;
-            System.Windows.Forms.Label lastNameLabel1;
+            System.Windows.Forms.Label doctorLastNameLabelRecords;
+            System.Windows.Forms.Label patientFirstNameLabelRecords;
+            System.Windows.Forms.Label patientLastNameLabelRecords;
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ManagementForm));
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.patientsTabPage = new System.Windows.Forms.TabPage();
+            this.button1 = new System.Windows.Forms.Button();
+            this.patientsDataGridView = new System.Windows.Forms.DataGridView();
+            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.patientsBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.hospitalDatabaseDataSet = new HospitalManagementSystem.HospitalDatabaseDataSet();
             this.doctorFilterButton = new System.Windows.Forms.Button();
             this.findPatientBtn = new System.Windows.Forms.Button();
             this.displayButton = new System.Windows.Forms.Button();
             this.filterAgeButton = new System.Windows.Forms.Button();
-            this.patientsBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.hospitalDatabaseDataSet = new HospitalManagementSystem.HospitalDatabaseDataSet();
             this.doctorsTabPage = new System.Windows.Forms.TabPage();
             this.FindAvailableDocBtn = new System.Windows.Forms.Button();
-            this.filterSpecialtyBtn = new System.Windows.Forms.Button();
             this.displayAllDoctorssBtn = new System.Windows.Forms.Button();
             this.findDoctorBtn = new System.Windows.Forms.Button();
             this.doctorsDataGridView = new System.Windows.Forms.DataGridView();
@@ -70,14 +78,13 @@
             this.recordsTabPage = new System.Windows.Forms.TabPage();
             this.transferPatientButton = new System.Windows.Forms.Button();
             this.doctorInfo = new System.Windows.Forms.GroupBox();
-            this.firstNameTextBox = new System.Windows.Forms.TextBox();
+            this.doctorFirstNameTextBox = new System.Windows.Forms.TextBox();
             this.specialtyTextBox = new System.Windows.Forms.TextBox();
-            this.lastNameTextBox = new System.Windows.Forms.TextBox();
+            this.doctorLastNameTextBox = new System.Windows.Forms.TextBox();
             this.patientInfo = new System.Windows.Forms.GroupBox();
-            this.patientIdTextBox = new System.Windows.Forms.TextBox();
-            this.lastNameTextBox1 = new System.Windows.Forms.TextBox();
-            this.familyDoctorTextBox = new System.Windows.Forms.TextBox();
-            this.firstNameTextBox1 = new System.Windows.Forms.TextBox();
+            this.patientIdTextBoxRecords = new System.Windows.Forms.TextBox();
+            this.patientLastNameTextBox = new System.Windows.Forms.TextBox();
+            this.patientFirstNameTextBox = new System.Windows.Forms.TextBox();
             this.tableAdapterManager = new HospitalManagementSystem.HospitalDatabaseDataSetTableAdapters.TableAdapterManager();
             this.appointmentsTableAdapter = new HospitalManagementSystem.HospitalDatabaseDataSetTableAdapters.AppointmentsTableAdapter();
             this.doctorsTableAdapter = new HospitalManagementSystem.HospitalDatabaseDataSetTableAdapters.DoctorsTableAdapter();
@@ -99,26 +106,30 @@
             this.timeUserControl1 = new HospitalManagementSystem.TimeUserControl();
             this.dateUserControl1 = new HospitalManagementSystem.DateUserControl();
             this.patientsTableAdapter = new HospitalManagementSystem.HospitalDatabaseDataSetTableAdapters.PatientsTableAdapter();
-            this.patientsDataGridView = new System.Windows.Forms.DataGridView();
-            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.button1 = new System.Windows.Forms.Button();
             this.logoutButton = new System.Windows.Forms.Button();
-            patientIdLabel = new System.Windows.Forms.Label();
-            familyDoctorLabel = new System.Windows.Forms.Label();
-            firstNameLabel = new System.Windows.Forms.Label();
+            this.languageComboBox = new System.Windows.Forms.ComboBox();
+            this.languageLabel = new System.Windows.Forms.Label();
+            this.doctorNameLabel = new System.Windows.Forms.Label();
+            this.doctorNameTextBox = new System.Windows.Forms.TextBox();
+            this.doctorIdTextBoxDoctors = new System.Windows.Forms.TextBox();
+            this.doctorIdLabelDoctors = new System.Windows.Forms.Label();
+            this.patientAgeTextBox = new System.Windows.Forms.TextBox();
+            this.patientAgeLabel = new System.Windows.Forms.Label();
+            this.patientIdTextBoxPatients = new System.Windows.Forms.TextBox();
+            this.patientIdLabelPatients = new System.Windows.Forms.Label();
+            this.patientNameTextBox = new System.Windows.Forms.TextBox();
+            this.patientNameLabel = new System.Windows.Forms.Label();
+            this.doctorIdTextBoxPatients = new System.Windows.Forms.TextBox();
+            this.doctorIdLabelPatients = new System.Windows.Forms.Label();
+            patientIdLabelRecords = new System.Windows.Forms.Label();
+            doctorFirstNameLabelRecords = new System.Windows.Forms.Label();
             specialtyLabel = new System.Windows.Forms.Label();
-            lastNameLabel = new System.Windows.Forms.Label();
-            firstNameLabel1 = new System.Windows.Forms.Label();
-            lastNameLabel1 = new System.Windows.Forms.Label();
+            doctorLastNameLabelRecords = new System.Windows.Forms.Label();
+            patientFirstNameLabelRecords = new System.Windows.Forms.Label();
+            patientLastNameLabelRecords = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.patientsTabPage.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.patientsDataGridView)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.patientsBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.hospitalDatabaseDataSet)).BeginInit();
             this.doctorsTabPage.SuspendLayout();
@@ -133,35 +144,25 @@
             ((System.ComponentModel.ISupportInitialize)(this.patientsBindingNavigator)).BeginInit();
             this.patientsBindingNavigator.SuspendLayout();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.patientsDataGridView)).BeginInit();
             this.SuspendLayout();
             // 
-            // patientIdLabel
+            // patientIdLabelRecords
             // 
-            patientIdLabel.AutoSize = true;
-            patientIdLabel.Location = new System.Drawing.Point(13, 51);
-            patientIdLabel.Name = "patientIdLabel";
-            patientIdLabel.Size = new System.Drawing.Size(88, 21);
-            patientIdLabel.TabIndex = 0;
-            patientIdLabel.Text = "Patient Id:";
+            patientIdLabelRecords.AutoSize = true;
+            patientIdLabelRecords.Location = new System.Drawing.Point(13, 51);
+            patientIdLabelRecords.Name = "patientIdLabelRecords";
+            patientIdLabelRecords.Size = new System.Drawing.Size(88, 21);
+            patientIdLabelRecords.TabIndex = 0;
+            patientIdLabelRecords.Text = "Patient Id:";
             // 
-            // familyDoctorLabel
+            // doctorFirstNameLabelRecords
             // 
-            familyDoctorLabel.AutoSize = true;
-            familyDoctorLabel.Location = new System.Drawing.Point(13, 106);
-            familyDoctorLabel.Name = "familyDoctorLabel";
-            familyDoctorLabel.Size = new System.Drawing.Size(120, 21);
-            familyDoctorLabel.TabIndex = 2;
-            familyDoctorLabel.Text = "Family Doctor:";
-            // 
-            // firstNameLabel
-            // 
-            firstNameLabel.AutoSize = true;
-            firstNameLabel.Location = new System.Drawing.Point(-1, 30);
-            firstNameLabel.Name = "firstNameLabel";
-            firstNameLabel.Size = new System.Drawing.Size(97, 21);
-            firstNameLabel.TabIndex = 4;
-            firstNameLabel.Text = "First Name:";
+            doctorFirstNameLabelRecords.AutoSize = true;
+            doctorFirstNameLabelRecords.Location = new System.Drawing.Point(-1, 30);
+            doctorFirstNameLabelRecords.Name = "doctorFirstNameLabelRecords";
+            doctorFirstNameLabelRecords.Size = new System.Drawing.Size(97, 21);
+            doctorFirstNameLabelRecords.TabIndex = 4;
+            doctorFirstNameLabelRecords.Text = "First Name:";
             // 
             // specialtyLabel
             // 
@@ -172,32 +173,32 @@
             specialtyLabel.TabIndex = 6;
             specialtyLabel.Text = "Specialty:";
             // 
-            // lastNameLabel
+            // doctorLastNameLabelRecords
             // 
-            lastNameLabel.AutoSize = true;
-            lastNameLabel.Location = new System.Drawing.Point(238, 34);
-            lastNameLabel.Name = "lastNameLabel";
-            lastNameLabel.Size = new System.Drawing.Size(95, 21);
-            lastNameLabel.TabIndex = 8;
-            lastNameLabel.Text = "Last Name:";
+            doctorLastNameLabelRecords.AutoSize = true;
+            doctorLastNameLabelRecords.Location = new System.Drawing.Point(238, 34);
+            doctorLastNameLabelRecords.Name = "doctorLastNameLabelRecords";
+            doctorLastNameLabelRecords.Size = new System.Drawing.Size(95, 21);
+            doctorLastNameLabelRecords.TabIndex = 8;
+            doctorLastNameLabelRecords.Text = "Last Name:";
             // 
-            // firstNameLabel1
+            // patientFirstNameLabelRecords
             // 
-            firstNameLabel1.AutoSize = true;
-            firstNameLabel1.Location = new System.Drawing.Point(13, 165);
-            firstNameLabel1.Name = "firstNameLabel1";
-            firstNameLabel1.Size = new System.Drawing.Size(97, 21);
-            firstNameLabel1.TabIndex = 10;
-            firstNameLabel1.Text = "First Name:";
+            patientFirstNameLabelRecords.AutoSize = true;
+            patientFirstNameLabelRecords.Location = new System.Drawing.Point(13, 107);
+            patientFirstNameLabelRecords.Name = "patientFirstNameLabelRecords";
+            patientFirstNameLabelRecords.Size = new System.Drawing.Size(97, 21);
+            patientFirstNameLabelRecords.TabIndex = 10;
+            patientFirstNameLabelRecords.Text = "First Name:";
             // 
-            // lastNameLabel1
+            // patientLastNameLabelRecords
             // 
-            lastNameLabel1.AutoSize = true;
-            lastNameLabel1.Location = new System.Drawing.Point(13, 215);
-            lastNameLabel1.Name = "lastNameLabel1";
-            lastNameLabel1.Size = new System.Drawing.Size(95, 21);
-            lastNameLabel1.TabIndex = 12;
-            lastNameLabel1.Text = "Last Name:";
+            patientLastNameLabelRecords.AutoSize = true;
+            patientLastNameLabelRecords.Location = new System.Drawing.Point(13, 157);
+            patientLastNameLabelRecords.Name = "patientLastNameLabelRecords";
+            patientLastNameLabelRecords.Size = new System.Drawing.Size(95, 21);
+            patientLastNameLabelRecords.TabIndex = 12;
+            patientLastNameLabelRecords.Text = "Last Name:";
             // 
             // tabControl1
             // 
@@ -215,6 +216,14 @@
             // 
             // patientsTabPage
             // 
+            this.patientsTabPage.Controls.Add(this.doctorIdTextBoxPatients);
+            this.patientsTabPage.Controls.Add(this.doctorIdLabelPatients);
+            this.patientsTabPage.Controls.Add(this.patientIdTextBoxPatients);
+            this.patientsTabPage.Controls.Add(this.patientIdLabelPatients);
+            this.patientsTabPage.Controls.Add(this.patientNameTextBox);
+            this.patientsTabPage.Controls.Add(this.patientNameLabel);
+            this.patientsTabPage.Controls.Add(this.patientAgeTextBox);
+            this.patientsTabPage.Controls.Add(this.patientAgeLabel);
             this.patientsTabPage.Controls.Add(this.button1);
             this.patientsTabPage.Controls.Add(this.patientsDataGridView);
             this.patientsTabPage.Controls.Add(this.doctorFilterButton);
@@ -229,23 +238,114 @@
             this.patientsTabPage.TabIndex = 0;
             this.patientsTabPage.Text = "Patients";
             this.patientsTabPage.UseVisualStyleBackColor = true;
-            this.patientsTabPage.Click += new System.EventHandler(this.patientsTabPage_Click);
+            // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(936, 72);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(222, 46);
+            this.button1.TabIndex = 13;
+            this.button1.Text = "Display ICU Patients";
+            this.findPatientTip.SetToolTip(this.button1, "Enter the ID of the patient in the text field to the right.");
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // patientsDataGridView
+            // 
+            this.patientsDataGridView.AutoGenerateColumns = false;
+            this.patientsDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.patientsDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewTextBoxColumn1,
+            this.dataGridViewTextBoxColumn2,
+            this.dataGridViewTextBoxColumn3,
+            this.dataGridViewTextBoxColumn4,
+            this.dataGridViewTextBoxColumn5,
+            this.dataGridViewTextBoxColumn6,
+            this.dataGridViewTextBoxColumn7,
+            this.dataGridViewTextBoxColumn8});
+            this.patientsDataGridView.DataSource = this.patientsBindingSource;
+            this.patientsDataGridView.Location = new System.Drawing.Point(5, 5);
+            this.patientsDataGridView.Margin = new System.Windows.Forms.Padding(2);
+            this.patientsDataGridView.Name = "patientsDataGridView";
+            this.patientsDataGridView.RowHeadersWidth = 82;
+            this.patientsDataGridView.Size = new System.Drawing.Size(901, 220);
+            this.patientsDataGridView.TabIndex = 12;
+            // 
+            // dataGridViewTextBoxColumn1
+            // 
+            this.dataGridViewTextBoxColumn1.DataPropertyName = "PatientId";
+            this.dataGridViewTextBoxColumn1.HeaderText = "PatientId";
+            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
+            this.dataGridViewTextBoxColumn1.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn2
+            // 
+            this.dataGridViewTextBoxColumn2.DataPropertyName = "FirstName";
+            this.dataGridViewTextBoxColumn2.HeaderText = "FirstName";
+            this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
+            // 
+            // dataGridViewTextBoxColumn3
+            // 
+            this.dataGridViewTextBoxColumn3.DataPropertyName = "LastName";
+            this.dataGridViewTextBoxColumn3.HeaderText = "LastName";
+            this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
+            // 
+            // dataGridViewTextBoxColumn4
+            // 
+            this.dataGridViewTextBoxColumn4.DataPropertyName = "Address";
+            this.dataGridViewTextBoxColumn4.HeaderText = "Address";
+            this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
+            // 
+            // dataGridViewTextBoxColumn5
+            // 
+            this.dataGridViewTextBoxColumn5.DataPropertyName = "Contact";
+            this.dataGridViewTextBoxColumn5.HeaderText = "Contact";
+            this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
+            // 
+            // dataGridViewTextBoxColumn6
+            // 
+            this.dataGridViewTextBoxColumn6.DataPropertyName = "DateOfBirth";
+            this.dataGridViewTextBoxColumn6.HeaderText = "DateOfBirth";
+            this.dataGridViewTextBoxColumn6.Name = "dataGridViewTextBoxColumn6";
+            // 
+            // dataGridViewTextBoxColumn7
+            // 
+            this.dataGridViewTextBoxColumn7.DataPropertyName = "Sex";
+            this.dataGridViewTextBoxColumn7.HeaderText = "Sex";
+            this.dataGridViewTextBoxColumn7.Name = "dataGridViewTextBoxColumn7";
+            // 
+            // dataGridViewTextBoxColumn8
+            // 
+            this.dataGridViewTextBoxColumn8.DataPropertyName = "BloodType";
+            this.dataGridViewTextBoxColumn8.HeaderText = "BloodType";
+            this.dataGridViewTextBoxColumn8.Name = "dataGridViewTextBoxColumn8";
+            // 
+            // patientsBindingSource
+            // 
+            this.patientsBindingSource.DataMember = "Patients";
+            this.patientsBindingSource.DataSource = this.hospitalDatabaseDataSet;
+            // 
+            // hospitalDatabaseDataSet
+            // 
+            this.hospitalDatabaseDataSet.DataSetName = "HospitalDatabaseDataSet";
+            this.hospitalDatabaseDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // doctorFilterButton
             // 
             this.doctorFilterButton.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.doctorFilterButton.Location = new System.Drawing.Point(815, 245);
+            this.doctorFilterButton.Location = new System.Drawing.Point(13, 312);
             this.doctorFilterButton.Name = "doctorFilterButton";
             this.doctorFilterButton.Size = new System.Drawing.Size(136, 46);
             this.doctorFilterButton.TabIndex = 11;
             this.doctorFilterButton.Text = "Filter by Doctor:";
             this.findPatientTip.SetToolTip(this.doctorFilterButton, "Enter the ID of the patient in the text field to the right.");
             this.doctorFilterButton.UseVisualStyleBackColor = true;
+            this.doctorFilterButton.Click += new System.EventHandler(this.doctorFilterButton_Click);
             // 
             // findPatientBtn
             // 
             this.findPatientBtn.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.findPatientBtn.Location = new System.Drawing.Point(414, 245);
+            this.findPatientBtn.Location = new System.Drawing.Point(433, 248);
             this.findPatientBtn.Name = "findPatientBtn";
             this.findPatientBtn.Size = new System.Drawing.Size(136, 46);
             this.findPatientBtn.TabIndex = 9;
@@ -275,20 +375,13 @@
             this.findPatientTip.SetToolTip(this.filterAgeButton, "Enter the ID of the patient in the text field to the right.");
             this.filterAgeButton.UseVisualStyleBackColor = true;
             // 
-            // patientsBindingSource
-            // 
-            this.patientsBindingSource.DataMember = "Patients";
-            this.patientsBindingSource.DataSource = this.hospitalDatabaseDataSet;
-            // 
-            // hospitalDatabaseDataSet
-            // 
-            this.hospitalDatabaseDataSet.DataSetName = "HospitalDatabaseDataSet";
-            this.hospitalDatabaseDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
             // doctorsTabPage
             // 
+            this.doctorsTabPage.Controls.Add(this.doctorIdTextBoxDoctors);
+            this.doctorsTabPage.Controls.Add(this.doctorIdLabelDoctors);
+            this.doctorsTabPage.Controls.Add(this.doctorNameTextBox);
+            this.doctorsTabPage.Controls.Add(this.doctorNameLabel);
             this.doctorsTabPage.Controls.Add(this.FindAvailableDocBtn);
-            this.doctorsTabPage.Controls.Add(this.filterSpecialtyBtn);
             this.doctorsTabPage.Controls.Add(this.displayAllDoctorssBtn);
             this.doctorsTabPage.Controls.Add(this.findDoctorBtn);
             this.doctorsTabPage.Controls.Add(this.doctorsDataGridView);
@@ -304,7 +397,7 @@
             // FindAvailableDocBtn
             // 
             this.FindAvailableDocBtn.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.FindAvailableDocBtn.Location = new System.Drawing.Point(1022, 143);
+            this.FindAvailableDocBtn.Location = new System.Drawing.Point(1022, 18);
             this.FindAvailableDocBtn.Name = "FindAvailableDocBtn";
             this.FindAvailableDocBtn.Size = new System.Drawing.Size(136, 46);
             this.FindAvailableDocBtn.TabIndex = 15;
@@ -312,21 +405,10 @@
             this.findPatientTip.SetToolTip(this.FindAvailableDocBtn, "Enter the ID of the patient in the text field to the right.");
             this.FindAvailableDocBtn.UseVisualStyleBackColor = true;
             // 
-            // filterSpecialtyBtn
-            // 
-            this.filterSpecialtyBtn.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.filterSpecialtyBtn.Location = new System.Drawing.Point(1022, 5);
-            this.filterSpecialtyBtn.Name = "filterSpecialtyBtn";
-            this.filterSpecialtyBtn.Size = new System.Drawing.Size(136, 46);
-            this.filterSpecialtyBtn.TabIndex = 14;
-            this.filterSpecialtyBtn.Text = "Filter by  specialty ";
-            this.findPatientTip.SetToolTip(this.filterSpecialtyBtn, "Enter the ID of the patient in the text field to the right.");
-            this.filterSpecialtyBtn.UseVisualStyleBackColor = true;
-            // 
             // displayAllDoctorssBtn
             // 
             this.displayAllDoctorssBtn.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.displayAllDoctorssBtn.Location = new System.Drawing.Point(1022, 210);
+            this.displayAllDoctorssBtn.Location = new System.Drawing.Point(1022, 86);
             this.displayAllDoctorssBtn.Name = "displayAllDoctorssBtn";
             this.displayAllDoctorssBtn.Size = new System.Drawing.Size(136, 46);
             this.displayAllDoctorssBtn.TabIndex = 13;
@@ -337,12 +419,12 @@
             // findDoctorBtn
             // 
             this.findDoctorBtn.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.findDoctorBtn.Location = new System.Drawing.Point(1027, 308);
+            this.findDoctorBtn.Location = new System.Drawing.Point(13, 267);
             this.findDoctorBtn.Name = "findDoctorBtn";
             this.findDoctorBtn.Size = new System.Drawing.Size(136, 46);
             this.findDoctorBtn.TabIndex = 12;
-            this.findDoctorBtn.Text = "Find Doctor";
-            this.findPatientTip.SetToolTip(this.findDoctorBtn, "Enter the ID of the patient in the text field to the right.");
+            this.findDoctorBtn.Text = "Find Doctor:";
+            this.findPatientTip.SetToolTip(this.findDoctorBtn, "Enter the ID or name of the doctor");
             this.findDoctorBtn.UseVisualStyleBackColor = true;
             // 
             // doctorsDataGridView
@@ -535,11 +617,11 @@
             // 
             // doctorInfo
             // 
-            this.doctorInfo.Controls.Add(this.firstNameTextBox);
-            this.doctorInfo.Controls.Add(firstNameLabel);
-            this.doctorInfo.Controls.Add(lastNameLabel);
+            this.doctorInfo.Controls.Add(this.doctorFirstNameTextBox);
+            this.doctorInfo.Controls.Add(doctorFirstNameLabelRecords);
+            this.doctorInfo.Controls.Add(doctorLastNameLabelRecords);
             this.doctorInfo.Controls.Add(this.specialtyTextBox);
-            this.doctorInfo.Controls.Add(this.lastNameTextBox);
+            this.doctorInfo.Controls.Add(this.doctorLastNameTextBox);
             this.doctorInfo.Controls.Add(specialtyLabel);
             this.doctorInfo.Location = new System.Drawing.Point(399, 13);
             this.doctorInfo.Name = "doctorInfo";
@@ -548,13 +630,13 @@
             this.doctorInfo.TabStop = false;
             this.doctorInfo.Text = "Doctor\'s Information";
             // 
-            // firstNameTextBox
+            // doctorFirstNameTextBox
             // 
-            this.firstNameTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.doctorsBindingSource, "FirstName", true));
-            this.firstNameTextBox.Location = new System.Drawing.Point(102, 27);
-            this.firstNameTextBox.Name = "firstNameTextBox";
-            this.firstNameTextBox.Size = new System.Drawing.Size(100, 28);
-            this.firstNameTextBox.TabIndex = 5;
+            this.doctorFirstNameTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.doctorsBindingSource, "FirstName", true));
+            this.doctorFirstNameTextBox.Location = new System.Drawing.Point(102, 27);
+            this.doctorFirstNameTextBox.Name = "doctorFirstNameTextBox";
+            this.doctorFirstNameTextBox.Size = new System.Drawing.Size(100, 28);
+            this.doctorFirstNameTextBox.TabIndex = 5;
             // 
             // specialtyTextBox
             // 
@@ -564,62 +646,52 @@
             this.specialtyTextBox.Size = new System.Drawing.Size(100, 28);
             this.specialtyTextBox.TabIndex = 7;
             // 
-            // lastNameTextBox
+            // doctorLastNameTextBox
             // 
-            this.lastNameTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.doctorsBindingSource, "LastName", true));
-            this.lastNameTextBox.Location = new System.Drawing.Point(339, 31);
-            this.lastNameTextBox.Name = "lastNameTextBox";
-            this.lastNameTextBox.Size = new System.Drawing.Size(100, 28);
-            this.lastNameTextBox.TabIndex = 9;
+            this.doctorLastNameTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.doctorsBindingSource, "LastName", true));
+            this.doctorLastNameTextBox.Location = new System.Drawing.Point(339, 31);
+            this.doctorLastNameTextBox.Name = "doctorLastNameTextBox";
+            this.doctorLastNameTextBox.Size = new System.Drawing.Size(100, 28);
+            this.doctorLastNameTextBox.TabIndex = 9;
             // 
             // patientInfo
             // 
-            this.patientInfo.Controls.Add(this.patientIdTextBox);
-            this.patientInfo.Controls.Add(lastNameLabel1);
-            this.patientInfo.Controls.Add(patientIdLabel);
-            this.patientInfo.Controls.Add(this.lastNameTextBox1);
-            this.patientInfo.Controls.Add(this.familyDoctorTextBox);
-            this.patientInfo.Controls.Add(firstNameLabel1);
-            this.patientInfo.Controls.Add(familyDoctorLabel);
-            this.patientInfo.Controls.Add(this.firstNameTextBox1);
+            this.patientInfo.Controls.Add(this.patientIdTextBoxRecords);
+            this.patientInfo.Controls.Add(patientLastNameLabelRecords);
+            this.patientInfo.Controls.Add(patientIdLabelRecords);
+            this.patientInfo.Controls.Add(this.patientLastNameTextBox);
+            this.patientInfo.Controls.Add(patientFirstNameLabelRecords);
+            this.patientInfo.Controls.Add(this.patientFirstNameTextBox);
             this.patientInfo.Location = new System.Drawing.Point(19, 13);
             this.patientInfo.Name = "patientInfo";
-            this.patientInfo.Size = new System.Drawing.Size(259, 264);
+            this.patientInfo.Size = new System.Drawing.Size(259, 223);
             this.patientInfo.TabIndex = 14;
             this.patientInfo.TabStop = false;
             this.patientInfo.Text = "Patient\'s information";
             // 
-            // patientIdTextBox
+            // patientIdTextBoxRecords
             // 
-            this.patientIdTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.patientsBindingSource, "PatientId", true));
-            this.patientIdTextBox.Location = new System.Drawing.Point(139, 48);
-            this.patientIdTextBox.Name = "patientIdTextBox";
-            this.patientIdTextBox.Size = new System.Drawing.Size(100, 28);
-            this.patientIdTextBox.TabIndex = 1;
+            this.patientIdTextBoxRecords.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.patientsBindingSource, "PatientId", true));
+            this.patientIdTextBoxRecords.Location = new System.Drawing.Point(139, 48);
+            this.patientIdTextBoxRecords.Name = "patientIdTextBoxRecords";
+            this.patientIdTextBoxRecords.Size = new System.Drawing.Size(100, 28);
+            this.patientIdTextBoxRecords.TabIndex = 1;
             // 
-            // lastNameTextBox1
+            // patientLastNameTextBox
             // 
-            this.lastNameTextBox1.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.patientsBindingSource, "LastName", true));
-            this.lastNameTextBox1.Location = new System.Drawing.Point(139, 208);
-            this.lastNameTextBox1.Name = "lastNameTextBox1";
-            this.lastNameTextBox1.Size = new System.Drawing.Size(100, 28);
-            this.lastNameTextBox1.TabIndex = 13;
+            this.patientLastNameTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.patientsBindingSource, "LastName", true));
+            this.patientLastNameTextBox.Location = new System.Drawing.Point(139, 150);
+            this.patientLastNameTextBox.Name = "patientLastNameTextBox";
+            this.patientLastNameTextBox.Size = new System.Drawing.Size(100, 28);
+            this.patientLastNameTextBox.TabIndex = 13;
             // 
-            // familyDoctorTextBox
+            // patientFirstNameTextBox
             // 
-            this.familyDoctorTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.patientsBindingSource, "FamilyDoctor", true));
-            this.familyDoctorTextBox.Location = new System.Drawing.Point(139, 103);
-            this.familyDoctorTextBox.Name = "familyDoctorTextBox";
-            this.familyDoctorTextBox.Size = new System.Drawing.Size(100, 28);
-            this.familyDoctorTextBox.TabIndex = 3;
-            // 
-            // firstNameTextBox1
-            // 
-            this.firstNameTextBox1.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.patientsBindingSource, "FirstName", true));
-            this.firstNameTextBox1.Location = new System.Drawing.Point(139, 162);
-            this.firstNameTextBox1.Name = "firstNameTextBox1";
-            this.firstNameTextBox1.Size = new System.Drawing.Size(100, 28);
-            this.firstNameTextBox1.TabIndex = 11;
+            this.patientFirstNameTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.patientsBindingSource, "FirstName", true));
+            this.patientFirstNameTextBox.Location = new System.Drawing.Point(139, 104);
+            this.patientFirstNameTextBox.Name = "patientFirstNameTextBox";
+            this.patientFirstNameTextBox.Size = new System.Drawing.Size(100, 28);
+            this.patientFirstNameTextBox.TabIndex = 11;
             // 
             // tableAdapterManager
             // 
@@ -798,87 +870,6 @@
             // 
             this.patientsTableAdapter.ClearBeforeFill = true;
             // 
-            // patientsDataGridView
-            // 
-            this.patientsDataGridView.AutoGenerateColumns = false;
-            this.patientsDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.patientsDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewTextBoxColumn1,
-            this.dataGridViewTextBoxColumn2,
-            this.dataGridViewTextBoxColumn3,
-            this.dataGridViewTextBoxColumn4,
-            this.dataGridViewTextBoxColumn5,
-            this.dataGridViewTextBoxColumn6,
-            this.dataGridViewTextBoxColumn7,
-            this.dataGridViewTextBoxColumn8});
-            this.patientsDataGridView.DataSource = this.patientsBindingSource;
-            this.patientsDataGridView.Location = new System.Drawing.Point(5, 5);
-            this.patientsDataGridView.Margin = new System.Windows.Forms.Padding(2);
-            this.patientsDataGridView.Name = "patientsDataGridView";
-            this.patientsDataGridView.RowHeadersWidth = 82;
-            this.patientsDataGridView.Size = new System.Drawing.Size(901, 220);
-            this.patientsDataGridView.TabIndex = 12;
-            // 
-            // dataGridViewTextBoxColumn1
-            // 
-            this.dataGridViewTextBoxColumn1.DataPropertyName = "PatientId";
-            this.dataGridViewTextBoxColumn1.HeaderText = "PatientId";
-            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
-            this.dataGridViewTextBoxColumn1.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn2
-            // 
-            this.dataGridViewTextBoxColumn2.DataPropertyName = "FirstName";
-            this.dataGridViewTextBoxColumn2.HeaderText = "FirstName";
-            this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
-            // 
-            // dataGridViewTextBoxColumn3
-            // 
-            this.dataGridViewTextBoxColumn3.DataPropertyName = "LastName";
-            this.dataGridViewTextBoxColumn3.HeaderText = "LastName";
-            this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
-            // 
-            // dataGridViewTextBoxColumn4
-            // 
-            this.dataGridViewTextBoxColumn4.DataPropertyName = "Address";
-            this.dataGridViewTextBoxColumn4.HeaderText = "Address";
-            this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
-            // 
-            // dataGridViewTextBoxColumn5
-            // 
-            this.dataGridViewTextBoxColumn5.DataPropertyName = "Contact";
-            this.dataGridViewTextBoxColumn5.HeaderText = "Contact";
-            this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
-            // 
-            // dataGridViewTextBoxColumn6
-            // 
-            this.dataGridViewTextBoxColumn6.DataPropertyName = "DateOfBirth";
-            this.dataGridViewTextBoxColumn6.HeaderText = "DateOfBirth";
-            this.dataGridViewTextBoxColumn6.Name = "dataGridViewTextBoxColumn6";
-            // 
-            // dataGridViewTextBoxColumn7
-            // 
-            this.dataGridViewTextBoxColumn7.DataPropertyName = "Sex";
-            this.dataGridViewTextBoxColumn7.HeaderText = "Sex";
-            this.dataGridViewTextBoxColumn7.Name = "dataGridViewTextBoxColumn7";
-            // 
-            // dataGridViewTextBoxColumn8
-            // 
-            this.dataGridViewTextBoxColumn8.DataPropertyName = "BloodType";
-            this.dataGridViewTextBoxColumn8.HeaderText = "BloodType";
-            this.dataGridViewTextBoxColumn8.Name = "dataGridViewTextBoxColumn8";
-            // 
-            // button1
-            // 
-            this.button1.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(936, 72);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(222, 46);
-            this.button1.TabIndex = 13;
-            this.button1.Text = "Display ICU Patients";
-            this.findPatientTip.SetToolTip(this.button1, "Enter the ID of the patient in the text field to the right.");
-            this.button1.UseVisualStyleBackColor = true;
-            // 
             // logoutButton
             // 
             this.logoutButton.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -890,11 +881,144 @@
             this.logoutButton.UseVisualStyleBackColor = true;
             this.logoutButton.Click += new System.EventHandler(this.logoutButton_Click);
             // 
+            // languageComboBox
+            // 
+            this.languageComboBox.FormattingEnabled = true;
+            this.languageComboBox.Items.AddRange(new object[] {
+            "English",
+            "Français",
+            "Español"});
+            this.languageComboBox.Location = new System.Drawing.Point(1006, 12);
+            this.languageComboBox.Name = "languageComboBox";
+            this.languageComboBox.Size = new System.Drawing.Size(153, 21);
+            this.languageComboBox.TabIndex = 13;
+            // 
+            // languageLabel
+            // 
+            this.languageLabel.AutoSize = true;
+            this.languageLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.languageLabel.Location = new System.Drawing.Point(915, 10);
+            this.languageLabel.Name = "languageLabel";
+            this.languageLabel.Size = new System.Drawing.Size(85, 20);
+            this.languageLabel.TabIndex = 14;
+            this.languageLabel.Text = "Language:";
+            // 
+            // doctorNameLabel
+            // 
+            this.doctorNameLabel.AutoSize = true;
+            this.doctorNameLabel.Font = new System.Drawing.Font("Microsoft YaHei UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.doctorNameLabel.Location = new System.Drawing.Point(180, 267);
+            this.doctorNameLabel.Name = "doctorNameLabel";
+            this.doctorNameLabel.Size = new System.Drawing.Size(111, 20);
+            this.doctorNameLabel.TabIndex = 16;
+            this.doctorNameLabel.Text = "Doctor Name:";
+            // 
+            // doctorNameTextBox
+            // 
+            this.doctorNameTextBox.Font = new System.Drawing.Font("Microsoft YaHei UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.doctorNameTextBox.Location = new System.Drawing.Point(293, 260);
+            this.doctorNameTextBox.Name = "doctorNameTextBox";
+            this.doctorNameTextBox.Size = new System.Drawing.Size(221, 27);
+            this.doctorNameTextBox.TabIndex = 17;
+            // 
+            // doctorIdTextBoxDoctors
+            // 
+            this.doctorIdTextBoxDoctors.Font = new System.Drawing.Font("Microsoft YaHei UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.doctorIdTextBoxDoctors.Location = new System.Drawing.Point(293, 298);
+            this.doctorIdTextBoxDoctors.Name = "doctorIdTextBoxDoctors";
+            this.doctorIdTextBoxDoctors.Size = new System.Drawing.Size(221, 27);
+            this.doctorIdTextBoxDoctors.TabIndex = 19;
+            // 
+            // doctorIdLabelDoctors
+            // 
+            this.doctorIdLabelDoctors.AutoSize = true;
+            this.doctorIdLabelDoctors.Font = new System.Drawing.Font("Microsoft YaHei UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.doctorIdLabelDoctors.Location = new System.Drawing.Point(180, 305);
+            this.doctorIdLabelDoctors.Name = "doctorIdLabelDoctors";
+            this.doctorIdLabelDoctors.Size = new System.Drawing.Size(83, 20);
+            this.doctorIdLabelDoctors.TabIndex = 18;
+            this.doctorIdLabelDoctors.Text = "Doctor ID:";
+            // 
+            // patientAgeTextBox
+            // 
+            this.patientAgeTextBox.Font = new System.Drawing.Font("Microsoft YaHei UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.patientAgeTextBox.Location = new System.Drawing.Point(205, 264);
+            this.patientAgeTextBox.Name = "patientAgeTextBox";
+            this.patientAgeTextBox.Size = new System.Drawing.Size(148, 27);
+            this.patientAgeTextBox.TabIndex = 21;
+            // 
+            // patientAgeLabel
+            // 
+            this.patientAgeLabel.AutoSize = true;
+            this.patientAgeLabel.Font = new System.Drawing.Font("Microsoft YaHei UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.patientAgeLabel.Location = new System.Drawing.Point(156, 268);
+            this.patientAgeLabel.Name = "patientAgeLabel";
+            this.patientAgeLabel.Size = new System.Drawing.Size(43, 20);
+            this.patientAgeLabel.TabIndex = 20;
+            this.patientAgeLabel.Text = "Age:";
+            this.patientAgeLabel.Click += new System.EventHandler(this.patientAgeLabel_Click);
+            // 
+            // patientIdTextBoxPatients
+            // 
+            this.patientIdTextBoxPatients.Font = new System.Drawing.Font("Microsoft YaHei UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.patientIdTextBoxPatients.Location = new System.Drawing.Point(685, 283);
+            this.patientIdTextBoxPatients.Name = "patientIdTextBoxPatients";
+            this.patientIdTextBoxPatients.Size = new System.Drawing.Size(221, 27);
+            this.patientIdTextBoxPatients.TabIndex = 25;
+            // 
+            // patientIdLabelPatients
+            // 
+            this.patientIdLabelPatients.AutoSize = true;
+            this.patientIdLabelPatients.Font = new System.Drawing.Font("Microsoft YaHei UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.patientIdLabelPatients.Location = new System.Drawing.Point(572, 290);
+            this.patientIdLabelPatients.Name = "patientIdLabelPatients";
+            this.patientIdLabelPatients.Size = new System.Drawing.Size(83, 20);
+            this.patientIdLabelPatients.TabIndex = 24;
+            this.patientIdLabelPatients.Text = "Patient ID:";
+            // 
+            // patientNameTextBox
+            // 
+            this.patientNameTextBox.Font = new System.Drawing.Font("Microsoft YaHei UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.patientNameTextBox.Location = new System.Drawing.Point(685, 245);
+            this.patientNameTextBox.Name = "patientNameTextBox";
+            this.patientNameTextBox.Size = new System.Drawing.Size(221, 27);
+            this.patientNameTextBox.TabIndex = 23;
+            // 
+            // patientNameLabel
+            // 
+            this.patientNameLabel.AutoSize = true;
+            this.patientNameLabel.Font = new System.Drawing.Font("Microsoft YaHei UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.patientNameLabel.Location = new System.Drawing.Point(572, 252);
+            this.patientNameLabel.Name = "patientNameLabel";
+            this.patientNameLabel.Size = new System.Drawing.Size(111, 20);
+            this.patientNameLabel.TabIndex = 22;
+            this.patientNameLabel.Text = "Patient Name:";
+            // 
+            // doctorIdTextBoxPatients
+            // 
+            this.doctorIdTextBoxPatients.Font = new System.Drawing.Font("Microsoft YaHei UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.doctorIdTextBoxPatients.Location = new System.Drawing.Point(245, 331);
+            this.doctorIdTextBoxPatients.Name = "doctorIdTextBoxPatients";
+            this.doctorIdTextBoxPatients.Size = new System.Drawing.Size(108, 27);
+            this.doctorIdTextBoxPatients.TabIndex = 27;
+            // 
+            // doctorIdLabelPatients
+            // 
+            this.doctorIdLabelPatients.AutoSize = true;
+            this.doctorIdLabelPatients.Font = new System.Drawing.Font("Microsoft YaHei UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.doctorIdLabelPatients.Location = new System.Drawing.Point(156, 338);
+            this.doctorIdLabelPatients.Name = "doctorIdLabelPatients";
+            this.doctorIdLabelPatients.Size = new System.Drawing.Size(83, 20);
+            this.doctorIdLabelPatients.TabIndex = 26;
+            this.doctorIdLabelPatients.Text = "Doctor ID:";
+            // 
             // ManagementForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1322, 552);
+            this.Controls.Add(this.languageLabel);
+            this.Controls.Add(this.languageComboBox);
             this.Controls.Add(this.logoutButton);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.patientsBindingNavigator);
@@ -906,9 +1030,12 @@
             this.Load += new System.EventHandler(this.ManagementForm_Load);
             this.tabControl1.ResumeLayout(false);
             this.patientsTabPage.ResumeLayout(false);
+            this.patientsTabPage.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.patientsDataGridView)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.patientsBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.hospitalDatabaseDataSet)).EndInit();
             this.doctorsTabPage.ResumeLayout(false);
+            this.doctorsTabPage.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.doctorsDataGridView)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.doctorsBindingSource)).EndInit();
             this.appointmentsTabPage.ResumeLayout(false);
@@ -923,7 +1050,6 @@
             this.patientsBindingNavigator.ResumeLayout(false);
             this.patientsBindingNavigator.PerformLayout();
             this.groupBox1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.patientsDataGridView)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -977,18 +1103,16 @@
         private System.Windows.Forms.Button displayButton;
         private System.Windows.Forms.Button filterAgeButton;
         private System.Windows.Forms.Button FindAvailableDocBtn;
-        private System.Windows.Forms.Button filterSpecialtyBtn;
         private System.Windows.Forms.Button displayAllDoctorssBtn;
         private System.Windows.Forms.Button findDoctorBtn;
-        private System.Windows.Forms.TextBox lastNameTextBox;
+        private System.Windows.Forms.TextBox doctorLastNameTextBox;
         private System.Windows.Forms.TextBox specialtyTextBox;
-        private System.Windows.Forms.TextBox firstNameTextBox;
-        private System.Windows.Forms.TextBox familyDoctorTextBox;
-        private System.Windows.Forms.TextBox patientIdTextBox;
+        private System.Windows.Forms.TextBox doctorFirstNameTextBox;
+        private System.Windows.Forms.TextBox patientIdTextBoxRecords;
         private System.Windows.Forms.GroupBox doctorInfo;
         private System.Windows.Forms.GroupBox patientInfo;
-        private System.Windows.Forms.TextBox lastNameTextBox1;
-        private System.Windows.Forms.TextBox firstNameTextBox1;
+        private System.Windows.Forms.TextBox patientLastNameTextBox;
+        private System.Windows.Forms.TextBox patientFirstNameTextBox;
         private System.Windows.Forms.GroupBox groupBox1;
         private TimeUserControl timeUserControl1;
         private System.Windows.Forms.Button transferPatientButton;
@@ -1005,6 +1129,20 @@
         private HospitalDatabaseDataSetTableAdapters.PatientsTableAdapter patientsTableAdapter;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button logoutButton;
+        private System.Windows.Forms.ComboBox languageComboBox;
+        private System.Windows.Forms.Label languageLabel;
+        private System.Windows.Forms.TextBox doctorIdTextBoxDoctors;
+        private System.Windows.Forms.Label doctorIdLabelDoctors;
+        private System.Windows.Forms.TextBox doctorNameTextBox;
+        private System.Windows.Forms.Label doctorNameLabel;
+        private System.Windows.Forms.TextBox patientIdTextBoxPatients;
+        private System.Windows.Forms.Label patientIdLabelPatients;
+        private System.Windows.Forms.TextBox patientNameTextBox;
+        private System.Windows.Forms.Label patientNameLabel;
+        private System.Windows.Forms.TextBox patientAgeTextBox;
+        private System.Windows.Forms.Label patientAgeLabel;
+        private System.Windows.Forms.TextBox doctorIdTextBoxPatients;
+        private System.Windows.Forms.Label doctorIdLabelPatients;
     }
 }
 
