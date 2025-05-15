@@ -25,7 +25,7 @@ namespace HospitalManagementSystem
 
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void ManagementForm_Load(object sender, EventArgs e)
         {
             // TODO: This line of code loads data into the 'hospitalDatabaseDataSet.Appointments' table. You can move, or remove it, as needed.
             this.appointmentsTableAdapter.Fill(this.hospitalDatabaseDataSet.Appointments);
@@ -38,6 +38,14 @@ namespace HospitalManagementSystem
 
         private void patientsTabPage_Click(object sender, EventArgs e)
         {
+        }
+
+        private void logoutButton_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            LoginForm loginForm = new LoginForm();
+            loginForm.ShowDialog();
+            this.Close();
         }
     }
 }

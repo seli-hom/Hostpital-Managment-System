@@ -66,8 +66,6 @@
             this.dataGridViewTextBoxColumn18 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn19 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.appointmentsBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.rescheduleBtn = new System.Windows.Forms.Button();
-            this.findAppointmentBtn = new System.Windows.Forms.Button();
             this.viewTodayBtn = new System.Windows.Forms.Button();
             this.recordsTabPage = new System.Windows.Forms.TabPage();
             this.transferPatientButton = new System.Windows.Forms.Button();
@@ -110,6 +108,8 @@
             this.dataGridViewTextBoxColumn6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.button1 = new System.Windows.Forms.Button();
+            this.logoutButton = new System.Windows.Forms.Button();
             patientIdLabel = new System.Windows.Forms.Label();
             familyDoctorLabel = new System.Windows.Forms.Label();
             firstNameLabel = new System.Windows.Forms.Label();
@@ -215,6 +215,7 @@
             // 
             // patientsTabPage
             // 
+            this.patientsTabPage.Controls.Add(this.button1);
             this.patientsTabPage.Controls.Add(this.patientsDataGridView);
             this.patientsTabPage.Controls.Add(this.doctorFilterButton);
             this.patientsTabPage.Controls.Add(this.findPatientBtn);
@@ -233,31 +234,31 @@
             // doctorFilterButton
             // 
             this.doctorFilterButton.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.doctorFilterButton.Location = new System.Drawing.Point(1029, 16);
+            this.doctorFilterButton.Location = new System.Drawing.Point(815, 245);
             this.doctorFilterButton.Name = "doctorFilterButton";
             this.doctorFilterButton.Size = new System.Drawing.Size(136, 46);
             this.doctorFilterButton.TabIndex = 11;
-            this.doctorFilterButton.Text = "Filter by Doctor";
+            this.doctorFilterButton.Text = "Filter by Doctor:";
             this.findPatientTip.SetToolTip(this.doctorFilterButton, "Enter the ID of the patient in the text field to the right.");
             this.doctorFilterButton.UseVisualStyleBackColor = true;
             // 
             // findPatientBtn
             // 
             this.findPatientBtn.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.findPatientBtn.Location = new System.Drawing.Point(1029, 77);
+            this.findPatientBtn.Location = new System.Drawing.Point(414, 245);
             this.findPatientBtn.Name = "findPatientBtn";
             this.findPatientBtn.Size = new System.Drawing.Size(136, 46);
             this.findPatientBtn.TabIndex = 9;
-            this.findPatientBtn.Text = "Find Patient";
+            this.findPatientBtn.Text = "Find Patient:";
             this.findPatientTip.SetToolTip(this.findPatientBtn, "Enter the ID of the patient in the text field to the right.");
             this.findPatientBtn.UseVisualStyleBackColor = true;
             // 
             // displayButton
             // 
             this.displayButton.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.displayButton.Location = new System.Drawing.Point(1029, 205);
+            this.displayButton.Location = new System.Drawing.Point(936, 5);
             this.displayButton.Name = "displayButton";
-            this.displayButton.Size = new System.Drawing.Size(136, 46);
+            this.displayButton.Size = new System.Drawing.Size(222, 46);
             this.displayButton.TabIndex = 10;
             this.displayButton.Text = "Display All Patients";
             this.findPatientTip.SetToolTip(this.displayButton, "Enter the ID of the patient in the text field to the right.");
@@ -266,7 +267,7 @@
             // filterAgeButton
             // 
             this.filterAgeButton.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.filterAgeButton.Location = new System.Drawing.Point(1029, 143);
+            this.filterAgeButton.Location = new System.Drawing.Point(13, 245);
             this.filterAgeButton.Name = "filterAgeButton";
             this.filterAgeButton.Size = new System.Drawing.Size(136, 46);
             this.filterAgeButton.TabIndex = 12;
@@ -413,8 +414,6 @@
             // 
             this.appointmentsTabPage.Controls.Add(this.displayAppintmentsBtn);
             this.appointmentsTabPage.Controls.Add(this.appointmentsDataGridView);
-            this.appointmentsTabPage.Controls.Add(this.rescheduleBtn);
-            this.appointmentsTabPage.Controls.Add(this.findAppointmentBtn);
             this.appointmentsTabPage.Controls.Add(this.viewTodayBtn);
             this.appointmentsTabPage.Location = new System.Drawing.Point(4, 30);
             this.appointmentsTabPage.Margin = new System.Windows.Forms.Padding(2);
@@ -427,7 +426,7 @@
             // displayAppintmentsBtn
             // 
             this.displayAppintmentsBtn.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.displayAppintmentsBtn.Location = new System.Drawing.Point(1036, 204);
+            this.displayAppintmentsBtn.Location = new System.Drawing.Point(1036, 101);
             this.displayAppintmentsBtn.Name = "displayAppintmentsBtn";
             this.displayAppintmentsBtn.Size = new System.Drawing.Size(136, 46);
             this.displayAppintmentsBtn.TabIndex = 20;
@@ -500,32 +499,10 @@
             this.appointmentsBindingSource.DataMember = "Appointments";
             this.appointmentsBindingSource.DataSource = this.hospitalDatabaseDataSet;
             // 
-            // rescheduleBtn
-            // 
-            this.rescheduleBtn.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rescheduleBtn.Location = new System.Drawing.Point(1036, 142);
-            this.rescheduleBtn.Name = "rescheduleBtn";
-            this.rescheduleBtn.Size = new System.Drawing.Size(136, 46);
-            this.rescheduleBtn.TabIndex = 19;
-            this.rescheduleBtn.Text = "Reschedule Appintment";
-            this.findPatientTip.SetToolTip(this.rescheduleBtn, "Enter the ID of the patient in the text field to the right.");
-            this.rescheduleBtn.UseVisualStyleBackColor = true;
-            // 
-            // findAppointmentBtn
-            // 
-            this.findAppointmentBtn.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.findAppointmentBtn.Location = new System.Drawing.Point(1036, 72);
-            this.findAppointmentBtn.Name = "findAppointmentBtn";
-            this.findAppointmentBtn.Size = new System.Drawing.Size(136, 46);
-            this.findAppointmentBtn.TabIndex = 17;
-            this.findAppointmentBtn.Text = "Find Appointment";
-            this.findPatientTip.SetToolTip(this.findAppointmentBtn, "Enter the ID of the patient in the text field to the right.");
-            this.findAppointmentBtn.UseVisualStyleBackColor = true;
-            // 
             // viewTodayBtn
             // 
             this.viewTodayBtn.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.viewTodayBtn.Location = new System.Drawing.Point(1036, 4);
+            this.viewTodayBtn.Location = new System.Drawing.Point(1036, 24);
             this.viewTodayBtn.Name = "viewTodayBtn";
             this.viewTodayBtn.Size = new System.Drawing.Size(136, 46);
             this.viewTodayBtn.TabIndex = 18;
@@ -797,7 +774,7 @@
             this.groupBox1.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox1.Size = new System.Drawing.Size(1193, 46);
+            this.groupBox1.Size = new System.Drawing.Size(261, 46);
             this.groupBox1.TabIndex = 3;
             this.groupBox1.TabStop = false;
             // 
@@ -839,7 +816,7 @@
             this.patientsDataGridView.Margin = new System.Windows.Forms.Padding(2);
             this.patientsDataGridView.Name = "patientsDataGridView";
             this.patientsDataGridView.RowHeadersWidth = 82;
-            this.patientsDataGridView.Size = new System.Drawing.Size(909, 220);
+            this.patientsDataGridView.Size = new System.Drawing.Size(901, 220);
             this.patientsDataGridView.TabIndex = 12;
             // 
             // dataGridViewTextBoxColumn1
@@ -891,11 +868,34 @@
             this.dataGridViewTextBoxColumn8.HeaderText = "BloodType";
             this.dataGridViewTextBoxColumn8.Name = "dataGridViewTextBoxColumn8";
             // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(936, 72);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(222, 46);
+            this.button1.TabIndex = 13;
+            this.button1.Text = "Display ICU Patients";
+            this.findPatientTip.SetToolTip(this.button1, "Enter the ID of the patient in the text field to the right.");
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // logoutButton
+            // 
+            this.logoutButton.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.logoutButton.Location = new System.Drawing.Point(1174, 12);
+            this.logoutButton.Name = "logoutButton";
+            this.logoutButton.Size = new System.Drawing.Size(136, 46);
+            this.logoutButton.TabIndex = 12;
+            this.logoutButton.Text = "Logout";
+            this.logoutButton.UseVisualStyleBackColor = true;
+            this.logoutButton.Click += new System.EventHandler(this.logoutButton_Click);
+            // 
             // ManagementForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1322, 552);
+            this.Controls.Add(this.logoutButton);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.patientsBindingNavigator);
             this.Controls.Add(this.tabControl1);
@@ -903,7 +903,7 @@
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "ManagementForm";
             this.Text = "Hospital Management System";
-            this.Load += new System.EventHandler(this.Form1_Load);
+            this.Load += new System.EventHandler(this.ManagementForm_Load);
             this.tabControl1.ResumeLayout(false);
             this.patientsTabPage.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.patientsBindingSource)).EndInit();
@@ -971,9 +971,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn19;
         private System.Windows.Forms.ToolTip findPatientTip;
         private System.Windows.Forms.Button displayAppintmentsBtn;
-        private System.Windows.Forms.Button rescheduleBtn;
         private System.Windows.Forms.Button viewTodayBtn;
-        private System.Windows.Forms.Button findAppointmentBtn;
         private System.Windows.Forms.Button doctorFilterButton;
         private System.Windows.Forms.Button findPatientBtn;
         private System.Windows.Forms.Button displayButton;
@@ -1005,6 +1003,8 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn7;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn8;
         private HospitalDatabaseDataSetTableAdapters.PatientsTableAdapter patientsTableAdapter;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button logoutButton;
     }
 }
 

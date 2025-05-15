@@ -7,16 +7,12 @@
       "RelativeMoniker": "D:0:0:{5A5B220D-F524-4401-A1A1-14C6378CBA86}|HospitalManagementSystem\\HospitalManagementSystem.csproj|solutionrelative:hospitalmanagementsystem\\managementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5A5B220D-F524-4401-A1A1-14C6378CBA86}|HospitalManagementSystem\\HospitalManagementSystem.csproj|c:\\users\\markololo\\documents\\school\\computersciencetech_w2025\\appdev01\\final_project\\hostpital-managment-system\\hospitalmanagementsystem\\hospitalmanagementsystem\\hospitaldatabasedataset.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}",
-      "RelativeMoniker": "D:0:0:{5A5B220D-F524-4401-A1A1-14C6378CBA86}|HospitalManagementSystem\\HospitalManagementSystem.csproj|solutionrelative:hospitalmanagementsystem\\hospitaldatabasedataset.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5A5B220D-F524-4401-A1A1-14C6378CBA86}|HospitalManagementSystem\\HospitalManagementSystem.csproj|c:\\users\\markololo\\documents\\school\\computersciencetech_w2025\\appdev01\\final_project\\hostpital-managment-system\\hospitalmanagementsystem\\hospitalmanagementsystem\\hospitaldatabasedataset.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A5B220D-F524-4401-A1A1-14C6378CBA86}|HospitalManagementSystem\\HospitalManagementSystem.csproj|solutionrelative:hospitalmanagementsystem\\hospitaldatabasedataset.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5A5B220D-F524-4401-A1A1-14C6378CBA86}|HospitalManagementSystem\\HospitalManagementSystem.csproj|c:\\users\\markololo\\documents\\school\\computersciencetech_w2025\\appdev01\\final_project\\hostpital-managment-system\\hospitalmanagementsystem\\hospitalmanagementsystem\\managementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5A5B220D-F524-4401-A1A1-14C6378CBA86}|HospitalManagementSystem\\HospitalManagementSystem.csproj|solutionrelative:hospitalmanagementsystem\\managementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A5B220D-F524-4401-A1A1-14C6378CBA86}|HospitalManagementSystem\\HospitalManagementSystem.csproj|c:\\users\\markololo\\documents\\school\\computersciencetech_w2025\\appdev01\\final_project\\hostpital-managment-system\\hospitalmanagementsystem\\hospitalmanagementsystem\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A5B220D-F524-4401-A1A1-14C6378CBA86}|HospitalManagementSystem\\HospitalManagementSystem.csproj|solutionrelative:hospitalmanagementsystem\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,31 +22,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "HospitalDatabaseDataSet.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Markololo\\Documents\\School\\ComputerScienceTech_W2025\\AppDev01\\Final_Project\\Hostpital-Managment-System\\HospitalManagementSystem\\HospitalManagementSystem\\HospitalDatabaseDataSet.Designer.cs",
-              "RelativeDocumentMoniker": "HospitalManagementSystem\\HospitalDatabaseDataSet.Designer.cs",
-              "ToolTip": "C:\\Users\\Markololo\\Documents\\School\\ComputerScienceTech_W2025\\AppDev01\\Final_Project\\Hostpital-Managment-System\\HospitalManagementSystem\\HospitalManagementSystem\\HospitalDatabaseDataSet.Designer.cs",
-              "RelativeToolTip": "HospitalManagementSystem\\HospitalDatabaseDataSet.Designer.cs",
-              "ViewState": "AgIAAGUAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Title": "LoginForm.cs",
+              "DocumentMoniker": "C:\\Users\\Markololo\\Documents\\School\\ComputerScienceTech_W2025\\AppDev01\\Final_Project\\Hostpital-Managment-System\\HospitalManagementSystem\\HospitalManagementSystem\\LoginForm.cs",
+              "RelativeDocumentMoniker": "HospitalManagementSystem\\LoginForm.cs",
+              "ToolTip": "C:\\Users\\Markololo\\Documents\\School\\ComputerScienceTech_W2025\\AppDev01\\Final_Project\\Hostpital-Managment-System\\HospitalManagementSystem\\HospitalManagementSystem\\LoginForm.cs",
+              "RelativeToolTip": "HospitalManagementSystem\\LoginForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T20:05:15.81Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "HospitalDatabaseDataSet.xsd",
-              "DocumentMoniker": "C:\\Users\\Markololo\\Documents\\School\\ComputerScienceTech_W2025\\AppDev01\\Final_Project\\Hostpital-Managment-System\\HospitalManagementSystem\\HospitalManagementSystem\\HospitalDatabaseDataSet.xsd",
-              "RelativeDocumentMoniker": "HospitalManagementSystem\\HospitalDatabaseDataSet.xsd",
-              "ToolTip": "C:\\Users\\Markololo\\Documents\\School\\ComputerScienceTech_W2025\\AppDev01\\Final_Project\\Hostpital-Managment-System\\HospitalManagementSystem\\HospitalManagementSystem\\HospitalDatabaseDataSet.xsd",
-              "RelativeToolTip": "HospitalManagementSystem\\HospitalDatabaseDataSet.xsd",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003579|",
-              "WhenOpened": "2025-05-14T20:26:29.608Z",
+              "WhenOpened": "2025-05-14T21:01:37.966Z",
               "EditorCaption": ""
             },
             {
@@ -59,21 +43,21 @@
               "Title": "ManagementForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Markololo\\Documents\\School\\ComputerScienceTech_W2025\\AppDev01\\Final_Project\\Hostpital-Managment-System\\HospitalManagementSystem\\HospitalManagementSystem\\ManagementForm.cs",
               "RelativeDocumentMoniker": "HospitalManagementSystem\\ManagementForm.cs",
-              "ToolTip": "C:\\Users\\Markololo\\Documents\\School\\ComputerScienceTech_W2025\\AppDev01\\Final_Project\\Hostpital-Managment-System\\HospitalManagementSystem\\HospitalManagementSystem\\ManagementForm.cs [Design]*",
-              "RelativeToolTip": "HospitalManagementSystem\\ManagementForm.cs [Design]*",
+              "ToolTip": "C:\\Users\\Markololo\\Documents\\School\\ComputerScienceTech_W2025\\AppDev01\\Final_Project\\Hostpital-Managment-System\\HospitalManagementSystem\\HospitalManagementSystem\\ManagementForm.cs [Design]",
+              "RelativeToolTip": "HospitalManagementSystem\\ManagementForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-22T14:46:05.818Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "ManagementForm.cs",
               "DocumentMoniker": "C:\\Users\\Markololo\\Documents\\School\\ComputerScienceTech_W2025\\AppDev01\\Final_Project\\Hostpital-Managment-System\\HospitalManagementSystem\\HospitalManagementSystem\\ManagementForm.cs",
               "RelativeDocumentMoniker": "HospitalManagementSystem\\ManagementForm.cs",
-              "ToolTip": "C:\\Users\\Markololo\\Documents\\School\\ComputerScienceTech_W2025\\AppDev01\\Final_Project\\Hostpital-Managment-System\\HospitalManagementSystem\\HospitalManagementSystem\\ManagementForm.cs*",
-              "RelativeToolTip": "HospitalManagementSystem\\ManagementForm.cs*",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAkwCcAAAAJAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Markololo\\Documents\\School\\ComputerScienceTech_W2025\\AppDev01\\Final_Project\\Hostpital-Managment-System\\HospitalManagementSystem\\HospitalManagementSystem\\ManagementForm.cs",
+              "RelativeToolTip": "HospitalManagementSystem\\ManagementForm.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA3wB4AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-07T23:17:37.497Z",
               "EditorCaption": ""
