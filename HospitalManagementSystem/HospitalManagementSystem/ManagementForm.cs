@@ -58,8 +58,37 @@ namespace HospitalManagementSystem
 
         private void languageComboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
+            if (languageComboBox.SelectedIndex == 0)
+            {
+                logoutButton.Text = "Logout";
+                patientsTabPage.Text = "Patients";
+                doctorsTabPage.Text = "Doctors";
+                appointmentsTabPage.Text = "Appointments";
+                recordsTabPage.Text = "Records";
+                filterAgeButton.Text = "Find patients older than...";
+                patientAgeLabel.Text = "Age";
+                doctorFilterButton.Text = "Find By Doctor";
+                findPatientBtn.Text = "Find Patient";
+                doctorIdLabelPatients.Text = "Doctor ID";
+                patientNameLabel.Text = "Patient Name";
+                patientIdLabelPatients.Text = "Patient ID";
+                displayButton.Text = "Display all patients";
+                displayIcuPatientsBtn.Text = "Display ICU Patients";
+                findDoctorBtn.Text = "Find Doctor";
+                doctorNameLabel.Text = "Doctor Name";
+                doctorIdLabelDoctors.Text = "Doctor Id";
+                findAvailableDocBtn.Text = "Find Available Doctor";
+                displayAllDoctorssBtn.Text = "Display All Doctors";
+                viewTodayBtn.Text = "Display today's Appointments";
+                displayAppintmentsBtn.Text = "Display all Appointments";
+                patientInfo.Text = "Patient's Information";
+                //patientIdLabelRecords.Text = "Id du Patient";
+                doctorInfo.Text = "Doctor's Information";
+                transferPatientButton.Text = "Transfer Patient To doctor";
+            }
             if (languageComboBox.SelectedIndex == 1)
             {
+                logoutButton.Text = "Se deconnecter";
                 patientsTabPage.Text = "Patients";
                 doctorsTabPage.Text = "Docteurs";
                 appointmentsTabPage.Text = "Rendez-Vous";
@@ -69,7 +98,7 @@ namespace HospitalManagementSystem
                 doctorFilterButton.Text = "Trouver par docteur";
                 findPatientBtn.Text = "Trouver le patient";
                 doctorIdLabelPatients.Text = "Id du docteur";
-                patientNameLabel.Text = "Nom";
+                patientNameLabel.Text = "Nom et Prenom";
                 patientIdLabelPatients.Text = "Id du Patient.";
                 displayButton.Text = "Voir tous les patients";
                 displayIcuPatientsBtn.Text = "Voir les patients emn urgence";
@@ -82,8 +111,10 @@ namespace HospitalManagementSystem
                 displayAppintmentsBtn.Text = "Voir tous les rendez-vous";
                 patientInfo.Text = "Informations du Patient";
                 displayAppintmentsBtn.Text = "Id du Patient";
-             //   patientFirstNameLabelRecords.Text = "Prenom";
-               // patientLastNameLabelRecords.Text = "Nom du famille";
+                //   patientFirstNameLabelRecords.Text = "Prenom";
+                // patientLastNameLabelRecords.Text = "Nom du famille";
+                doctorInfo.Text = "Information du Docteur";
+                transferPatientButton.Text = "Transferer le Patient Au Docteur";
             }
         }
     }

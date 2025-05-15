@@ -32,32 +32,11 @@
               "RelativeDocumentMoniker": "HospitalManagementSystem\\ManagementForm.cs",
               "ToolTip": "C:\\Users\\2057195\\Desktop\\Hostpital-Managment-System\\HospitalManagementSystem\\HospitalManagementSystem\\ManagementForm.cs*",
               "RelativeToolTip": "HospitalManagementSystem\\ManagementForm.cs*",
-              "ViewState": "AQIAACsAAAAAAAAAAADwv1YAAAANAAAA",
+              "ViewState": "AQIAAD8AAAAAAAAAAADwv1sAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-15T02:37:21.357Z",
               "EditorCaption": ""
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "Orientation": 0,
-      "VerticalTabListWidth": 256,
-      "FloatingWindowState": {
-        "Id": "1f99bdbf-7a94-49f2-b6f7-55cbd4e19bf8",
-        "Display": 0,
-        "X": 350,
-        "Y": 82,
-        "Width": 1553,
-        "Height": 784,
-        "WindowState": 0
-      },
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,

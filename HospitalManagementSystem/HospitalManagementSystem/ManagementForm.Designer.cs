@@ -119,6 +119,8 @@
             this.logoutButton = new System.Windows.Forms.Button();
             this.languageComboBox = new System.Windows.Forms.ComboBox();
             this.languageLabel = new System.Windows.Forms.Label();
+            this.filterByBloodBtn = new System.Windows.Forms.Button();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.timeUserControl1 = new HospitalManagementSystem.TimeUserControl();
             this.dateUserControl1 = new HospitalManagementSystem.DateUserControl();
             patientIdLabelRecords = new System.Windows.Forms.Label();
@@ -216,6 +218,8 @@
             // 
             // patientsTabPage
             // 
+            this.patientsTabPage.Controls.Add(this.comboBox1);
+            this.patientsTabPage.Controls.Add(this.filterByBloodBtn);
             this.patientsTabPage.Controls.Add(this.doctorIdTextBoxPatients);
             this.patientsTabPage.Controls.Add(this.doctorIdLabelPatients);
             this.patientsTabPage.Controls.Add(this.patientIdTextBoxPatients);
@@ -975,7 +979,6 @@
             // 
             // languageComboBox
             // 
-            this.languageComboBox.FormattingEnabled = true;
             this.languageComboBox.Items.AddRange(new object[] {
             "English",
             "Français",
@@ -995,6 +998,34 @@
             this.languageLabel.Size = new System.Drawing.Size(85, 20);
             this.languageLabel.TabIndex = 14;
             this.languageLabel.Text = "Language:";
+            // 
+            // filterByBloodBtn
+            // 
+            this.filterByBloodBtn.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.filterByBloodBtn.Location = new System.Drawing.Point(434, 312);
+            this.filterByBloodBtn.Name = "filterByBloodBtn";
+            this.filterByBloodBtn.Size = new System.Drawing.Size(136, 46);
+            this.filterByBloodBtn.TabIndex = 28;
+            this.filterByBloodBtn.Text = "Filter By BloodType";
+            this.findPatientTip.SetToolTip(this.filterByBloodBtn, "Enter the ID of the patient in the text field to the right.");
+            this.filterByBloodBtn.UseVisualStyleBackColor = true;
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "A-",
+            "A+",
+            "AB-",
+            "AB+",
+            "B-",
+            "B+",
+            "O-",
+            "O+"});
+            this.comboBox1.Location = new System.Drawing.Point(685, 321);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(221, 29);
+            this.comboBox1.TabIndex = 29;
             // 
             // timeUserControl1
             // 
@@ -1143,6 +1174,8 @@
         private System.Windows.Forms.Label patientAgeLabel;
         private System.Windows.Forms.TextBox doctorIdTextBoxPatients;
         private System.Windows.Forms.Label doctorIdLabelPatients;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Button filterByBloodBtn;
     }
 }
 
