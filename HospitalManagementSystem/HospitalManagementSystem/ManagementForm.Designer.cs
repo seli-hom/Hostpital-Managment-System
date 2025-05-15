@@ -38,7 +38,15 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ManagementForm));
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.patientsTabPage = new System.Windows.Forms.TabPage();
-            this.button1 = new System.Windows.Forms.Button();
+            this.doctorIdTextBoxPatients = new System.Windows.Forms.TextBox();
+            this.doctorIdLabelPatients = new System.Windows.Forms.Label();
+            this.patientIdTextBoxPatients = new System.Windows.Forms.TextBox();
+            this.patientIdLabelPatients = new System.Windows.Forms.Label();
+            this.patientNameTextBox = new System.Windows.Forms.TextBox();
+            this.patientNameLabel = new System.Windows.Forms.Label();
+            this.patientAgeTextBox = new System.Windows.Forms.TextBox();
+            this.patientAgeLabel = new System.Windows.Forms.Label();
+            this.displayIcuPatientsBtn = new System.Windows.Forms.Button();
             this.patientsDataGridView = new System.Windows.Forms.DataGridView();
             this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -55,7 +63,11 @@
             this.displayButton = new System.Windows.Forms.Button();
             this.filterAgeButton = new System.Windows.Forms.Button();
             this.doctorsTabPage = new System.Windows.Forms.TabPage();
-            this.FindAvailableDocBtn = new System.Windows.Forms.Button();
+            this.doctorIdTextBoxDoctors = new System.Windows.Forms.TextBox();
+            this.doctorIdLabelDoctors = new System.Windows.Forms.Label();
+            this.doctorNameTextBox = new System.Windows.Forms.TextBox();
+            this.doctorNameLabel = new System.Windows.Forms.Label();
+            this.findAvailableDocBtn = new System.Windows.Forms.Button();
             this.displayAllDoctorssBtn = new System.Windows.Forms.Button();
             this.findDoctorBtn = new System.Windows.Forms.Button();
             this.doctorsDataGridView = new System.Windows.Forms.DataGridView();
@@ -103,24 +115,12 @@
             this.patientsBindingNavigatorSaveItem = new System.Windows.Forms.ToolStripButton();
             this.findPatientTip = new System.Windows.Forms.ToolTip(this.components);
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.timeUserControl1 = new HospitalManagementSystem.TimeUserControl();
-            this.dateUserControl1 = new HospitalManagementSystem.DateUserControl();
             this.patientsTableAdapter = new HospitalManagementSystem.HospitalDatabaseDataSetTableAdapters.PatientsTableAdapter();
             this.logoutButton = new System.Windows.Forms.Button();
             this.languageComboBox = new System.Windows.Forms.ComboBox();
             this.languageLabel = new System.Windows.Forms.Label();
-            this.doctorNameLabel = new System.Windows.Forms.Label();
-            this.doctorNameTextBox = new System.Windows.Forms.TextBox();
-            this.doctorIdTextBoxDoctors = new System.Windows.Forms.TextBox();
-            this.doctorIdLabelDoctors = new System.Windows.Forms.Label();
-            this.patientAgeTextBox = new System.Windows.Forms.TextBox();
-            this.patientAgeLabel = new System.Windows.Forms.Label();
-            this.patientIdTextBoxPatients = new System.Windows.Forms.TextBox();
-            this.patientIdLabelPatients = new System.Windows.Forms.Label();
-            this.patientNameTextBox = new System.Windows.Forms.TextBox();
-            this.patientNameLabel = new System.Windows.Forms.Label();
-            this.doctorIdTextBoxPatients = new System.Windows.Forms.TextBox();
-            this.doctorIdLabelPatients = new System.Windows.Forms.Label();
+            this.timeUserControl1 = new HospitalManagementSystem.TimeUserControl();
+            this.dateUserControl1 = new HospitalManagementSystem.DateUserControl();
             patientIdLabelRecords = new System.Windows.Forms.Label();
             doctorFirstNameLabelRecords = new System.Windows.Forms.Label();
             specialtyLabel = new System.Windows.Forms.Label();
@@ -224,7 +224,7 @@
             this.patientsTabPage.Controls.Add(this.patientNameLabel);
             this.patientsTabPage.Controls.Add(this.patientAgeTextBox);
             this.patientsTabPage.Controls.Add(this.patientAgeLabel);
-            this.patientsTabPage.Controls.Add(this.button1);
+            this.patientsTabPage.Controls.Add(this.displayIcuPatientsBtn);
             this.patientsTabPage.Controls.Add(this.patientsDataGridView);
             this.patientsTabPage.Controls.Add(this.doctorFilterButton);
             this.patientsTabPage.Controls.Add(this.findPatientBtn);
@@ -239,16 +239,89 @@
             this.patientsTabPage.Text = "Patients";
             this.patientsTabPage.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // doctorIdTextBoxPatients
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(936, 72);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(222, 46);
-            this.button1.TabIndex = 13;
-            this.button1.Text = "Display ICU Patients";
-            this.findPatientTip.SetToolTip(this.button1, "Enter the ID of the patient in the text field to the right.");
-            this.button1.UseVisualStyleBackColor = true;
+            this.doctorIdTextBoxPatients.Font = new System.Drawing.Font("Microsoft YaHei UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.doctorIdTextBoxPatients.Location = new System.Drawing.Point(245, 331);
+            this.doctorIdTextBoxPatients.Name = "doctorIdTextBoxPatients";
+            this.doctorIdTextBoxPatients.Size = new System.Drawing.Size(108, 27);
+            this.doctorIdTextBoxPatients.TabIndex = 27;
+            // 
+            // doctorIdLabelPatients
+            // 
+            this.doctorIdLabelPatients.AutoSize = true;
+            this.doctorIdLabelPatients.Font = new System.Drawing.Font("Microsoft YaHei UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.doctorIdLabelPatients.Location = new System.Drawing.Point(156, 338);
+            this.doctorIdLabelPatients.Name = "doctorIdLabelPatients";
+            this.doctorIdLabelPatients.Size = new System.Drawing.Size(83, 20);
+            this.doctorIdLabelPatients.TabIndex = 26;
+            this.doctorIdLabelPatients.Text = "Doctor ID:";
+            // 
+            // patientIdTextBoxPatients
+            // 
+            this.patientIdTextBoxPatients.Font = new System.Drawing.Font("Microsoft YaHei UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.patientIdTextBoxPatients.Location = new System.Drawing.Point(685, 283);
+            this.patientIdTextBoxPatients.Name = "patientIdTextBoxPatients";
+            this.patientIdTextBoxPatients.Size = new System.Drawing.Size(221, 27);
+            this.patientIdTextBoxPatients.TabIndex = 25;
+            // 
+            // patientIdLabelPatients
+            // 
+            this.patientIdLabelPatients.AutoSize = true;
+            this.patientIdLabelPatients.Font = new System.Drawing.Font("Microsoft YaHei UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.patientIdLabelPatients.Location = new System.Drawing.Point(572, 290);
+            this.patientIdLabelPatients.Name = "patientIdLabelPatients";
+            this.patientIdLabelPatients.Size = new System.Drawing.Size(83, 20);
+            this.patientIdLabelPatients.TabIndex = 24;
+            this.patientIdLabelPatients.Text = "Patient ID:";
+            // 
+            // patientNameTextBox
+            // 
+            this.patientNameTextBox.Font = new System.Drawing.Font("Microsoft YaHei UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.patientNameTextBox.Location = new System.Drawing.Point(685, 245);
+            this.patientNameTextBox.Name = "patientNameTextBox";
+            this.patientNameTextBox.Size = new System.Drawing.Size(221, 27);
+            this.patientNameTextBox.TabIndex = 23;
+            // 
+            // patientNameLabel
+            // 
+            this.patientNameLabel.AutoSize = true;
+            this.patientNameLabel.Font = new System.Drawing.Font("Microsoft YaHei UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.patientNameLabel.Location = new System.Drawing.Point(572, 252);
+            this.patientNameLabel.Name = "patientNameLabel";
+            this.patientNameLabel.Size = new System.Drawing.Size(111, 20);
+            this.patientNameLabel.TabIndex = 22;
+            this.patientNameLabel.Text = "Patient Name:";
+            // 
+            // patientAgeTextBox
+            // 
+            this.patientAgeTextBox.Font = new System.Drawing.Font("Microsoft YaHei UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.patientAgeTextBox.Location = new System.Drawing.Point(205, 264);
+            this.patientAgeTextBox.Name = "patientAgeTextBox";
+            this.patientAgeTextBox.Size = new System.Drawing.Size(148, 27);
+            this.patientAgeTextBox.TabIndex = 21;
+            // 
+            // patientAgeLabel
+            // 
+            this.patientAgeLabel.AutoSize = true;
+            this.patientAgeLabel.Font = new System.Drawing.Font("Microsoft YaHei UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.patientAgeLabel.Location = new System.Drawing.Point(156, 268);
+            this.patientAgeLabel.Name = "patientAgeLabel";
+            this.patientAgeLabel.Size = new System.Drawing.Size(43, 20);
+            this.patientAgeLabel.TabIndex = 20;
+            this.patientAgeLabel.Text = "Age:";
+            this.patientAgeLabel.Click += new System.EventHandler(this.patientAgeLabel_Click);
+            // 
+            // displayIcuPatientsBtn
+            // 
+            this.displayIcuPatientsBtn.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.displayIcuPatientsBtn.Location = new System.Drawing.Point(936, 72);
+            this.displayIcuPatientsBtn.Name = "displayIcuPatientsBtn";
+            this.displayIcuPatientsBtn.Size = new System.Drawing.Size(222, 46);
+            this.displayIcuPatientsBtn.TabIndex = 13;
+            this.displayIcuPatientsBtn.Text = "Display ICU Patients";
+            this.findPatientTip.SetToolTip(this.displayIcuPatientsBtn, "Enter the ID of the patient in the text field to the right.");
+            this.displayIcuPatientsBtn.UseVisualStyleBackColor = true;
             // 
             // patientsDataGridView
             // 
@@ -381,7 +454,7 @@
             this.doctorsTabPage.Controls.Add(this.doctorIdLabelDoctors);
             this.doctorsTabPage.Controls.Add(this.doctorNameTextBox);
             this.doctorsTabPage.Controls.Add(this.doctorNameLabel);
-            this.doctorsTabPage.Controls.Add(this.FindAvailableDocBtn);
+            this.doctorsTabPage.Controls.Add(this.findAvailableDocBtn);
             this.doctorsTabPage.Controls.Add(this.displayAllDoctorssBtn);
             this.doctorsTabPage.Controls.Add(this.findDoctorBtn);
             this.doctorsTabPage.Controls.Add(this.doctorsDataGridView);
@@ -394,16 +467,52 @@
             this.doctorsTabPage.Text = "Doctors";
             this.doctorsTabPage.UseVisualStyleBackColor = true;
             // 
-            // FindAvailableDocBtn
+            // doctorIdTextBoxDoctors
             // 
-            this.FindAvailableDocBtn.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.FindAvailableDocBtn.Location = new System.Drawing.Point(1022, 18);
-            this.FindAvailableDocBtn.Name = "FindAvailableDocBtn";
-            this.FindAvailableDocBtn.Size = new System.Drawing.Size(136, 46);
-            this.FindAvailableDocBtn.TabIndex = 15;
-            this.FindAvailableDocBtn.Text = "Find Available Doctors";
-            this.findPatientTip.SetToolTip(this.FindAvailableDocBtn, "Enter the ID of the patient in the text field to the right.");
-            this.FindAvailableDocBtn.UseVisualStyleBackColor = true;
+            this.doctorIdTextBoxDoctors.Font = new System.Drawing.Font("Microsoft YaHei UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.doctorIdTextBoxDoctors.Location = new System.Drawing.Point(293, 298);
+            this.doctorIdTextBoxDoctors.Name = "doctorIdTextBoxDoctors";
+            this.doctorIdTextBoxDoctors.Size = new System.Drawing.Size(221, 27);
+            this.doctorIdTextBoxDoctors.TabIndex = 19;
+            // 
+            // doctorIdLabelDoctors
+            // 
+            this.doctorIdLabelDoctors.AutoSize = true;
+            this.doctorIdLabelDoctors.Font = new System.Drawing.Font("Microsoft YaHei UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.doctorIdLabelDoctors.Location = new System.Drawing.Point(180, 305);
+            this.doctorIdLabelDoctors.Name = "doctorIdLabelDoctors";
+            this.doctorIdLabelDoctors.Size = new System.Drawing.Size(83, 20);
+            this.doctorIdLabelDoctors.TabIndex = 18;
+            this.doctorIdLabelDoctors.Text = "Doctor ID:";
+            // 
+            // doctorNameTextBox
+            // 
+            this.doctorNameTextBox.Font = new System.Drawing.Font("Microsoft YaHei UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.doctorNameTextBox.Location = new System.Drawing.Point(293, 260);
+            this.doctorNameTextBox.Name = "doctorNameTextBox";
+            this.doctorNameTextBox.Size = new System.Drawing.Size(221, 27);
+            this.doctorNameTextBox.TabIndex = 17;
+            // 
+            // doctorNameLabel
+            // 
+            this.doctorNameLabel.AutoSize = true;
+            this.doctorNameLabel.Font = new System.Drawing.Font("Microsoft YaHei UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.doctorNameLabel.Location = new System.Drawing.Point(180, 267);
+            this.doctorNameLabel.Name = "doctorNameLabel";
+            this.doctorNameLabel.Size = new System.Drawing.Size(111, 20);
+            this.doctorNameLabel.TabIndex = 16;
+            this.doctorNameLabel.Text = "Doctor Name:";
+            // 
+            // findAvailableDocBtn
+            // 
+            this.findAvailableDocBtn.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.findAvailableDocBtn.Location = new System.Drawing.Point(1022, 18);
+            this.findAvailableDocBtn.Name = "findAvailableDocBtn";
+            this.findAvailableDocBtn.Size = new System.Drawing.Size(136, 46);
+            this.findAvailableDocBtn.TabIndex = 15;
+            this.findAvailableDocBtn.Text = "Find Available Doctors";
+            this.findPatientTip.SetToolTip(this.findAvailableDocBtn, "Enter the ID of the patient in the text field to the right.");
+            this.findAvailableDocBtn.UseVisualStyleBackColor = true;
             // 
             // displayAllDoctorssBtn
             // 
@@ -795,7 +904,6 @@
             // 
             this.bindingNavigatorPositionItem.AccessibleName = "Position";
             this.bindingNavigatorPositionItem.AutoSize = false;
-            this.bindingNavigatorPositionItem.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.bindingNavigatorPositionItem.Name = "bindingNavigatorPositionItem";
             this.bindingNavigatorPositionItem.Size = new System.Drawing.Size(27, 23);
             this.bindingNavigatorPositionItem.Text = "0";
@@ -850,22 +958,6 @@
             this.groupBox1.TabIndex = 3;
             this.groupBox1.TabStop = false;
             // 
-            // timeUserControl1
-            // 
-            this.timeUserControl1.Location = new System.Drawing.Point(1024, 9);
-            this.timeUserControl1.Margin = new System.Windows.Forms.Padding(1);
-            this.timeUserControl1.Name = "timeUserControl1";
-            this.timeUserControl1.Size = new System.Drawing.Size(166, 29);
-            this.timeUserControl1.TabIndex = 13;
-            // 
-            // dateUserControl1
-            // 
-            this.dateUserControl1.Location = new System.Drawing.Point(10, 9);
-            this.dateUserControl1.Margin = new System.Windows.Forms.Padding(1);
-            this.dateUserControl1.Name = "dateUserControl1";
-            this.dateUserControl1.Size = new System.Drawing.Size(284, 29);
-            this.dateUserControl1.TabIndex = 1;
-            // 
             // patientsTableAdapter
             // 
             this.patientsTableAdapter.ClearBeforeFill = true;
@@ -892,6 +984,7 @@
             this.languageComboBox.Name = "languageComboBox";
             this.languageComboBox.Size = new System.Drawing.Size(153, 21);
             this.languageComboBox.TabIndex = 13;
+            this.languageComboBox.SelectedIndexChanged += new System.EventHandler(this.languageComboBox_SelectedIndexChanged);
             // 
             // languageLabel
             // 
@@ -903,114 +996,21 @@
             this.languageLabel.TabIndex = 14;
             this.languageLabel.Text = "Language:";
             // 
-            // doctorNameLabel
+            // timeUserControl1
             // 
-            this.doctorNameLabel.AutoSize = true;
-            this.doctorNameLabel.Font = new System.Drawing.Font("Microsoft YaHei UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.doctorNameLabel.Location = new System.Drawing.Point(180, 267);
-            this.doctorNameLabel.Name = "doctorNameLabel";
-            this.doctorNameLabel.Size = new System.Drawing.Size(111, 20);
-            this.doctorNameLabel.TabIndex = 16;
-            this.doctorNameLabel.Text = "Doctor Name:";
+            this.timeUserControl1.Location = new System.Drawing.Point(1024, 9);
+            this.timeUserControl1.Margin = new System.Windows.Forms.Padding(1);
+            this.timeUserControl1.Name = "timeUserControl1";
+            this.timeUserControl1.Size = new System.Drawing.Size(166, 29);
+            this.timeUserControl1.TabIndex = 13;
             // 
-            // doctorNameTextBox
+            // dateUserControl1
             // 
-            this.doctorNameTextBox.Font = new System.Drawing.Font("Microsoft YaHei UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.doctorNameTextBox.Location = new System.Drawing.Point(293, 260);
-            this.doctorNameTextBox.Name = "doctorNameTextBox";
-            this.doctorNameTextBox.Size = new System.Drawing.Size(221, 27);
-            this.doctorNameTextBox.TabIndex = 17;
-            // 
-            // doctorIdTextBoxDoctors
-            // 
-            this.doctorIdTextBoxDoctors.Font = new System.Drawing.Font("Microsoft YaHei UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.doctorIdTextBoxDoctors.Location = new System.Drawing.Point(293, 298);
-            this.doctorIdTextBoxDoctors.Name = "doctorIdTextBoxDoctors";
-            this.doctorIdTextBoxDoctors.Size = new System.Drawing.Size(221, 27);
-            this.doctorIdTextBoxDoctors.TabIndex = 19;
-            // 
-            // doctorIdLabelDoctors
-            // 
-            this.doctorIdLabelDoctors.AutoSize = true;
-            this.doctorIdLabelDoctors.Font = new System.Drawing.Font("Microsoft YaHei UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.doctorIdLabelDoctors.Location = new System.Drawing.Point(180, 305);
-            this.doctorIdLabelDoctors.Name = "doctorIdLabelDoctors";
-            this.doctorIdLabelDoctors.Size = new System.Drawing.Size(83, 20);
-            this.doctorIdLabelDoctors.TabIndex = 18;
-            this.doctorIdLabelDoctors.Text = "Doctor ID:";
-            // 
-            // patientAgeTextBox
-            // 
-            this.patientAgeTextBox.Font = new System.Drawing.Font("Microsoft YaHei UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.patientAgeTextBox.Location = new System.Drawing.Point(205, 264);
-            this.patientAgeTextBox.Name = "patientAgeTextBox";
-            this.patientAgeTextBox.Size = new System.Drawing.Size(148, 27);
-            this.patientAgeTextBox.TabIndex = 21;
-            // 
-            // patientAgeLabel
-            // 
-            this.patientAgeLabel.AutoSize = true;
-            this.patientAgeLabel.Font = new System.Drawing.Font("Microsoft YaHei UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.patientAgeLabel.Location = new System.Drawing.Point(156, 268);
-            this.patientAgeLabel.Name = "patientAgeLabel";
-            this.patientAgeLabel.Size = new System.Drawing.Size(43, 20);
-            this.patientAgeLabel.TabIndex = 20;
-            this.patientAgeLabel.Text = "Age:";
-            this.patientAgeLabel.Click += new System.EventHandler(this.patientAgeLabel_Click);
-            // 
-            // patientIdTextBoxPatients
-            // 
-            this.patientIdTextBoxPatients.Font = new System.Drawing.Font("Microsoft YaHei UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.patientIdTextBoxPatients.Location = new System.Drawing.Point(685, 283);
-            this.patientIdTextBoxPatients.Name = "patientIdTextBoxPatients";
-            this.patientIdTextBoxPatients.Size = new System.Drawing.Size(221, 27);
-            this.patientIdTextBoxPatients.TabIndex = 25;
-            // 
-            // patientIdLabelPatients
-            // 
-            this.patientIdLabelPatients.AutoSize = true;
-            this.patientIdLabelPatients.Font = new System.Drawing.Font("Microsoft YaHei UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.patientIdLabelPatients.Location = new System.Drawing.Point(572, 290);
-            this.patientIdLabelPatients.Name = "patientIdLabelPatients";
-            this.patientIdLabelPatients.Size = new System.Drawing.Size(83, 20);
-            this.patientIdLabelPatients.TabIndex = 24;
-            this.patientIdLabelPatients.Text = "Patient ID:";
-            // 
-            // patientNameTextBox
-            // 
-            this.patientNameTextBox.Font = new System.Drawing.Font("Microsoft YaHei UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.patientNameTextBox.Location = new System.Drawing.Point(685, 245);
-            this.patientNameTextBox.Name = "patientNameTextBox";
-            this.patientNameTextBox.Size = new System.Drawing.Size(221, 27);
-            this.patientNameTextBox.TabIndex = 23;
-            // 
-            // patientNameLabel
-            // 
-            this.patientNameLabel.AutoSize = true;
-            this.patientNameLabel.Font = new System.Drawing.Font("Microsoft YaHei UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.patientNameLabel.Location = new System.Drawing.Point(572, 252);
-            this.patientNameLabel.Name = "patientNameLabel";
-            this.patientNameLabel.Size = new System.Drawing.Size(111, 20);
-            this.patientNameLabel.TabIndex = 22;
-            this.patientNameLabel.Text = "Patient Name:";
-            // 
-            // doctorIdTextBoxPatients
-            // 
-            this.doctorIdTextBoxPatients.Font = new System.Drawing.Font("Microsoft YaHei UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.doctorIdTextBoxPatients.Location = new System.Drawing.Point(245, 331);
-            this.doctorIdTextBoxPatients.Name = "doctorIdTextBoxPatients";
-            this.doctorIdTextBoxPatients.Size = new System.Drawing.Size(108, 27);
-            this.doctorIdTextBoxPatients.TabIndex = 27;
-            // 
-            // doctorIdLabelPatients
-            // 
-            this.doctorIdLabelPatients.AutoSize = true;
-            this.doctorIdLabelPatients.Font = new System.Drawing.Font("Microsoft YaHei UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.doctorIdLabelPatients.Location = new System.Drawing.Point(156, 338);
-            this.doctorIdLabelPatients.Name = "doctorIdLabelPatients";
-            this.doctorIdLabelPatients.Size = new System.Drawing.Size(83, 20);
-            this.doctorIdLabelPatients.TabIndex = 26;
-            this.doctorIdLabelPatients.Text = "Doctor ID:";
+            this.dateUserControl1.Location = new System.Drawing.Point(10, 9);
+            this.dateUserControl1.Margin = new System.Windows.Forms.Padding(1);
+            this.dateUserControl1.Name = "dateUserControl1";
+            this.dateUserControl1.Size = new System.Drawing.Size(284, 29);
+            this.dateUserControl1.TabIndex = 1;
             // 
             // ManagementForm
             // 
@@ -1102,7 +1102,7 @@
         private System.Windows.Forms.Button findPatientBtn;
         private System.Windows.Forms.Button displayButton;
         private System.Windows.Forms.Button filterAgeButton;
-        private System.Windows.Forms.Button FindAvailableDocBtn;
+        private System.Windows.Forms.Button findAvailableDocBtn;
         private System.Windows.Forms.Button displayAllDoctorssBtn;
         private System.Windows.Forms.Button findDoctorBtn;
         private System.Windows.Forms.TextBox doctorLastNameTextBox;
@@ -1127,7 +1127,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn7;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn8;
         private HospitalDatabaseDataSetTableAdapters.PatientsTableAdapter patientsTableAdapter;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button displayIcuPatientsBtn;
         private System.Windows.Forms.Button logoutButton;
         private System.Windows.Forms.ComboBox languageComboBox;
         private System.Windows.Forms.Label languageLabel;
