@@ -7,8 +7,8 @@
 <DiagramLayout xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ex:showrelationlabel="False" ViewPortX="-10" ViewPortY="-47" xmlns:ex="urn:schemas-microsoft-com:xml-msdatasource-layout-extended" xmlns="urn:schemas-microsoft-com:xml-msdatasource-layout">
   <Shapes>
     <Shape ID="DesignTable:Appointments" ZOrder="5" X="70" Y="70" Height="172" Width="227" AdapterExpanded="true" DataTableExpanded="true" OldAdapterHeight="0" OldDataTableHeight="0" SplitterPosition="121" />
-    <Shape ID="DesignTable:Doctors" ZOrder="4" X="367" Y="70" Height="172" Width="190" AdapterExpanded="true" DataTableExpanded="true" OldAdapterHeight="0" OldDataTableHeight="0" SplitterPosition="121" />
-    <Shape ID="DesignTable:Patients" ZOrder="2" X="370" Y="306" Height="229" Width="191" AdapterExpanded="true" DataTableExpanded="true" OldAdapterHeight="0" OldDataTableHeight="0" SplitterPosition="178" />
+    <Shape ID="DesignTable:Doctors" ZOrder="1" X="367" Y="70" Height="229" Width="190" AdapterExpanded="true" DataTableExpanded="true" OldAdapterHeight="0" OldDataTableHeight="0" SplitterPosition="121" />
+    <Shape ID="DesignTable:Patients" ZOrder="4" X="367" Y="312" Height="229" Width="191" AdapterExpanded="true" DataTableExpanded="true" OldAdapterHeight="0" OldDataTableHeight="0" SplitterPosition="178" />
   </Shapes>
   <Connectors>
     <Connector ID="DesignRelation:FK__Appointme__Docto__440B1D61" ZOrder="3" LineWidth="11">
@@ -23,15 +23,15 @@
         </Point>
       </RoutePoints>
     </Connector>
-    <Connector ID="DesignRelation:FK__Appointme__Patie__44FF419A" ZOrder="1" LineWidth="11">
+    <Connector ID="DesignRelation:FK__Appointme__Patie__44FF419A" ZOrder="2" LineWidth="11">
       <RoutePoints>
         <Point>
-          <X>370</X>
-          <Y>323</Y>
+          <X>367</X>
+          <Y>329</Y>
         </Point>
         <Point>
           <X>280</X>
-          <Y>323</Y>
+          <Y>329</Y>
         </Point>
         <Point>
           <X>280</X>

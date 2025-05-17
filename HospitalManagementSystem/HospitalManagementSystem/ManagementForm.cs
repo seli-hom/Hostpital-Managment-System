@@ -244,5 +244,62 @@ namespace HospitalManagementSystem
                 }
             }
         }
+
+        private void findDoctorBtn_Click(object sender, EventArgs e)
+        {
+            if (!string.IsNullOrEmpty(doctorIdTextBoxDoctors.Text))
+            {
+                if (int.TryParse(doctorIdTextBoxDoctors.Text, out int id))
+                    findDoctorById(id);
+                else
+                    MessageBox.Show("Invalid Doctor ID.");
+            }
+            else
+            {
+                findDoctorByName(doctorNameTextBox.Text.Trim()); //remove leading and trailing white-space 
+            }
+        }
+
+        private void displayAllDoctorssBtn_Click(object sender, EventArgs e)
+        {
+            this.doctorsTableAdapter.Fill(this.hospitalDatabaseDataSet.Doctors);
+        }
+
+        private void findAvailableDocBtn_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                this.doctorsTableAdapter.FillAvailableDocs(this.hospitalDatabaseDataSet.Doctors);
+            }
+            catch (Exception exception)
+            {
+                MessageBox.Show("Could not retrieve available doctors: " + exception.Message);
+            }
+        }
+
+        private void findDoctorByName(string fullname)
+        {
+            try
+            {
+                this.doctorsTableAdapter.FillByName(this.hospitalDatabaseDataSet.Doctors, fullname);
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show("Error searching doctor: " + e.Message);
+            }
+        }
+
+        private void findDoctorById(int id)
+        {
+            try
+            {
+                this.doctorsTableAdapter.FillByDoctorId(this.hospitalDatabaseDataSet.Doctors, id);
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show("Error searching doctor: " + e.Message);
+            }
+        }
+
     }
 }
