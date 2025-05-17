@@ -4,7 +4,8 @@
 
 # Ignore database files
 # *.mdf
-
+# *.bin
+# *.resex
 # Ignore the VS config folder
 .vs/
 
