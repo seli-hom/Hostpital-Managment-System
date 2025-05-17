@@ -30,12 +30,12 @@
         {
             this.components = new System.ComponentModel.Container();
             System.Windows.Forms.Label patientIdLabelRecords;
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ManagementForm));
             System.Windows.Forms.Label doctorFirstNameLabelRecords;
             System.Windows.Forms.Label specialtyLabel;
             System.Windows.Forms.Label doctorLastNameLabelRecords;
             System.Windows.Forms.Label patientFirstNameLabelRecords;
             System.Windows.Forms.Label patientLastNameLabelRecords;
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ManagementForm));
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.patientsTabPage = new System.Windows.Forms.TabPage();
             this.bloodTypeComboBox = new System.Windows.Forms.ComboBox();
@@ -144,57 +144,33 @@
             // 
             // patientIdLabelRecords
             // 
-            patientIdLabelRecords.AutoSize = true;
-            patientIdLabelRecords.Location = new System.Drawing.Point(13, 51);
+            resources.ApplyResources(patientIdLabelRecords, "patientIdLabelRecords");
             patientIdLabelRecords.Name = "patientIdLabelRecords";
-            patientIdLabelRecords.Size = new System.Drawing.Size(88, 21);
-            patientIdLabelRecords.TabIndex = 0;
-            patientIdLabelRecords.Text = "Patient Id:";
             // 
             // doctorFirstNameLabelRecords
             // 
-            doctorFirstNameLabelRecords.AutoSize = true;
-            doctorFirstNameLabelRecords.Location = new System.Drawing.Point(-1, 30);
+            resources.ApplyResources(doctorFirstNameLabelRecords, "doctorFirstNameLabelRecords");
             doctorFirstNameLabelRecords.Name = "doctorFirstNameLabelRecords";
-            doctorFirstNameLabelRecords.Size = new System.Drawing.Size(97, 21);
-            doctorFirstNameLabelRecords.TabIndex = 4;
-            doctorFirstNameLabelRecords.Text = "First Name:";
             // 
             // specialtyLabel
             // 
-            specialtyLabel.AutoSize = true;
-            specialtyLabel.Location = new System.Drawing.Point(-1, 81);
+            resources.ApplyResources(specialtyLabel, "specialtyLabel");
             specialtyLabel.Name = "specialtyLabel";
-            specialtyLabel.Size = new System.Drawing.Size(81, 21);
-            specialtyLabel.TabIndex = 6;
-            specialtyLabel.Text = "Specialty:";
             // 
             // doctorLastNameLabelRecords
             // 
-            doctorLastNameLabelRecords.AutoSize = true;
-            doctorLastNameLabelRecords.Location = new System.Drawing.Point(238, 34);
+            resources.ApplyResources(doctorLastNameLabelRecords, "doctorLastNameLabelRecords");
             doctorLastNameLabelRecords.Name = "doctorLastNameLabelRecords";
-            doctorLastNameLabelRecords.Size = new System.Drawing.Size(95, 21);
-            doctorLastNameLabelRecords.TabIndex = 8;
-            doctorLastNameLabelRecords.Text = "Last Name:";
             // 
             // patientFirstNameLabelRecords
             // 
-            patientFirstNameLabelRecords.AutoSize = true;
-            patientFirstNameLabelRecords.Location = new System.Drawing.Point(13, 107);
+            resources.ApplyResources(patientFirstNameLabelRecords, "patientFirstNameLabelRecords");
             patientFirstNameLabelRecords.Name = "patientFirstNameLabelRecords";
-            patientFirstNameLabelRecords.Size = new System.Drawing.Size(97, 21);
-            patientFirstNameLabelRecords.TabIndex = 10;
-            patientFirstNameLabelRecords.Text = "First Name:";
             // 
             // patientLastNameLabelRecords
             // 
-            patientLastNameLabelRecords.AutoSize = true;
-            patientLastNameLabelRecords.Location = new System.Drawing.Point(13, 157);
+            resources.ApplyResources(patientLastNameLabelRecords, "patientLastNameLabelRecords");
             patientLastNameLabelRecords.Name = "patientLastNameLabelRecords";
-            patientLastNameLabelRecords.Size = new System.Drawing.Size(95, 21);
-            patientLastNameLabelRecords.TabIndex = 12;
-            patientLastNameLabelRecords.Text = "Last Name:";
             // 
             // tabControl1
             // 
@@ -202,13 +178,9 @@
             this.tabControl1.Controls.Add(this.doctorsTabPage);
             this.tabControl1.Controls.Add(this.appointmentsTabPage);
             this.tabControl1.Controls.Add(this.recordsTabPage);
-            this.tabControl1.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tabControl1.Location = new System.Drawing.Point(12, 98);
-            this.tabControl1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            resources.ApplyResources(this.tabControl1, "tabControl1");
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(1204, 412);
-            this.tabControl1.TabIndex = 0;
             // 
             // patientsTabPage
             // 
@@ -222,79 +194,52 @@
             this.patientsTabPage.Controls.Add(this.findPatientBtn);
             this.patientsTabPage.Controls.Add(this.displayButton);
             this.patientsTabPage.Controls.Add(this.filterAgeButton);
-            this.patientsTabPage.Location = new System.Drawing.Point(4, 30);
-            this.patientsTabPage.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            resources.ApplyResources(this.patientsTabPage, "patientsTabPage");
             this.patientsTabPage.Name = "patientsTabPage";
-            this.patientsTabPage.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.patientsTabPage.Size = new System.Drawing.Size(1196, 378);
-            this.patientsTabPage.TabIndex = 0;
-            this.patientsTabPage.Text = "Patients";
             this.patientsTabPage.UseVisualStyleBackColor = true;
             // 
             // bloodTypeComboBox
             // 
             this.bloodTypeComboBox.FormattingEnabled = true;
             this.bloodTypeComboBox.Items.AddRange(new object[] {
-            "A-",
-            "A+",
-            "AB-",
-            "AB+",
-            "B-",
-            "B+",
-            "O-",
-            "O+"});
-            this.bloodTypeComboBox.Location = new System.Drawing.Point(583, 321);
+            resources.GetString("bloodTypeComboBox.Items"),
+            resources.GetString("bloodTypeComboBox.Items1"),
+            resources.GetString("bloodTypeComboBox.Items2"),
+            resources.GetString("bloodTypeComboBox.Items3"),
+            resources.GetString("bloodTypeComboBox.Items4"),
+            resources.GetString("bloodTypeComboBox.Items5"),
+            resources.GetString("bloodTypeComboBox.Items6"),
+            resources.GetString("bloodTypeComboBox.Items7")});
+            resources.ApplyResources(this.bloodTypeComboBox, "bloodTypeComboBox");
             this.bloodTypeComboBox.Name = "bloodTypeComboBox";
-            this.bloodTypeComboBox.Size = new System.Drawing.Size(221, 29);
-            this.bloodTypeComboBox.TabIndex = 29;
             // 
             // filterByBloodButton
             // 
-            this.filterByBloodButton.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.filterByBloodButton.Location = new System.Drawing.Point(434, 312);
+            resources.ApplyResources(this.filterByBloodButton, "filterByBloodButton");
             this.filterByBloodButton.Name = "filterByBloodButton";
-            this.filterByBloodButton.Size = new System.Drawing.Size(136, 46);
-            this.filterByBloodButton.TabIndex = 28;
-            this.filterByBloodButton.Text = "Filter By BloodType";
-            this.findPatientTip.SetToolTip(this.filterByBloodButton, "Enter the ID of the patient in the text field to the right.");
+            this.findPatientTip.SetToolTip(this.filterByBloodButton, resources.GetString("filterByBloodButton.ToolTip"));
             this.filterByBloodButton.UseVisualStyleBackColor = true;
             this.filterByBloodButton.Click += new System.EventHandler(this.filterByBloodButton_Click);
             // 
             // patientIdTextBoxPatients
             // 
-            this.patientIdTextBoxPatients.Font = new System.Drawing.Font("Microsoft YaHei UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.patientIdTextBoxPatients.Location = new System.Drawing.Point(685, 258);
+            resources.ApplyResources(this.patientIdTextBoxPatients, "patientIdTextBoxPatients");
             this.patientIdTextBoxPatients.Name = "patientIdTextBoxPatients";
-            this.patientIdTextBoxPatients.Size = new System.Drawing.Size(221, 27);
-            this.patientIdTextBoxPatients.TabIndex = 25;
             // 
             // patientIdLabelPatients
             // 
-            this.patientIdLabelPatients.AutoSize = true;
-            this.patientIdLabelPatients.Font = new System.Drawing.Font("Microsoft YaHei UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.patientIdLabelPatients.Location = new System.Drawing.Point(575, 262);
+            resources.ApplyResources(this.patientIdLabelPatients, "patientIdLabelPatients");
             this.patientIdLabelPatients.Name = "patientIdLabelPatients";
-            this.patientIdLabelPatients.Size = new System.Drawing.Size(83, 20);
-            this.patientIdLabelPatients.TabIndex = 24;
-            this.patientIdLabelPatients.Text = "Patient ID:";
             // 
             // patientAgeTextBox
             // 
-            this.patientAgeTextBox.Font = new System.Drawing.Font("Microsoft YaHei UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.patientAgeTextBox.Location = new System.Drawing.Point(205, 264);
+            resources.ApplyResources(this.patientAgeTextBox, "patientAgeTextBox");
             this.patientAgeTextBox.Name = "patientAgeTextBox";
-            this.patientAgeTextBox.Size = new System.Drawing.Size(148, 27);
-            this.patientAgeTextBox.TabIndex = 21;
             // 
             // patientAgeLabel
             // 
-            this.patientAgeLabel.AutoSize = true;
-            this.patientAgeLabel.Font = new System.Drawing.Font("Microsoft YaHei UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.patientAgeLabel.Location = new System.Drawing.Point(156, 268);
+            resources.ApplyResources(this.patientAgeLabel, "patientAgeLabel");
             this.patientAgeLabel.Name = "patientAgeLabel";
-            this.patientAgeLabel.Size = new System.Drawing.Size(43, 20);
-            this.patientAgeLabel.TabIndex = 20;
-            this.patientAgeLabel.Text = "Age:";
             // 
             // patientsDataGridView
             // 
@@ -310,77 +255,57 @@
             this.dataGridViewTextBoxColumn7,
             this.dataGridViewTextBoxColumn8});
             this.patientsDataGridView.DataSource = this.patientsBindingSource;
-            this.patientsDataGridView.Location = new System.Drawing.Point(5, 5);
-            this.patientsDataGridView.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            resources.ApplyResources(this.patientsDataGridView, "patientsDataGridView");
             this.patientsDataGridView.Name = "patientsDataGridView";
-            this.patientsDataGridView.RowHeadersWidth = 82;
-            this.patientsDataGridView.Size = new System.Drawing.Size(901, 220);
-            this.patientsDataGridView.TabIndex = 12;
             // 
             // dataGridViewTextBoxColumn1
             // 
             this.dataGridViewTextBoxColumn1.DataPropertyName = "PatientId";
-            this.dataGridViewTextBoxColumn1.HeaderText = "PatientId";
-            this.dataGridViewTextBoxColumn1.MinimumWidth = 10;
+            resources.ApplyResources(this.dataGridViewTextBoxColumn1, "dataGridViewTextBoxColumn1");
             this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
             this.dataGridViewTextBoxColumn1.ReadOnly = true;
-            this.dataGridViewTextBoxColumn1.Width = 200;
             // 
             // dataGridViewTextBoxColumn2
             // 
             this.dataGridViewTextBoxColumn2.DataPropertyName = "FirstName";
-            this.dataGridViewTextBoxColumn2.HeaderText = "FirstName";
-            this.dataGridViewTextBoxColumn2.MinimumWidth = 10;
+            resources.ApplyResources(this.dataGridViewTextBoxColumn2, "dataGridViewTextBoxColumn2");
             this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
-            this.dataGridViewTextBoxColumn2.Width = 200;
             // 
             // dataGridViewTextBoxColumn3
             // 
             this.dataGridViewTextBoxColumn3.DataPropertyName = "LastName";
-            this.dataGridViewTextBoxColumn3.HeaderText = "LastName";
-            this.dataGridViewTextBoxColumn3.MinimumWidth = 10;
+            resources.ApplyResources(this.dataGridViewTextBoxColumn3, "dataGridViewTextBoxColumn3");
             this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
-            this.dataGridViewTextBoxColumn3.Width = 200;
             // 
             // dataGridViewTextBoxColumn4
             // 
             this.dataGridViewTextBoxColumn4.DataPropertyName = "Address";
-            this.dataGridViewTextBoxColumn4.HeaderText = "Address";
-            this.dataGridViewTextBoxColumn4.MinimumWidth = 10;
+            resources.ApplyResources(this.dataGridViewTextBoxColumn4, "dataGridViewTextBoxColumn4");
             this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
-            this.dataGridViewTextBoxColumn4.Width = 200;
             // 
             // dataGridViewTextBoxColumn5
             // 
             this.dataGridViewTextBoxColumn5.DataPropertyName = "Contact";
-            this.dataGridViewTextBoxColumn5.HeaderText = "Contact";
-            this.dataGridViewTextBoxColumn5.MinimumWidth = 10;
+            resources.ApplyResources(this.dataGridViewTextBoxColumn5, "dataGridViewTextBoxColumn5");
             this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
-            this.dataGridViewTextBoxColumn5.Width = 200;
             // 
             // dataGridViewTextBoxColumn6
             // 
             this.dataGridViewTextBoxColumn6.DataPropertyName = "DateOfBirth";
-            this.dataGridViewTextBoxColumn6.HeaderText = "DateOfBirth";
-            this.dataGridViewTextBoxColumn6.MinimumWidth = 10;
+            resources.ApplyResources(this.dataGridViewTextBoxColumn6, "dataGridViewTextBoxColumn6");
             this.dataGridViewTextBoxColumn6.Name = "dataGridViewTextBoxColumn6";
-            this.dataGridViewTextBoxColumn6.Width = 200;
             // 
             // dataGridViewTextBoxColumn7
             // 
             this.dataGridViewTextBoxColumn7.DataPropertyName = "Sex";
-            this.dataGridViewTextBoxColumn7.HeaderText = "Sex";
-            this.dataGridViewTextBoxColumn7.MinimumWidth = 10;
+            resources.ApplyResources(this.dataGridViewTextBoxColumn7, "dataGridViewTextBoxColumn7");
             this.dataGridViewTextBoxColumn7.Name = "dataGridViewTextBoxColumn7";
-            this.dataGridViewTextBoxColumn7.Width = 200;
             // 
             // dataGridViewTextBoxColumn8
             // 
             this.dataGridViewTextBoxColumn8.DataPropertyName = "BloodType";
-            this.dataGridViewTextBoxColumn8.HeaderText = "BloodType";
-            this.dataGridViewTextBoxColumn8.MinimumWidth = 10;
+            resources.ApplyResources(this.dataGridViewTextBoxColumn8, "dataGridViewTextBoxColumn8");
             this.dataGridViewTextBoxColumn8.Name = "dataGridViewTextBoxColumn8";
-            this.dataGridViewTextBoxColumn8.Width = 200;
             // 
             // patientsBindingSource
             // 
@@ -394,37 +319,25 @@
             // 
             // findPatientBtn
             // 
-            this.findPatientBtn.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.findPatientBtn.Location = new System.Drawing.Point(433, 248);
+            resources.ApplyResources(this.findPatientBtn, "findPatientBtn");
             this.findPatientBtn.Name = "findPatientBtn";
-            this.findPatientBtn.Size = new System.Drawing.Size(136, 46);
-            this.findPatientBtn.TabIndex = 9;
-            this.findPatientBtn.Text = "Find Patient:";
-            this.findPatientTip.SetToolTip(this.findPatientBtn, "Enter the ID of the patient in the text field to the right.");
+            this.findPatientTip.SetToolTip(this.findPatientBtn, resources.GetString("findPatientBtn.ToolTip"));
             this.findPatientBtn.UseVisualStyleBackColor = true;
             this.findPatientBtn.Click += new System.EventHandler(this.findPatientBtn_Click);
             // 
             // displayButton
             // 
-            this.displayButton.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.displayButton.Location = new System.Drawing.Point(936, 5);
+            resources.ApplyResources(this.displayButton, "displayButton");
             this.displayButton.Name = "displayButton";
-            this.displayButton.Size = new System.Drawing.Size(222, 46);
-            this.displayButton.TabIndex = 10;
-            this.displayButton.Text = "Display All Patients";
-            this.findPatientTip.SetToolTip(this.displayButton, "Enter the ID of the patient in the text field to the right.");
+            this.findPatientTip.SetToolTip(this.displayButton, resources.GetString("displayButton.ToolTip"));
             this.displayButton.UseVisualStyleBackColor = true;
             this.displayButton.Click += new System.EventHandler(this.displayButton_Click);
             // 
             // filterAgeButton
             // 
-            this.filterAgeButton.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.filterAgeButton.Location = new System.Drawing.Point(13, 245);
+            resources.ApplyResources(this.filterAgeButton, "filterAgeButton");
             this.filterAgeButton.Name = "filterAgeButton";
-            this.filterAgeButton.Size = new System.Drawing.Size(136, 46);
-            this.filterAgeButton.TabIndex = 12;
-            this.filterAgeButton.Text = "Find Patients older than...";
-            this.findPatientTip.SetToolTip(this.filterAgeButton, "Enter the ID of the patient in the text field to the right.");
+            this.findPatientTip.SetToolTip(this.filterAgeButton, resources.GetString("filterAgeButton.ToolTip"));
             this.filterAgeButton.UseVisualStyleBackColor = true;
             this.filterAgeButton.Click += new System.EventHandler(this.filterAgeButton_Click);
             // 
@@ -438,84 +351,51 @@
             this.doctorsTabPage.Controls.Add(this.displayAllDoctorssBtn);
             this.doctorsTabPage.Controls.Add(this.findDoctorBtn);
             this.doctorsTabPage.Controls.Add(this.doctorsDataGridView);
-            this.doctorsTabPage.Location = new System.Drawing.Point(4, 30);
-            this.doctorsTabPage.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            resources.ApplyResources(this.doctorsTabPage, "doctorsTabPage");
             this.doctorsTabPage.Name = "doctorsTabPage";
-            this.doctorsTabPage.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.doctorsTabPage.Size = new System.Drawing.Size(1196, 378);
-            this.doctorsTabPage.TabIndex = 1;
-            this.doctorsTabPage.Text = "Doctors";
             this.doctorsTabPage.UseVisualStyleBackColor = true;
             // 
             // doctorIdTextBoxDoctors
             // 
-            this.doctorIdTextBoxDoctors.Font = new System.Drawing.Font("Microsoft YaHei UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.doctorIdTextBoxDoctors.Location = new System.Drawing.Point(293, 298);
+            resources.ApplyResources(this.doctorIdTextBoxDoctors, "doctorIdTextBoxDoctors");
             this.doctorIdTextBoxDoctors.Name = "doctorIdTextBoxDoctors";
-            this.doctorIdTextBoxDoctors.Size = new System.Drawing.Size(221, 27);
-            this.doctorIdTextBoxDoctors.TabIndex = 19;
             // 
             // doctorIdLabelDoctors
             // 
-            this.doctorIdLabelDoctors.AutoSize = true;
-            this.doctorIdLabelDoctors.Font = new System.Drawing.Font("Microsoft YaHei UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.doctorIdLabelDoctors.Location = new System.Drawing.Point(180, 305);
+            resources.ApplyResources(this.doctorIdLabelDoctors, "doctorIdLabelDoctors");
             this.doctorIdLabelDoctors.Name = "doctorIdLabelDoctors";
-            this.doctorIdLabelDoctors.Size = new System.Drawing.Size(83, 20);
-            this.doctorIdLabelDoctors.TabIndex = 18;
-            this.doctorIdLabelDoctors.Text = "Doctor ID:";
             // 
             // doctorNameTextBox
             // 
-            this.doctorNameTextBox.Font = new System.Drawing.Font("Microsoft YaHei UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.doctorNameTextBox.Location = new System.Drawing.Point(293, 260);
+            resources.ApplyResources(this.doctorNameTextBox, "doctorNameTextBox");
             this.doctorNameTextBox.Name = "doctorNameTextBox";
-            this.doctorNameTextBox.Size = new System.Drawing.Size(221, 27);
-            this.doctorNameTextBox.TabIndex = 17;
             // 
             // doctorNameLabel
             // 
-            this.doctorNameLabel.AutoSize = true;
-            this.doctorNameLabel.Font = new System.Drawing.Font("Microsoft YaHei UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.doctorNameLabel.Location = new System.Drawing.Point(180, 267);
+            resources.ApplyResources(this.doctorNameLabel, "doctorNameLabel");
             this.doctorNameLabel.Name = "doctorNameLabel";
-            this.doctorNameLabel.Size = new System.Drawing.Size(111, 20);
-            this.doctorNameLabel.TabIndex = 16;
-            this.doctorNameLabel.Text = "Doctor Name:";
             // 
             // findAvailableDocBtn
             // 
-            this.findAvailableDocBtn.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.findAvailableDocBtn.Location = new System.Drawing.Point(1022, 18);
+            resources.ApplyResources(this.findAvailableDocBtn, "findAvailableDocBtn");
             this.findAvailableDocBtn.Name = "findAvailableDocBtn";
-            this.findAvailableDocBtn.Size = new System.Drawing.Size(136, 46);
-            this.findAvailableDocBtn.TabIndex = 15;
-            this.findAvailableDocBtn.Text = "Find Available Doctors";
-            this.findPatientTip.SetToolTip(this.findAvailableDocBtn, "Enter the ID of the patient in the text field to the right.");
+            this.findPatientTip.SetToolTip(this.findAvailableDocBtn, resources.GetString("findAvailableDocBtn.ToolTip"));
             this.findAvailableDocBtn.UseVisualStyleBackColor = true;
             this.findAvailableDocBtn.Click += new System.EventHandler(this.findAvailableDocBtn_Click);
             // 
             // displayAllDoctorssBtn
             // 
-            this.displayAllDoctorssBtn.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.displayAllDoctorssBtn.Location = new System.Drawing.Point(1022, 86);
+            resources.ApplyResources(this.displayAllDoctorssBtn, "displayAllDoctorssBtn");
             this.displayAllDoctorssBtn.Name = "displayAllDoctorssBtn";
-            this.displayAllDoctorssBtn.Size = new System.Drawing.Size(136, 46);
-            this.displayAllDoctorssBtn.TabIndex = 13;
-            this.displayAllDoctorssBtn.Text = "Display All Doctors";
-            this.findPatientTip.SetToolTip(this.displayAllDoctorssBtn, "Enter the ID of the patient in the text field to the right.");
+            this.findPatientTip.SetToolTip(this.displayAllDoctorssBtn, resources.GetString("displayAllDoctorssBtn.ToolTip"));
             this.displayAllDoctorssBtn.UseVisualStyleBackColor = true;
             this.displayAllDoctorssBtn.Click += new System.EventHandler(this.displayAllDoctorssBtn_Click);
             // 
             // findDoctorBtn
             // 
-            this.findDoctorBtn.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.findDoctorBtn.Location = new System.Drawing.Point(13, 267);
+            resources.ApplyResources(this.findDoctorBtn, "findDoctorBtn");
             this.findDoctorBtn.Name = "findDoctorBtn";
-            this.findDoctorBtn.Size = new System.Drawing.Size(136, 46);
-            this.findDoctorBtn.TabIndex = 12;
-            this.findDoctorBtn.Text = "Find Doctor:";
-            this.findPatientTip.SetToolTip(this.findDoctorBtn, "Enter the ID or name of the doctor");
+            this.findPatientTip.SetToolTip(this.findDoctorBtn, resources.GetString("findDoctorBtn.ToolTip"));
             this.findDoctorBtn.UseVisualStyleBackColor = true;
             this.findDoctorBtn.Click += new System.EventHandler(this.findDoctorBtn_Click);
             // 
@@ -530,54 +410,40 @@
             this.dataGridViewTextBoxColumn13,
             this.dataGridViewTextBoxColumn14});
             this.doctorsDataGridView.DataSource = this.doctorsBindingSource;
-            this.doctorsDataGridView.Location = new System.Drawing.Point(4, 4);
-            this.doctorsDataGridView.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            resources.ApplyResources(this.doctorsDataGridView, "doctorsDataGridView");
             this.doctorsDataGridView.Name = "doctorsDataGridView";
-            this.doctorsDataGridView.RowHeadersWidth = 82;
             this.doctorsDataGridView.RowTemplate.Height = 33;
-            this.doctorsDataGridView.Size = new System.Drawing.Size(983, 243);
-            this.doctorsDataGridView.TabIndex = 0;
             // 
             // dataGridViewTextBoxColumn10
             // 
             this.dataGridViewTextBoxColumn10.DataPropertyName = "DoctorId";
-            this.dataGridViewTextBoxColumn10.HeaderText = "DoctorId";
-            this.dataGridViewTextBoxColumn10.MinimumWidth = 10;
+            resources.ApplyResources(this.dataGridViewTextBoxColumn10, "dataGridViewTextBoxColumn10");
             this.dataGridViewTextBoxColumn10.Name = "dataGridViewTextBoxColumn10";
             this.dataGridViewTextBoxColumn10.ReadOnly = true;
-            this.dataGridViewTextBoxColumn10.Width = 200;
             // 
             // dataGridViewTextBoxColumn11
             // 
             this.dataGridViewTextBoxColumn11.DataPropertyName = "FirstName";
-            this.dataGridViewTextBoxColumn11.HeaderText = "FirstName";
-            this.dataGridViewTextBoxColumn11.MinimumWidth = 10;
+            resources.ApplyResources(this.dataGridViewTextBoxColumn11, "dataGridViewTextBoxColumn11");
             this.dataGridViewTextBoxColumn11.Name = "dataGridViewTextBoxColumn11";
-            this.dataGridViewTextBoxColumn11.Width = 200;
             // 
             // dataGridViewTextBoxColumn12
             // 
             this.dataGridViewTextBoxColumn12.DataPropertyName = "LastName";
-            this.dataGridViewTextBoxColumn12.HeaderText = "LastName";
-            this.dataGridViewTextBoxColumn12.MinimumWidth = 10;
+            resources.ApplyResources(this.dataGridViewTextBoxColumn12, "dataGridViewTextBoxColumn12");
             this.dataGridViewTextBoxColumn12.Name = "dataGridViewTextBoxColumn12";
-            this.dataGridViewTextBoxColumn12.Width = 200;
             // 
             // dataGridViewTextBoxColumn13
             // 
             this.dataGridViewTextBoxColumn13.DataPropertyName = "Contact";
-            this.dataGridViewTextBoxColumn13.HeaderText = "Contact";
-            this.dataGridViewTextBoxColumn13.MinimumWidth = 10;
+            resources.ApplyResources(this.dataGridViewTextBoxColumn13, "dataGridViewTextBoxColumn13");
             this.dataGridViewTextBoxColumn13.Name = "dataGridViewTextBoxColumn13";
-            this.dataGridViewTextBoxColumn13.Width = 200;
             // 
             // dataGridViewTextBoxColumn14
             // 
             this.dataGridViewTextBoxColumn14.DataPropertyName = "Specialty";
-            this.dataGridViewTextBoxColumn14.HeaderText = "Specialty";
-            this.dataGridViewTextBoxColumn14.MinimumWidth = 10;
+            resources.ApplyResources(this.dataGridViewTextBoxColumn14, "dataGridViewTextBoxColumn14");
             this.dataGridViewTextBoxColumn14.Name = "dataGridViewTextBoxColumn14";
-            this.dataGridViewTextBoxColumn14.Width = 200;
             // 
             // doctorsBindingSource
             // 
@@ -589,23 +455,15 @@
             this.appointmentsTabPage.Controls.Add(this.displayAppintmentsBtn);
             this.appointmentsTabPage.Controls.Add(this.appointmentsDataGridView);
             this.appointmentsTabPage.Controls.Add(this.viewTodayBtn);
-            this.appointmentsTabPage.Location = new System.Drawing.Point(4, 30);
-            this.appointmentsTabPage.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            resources.ApplyResources(this.appointmentsTabPage, "appointmentsTabPage");
             this.appointmentsTabPage.Name = "appointmentsTabPage";
-            this.appointmentsTabPage.Size = new System.Drawing.Size(1196, 378);
-            this.appointmentsTabPage.TabIndex = 2;
-            this.appointmentsTabPage.Text = "Appointments";
             this.appointmentsTabPage.UseVisualStyleBackColor = true;
             // 
             // displayAppintmentsBtn
             // 
-            this.displayAppintmentsBtn.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.displayAppintmentsBtn.Location = new System.Drawing.Point(1036, 101);
+            resources.ApplyResources(this.displayAppintmentsBtn, "displayAppintmentsBtn");
             this.displayAppintmentsBtn.Name = "displayAppintmentsBtn";
-            this.displayAppintmentsBtn.Size = new System.Drawing.Size(136, 46);
-            this.displayAppintmentsBtn.TabIndex = 20;
-            this.displayAppintmentsBtn.Text = "Display All Appintments";
-            this.findPatientTip.SetToolTip(this.displayAppintmentsBtn, "Enter the ID of the patient in the text field to the right.");
+            this.findPatientTip.SetToolTip(this.displayAppintmentsBtn, resources.GetString("displayAppintmentsBtn.ToolTip"));
             this.displayAppintmentsBtn.UseVisualStyleBackColor = true;
             // 
             // appointmentsDataGridView
@@ -619,54 +477,40 @@
             this.dataGridViewTextBoxColumn18,
             this.dataGridViewTextBoxColumn19});
             this.appointmentsDataGridView.DataSource = this.appointmentsBindingSource;
-            this.appointmentsDataGridView.Location = new System.Drawing.Point(-2, 0);
-            this.appointmentsDataGridView.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            resources.ApplyResources(this.appointmentsDataGridView, "appointmentsDataGridView");
             this.appointmentsDataGridView.Name = "appointmentsDataGridView";
-            this.appointmentsDataGridView.RowHeadersWidth = 82;
             this.appointmentsDataGridView.RowTemplate.Height = 33;
-            this.appointmentsDataGridView.Size = new System.Drawing.Size(1014, 238);
-            this.appointmentsDataGridView.TabIndex = 0;
             // 
             // dataGridViewTextBoxColumn15
             // 
             this.dataGridViewTextBoxColumn15.DataPropertyName = "AppointmentId";
-            this.dataGridViewTextBoxColumn15.HeaderText = "AppointmentId";
-            this.dataGridViewTextBoxColumn15.MinimumWidth = 10;
+            resources.ApplyResources(this.dataGridViewTextBoxColumn15, "dataGridViewTextBoxColumn15");
             this.dataGridViewTextBoxColumn15.Name = "dataGridViewTextBoxColumn15";
             this.dataGridViewTextBoxColumn15.ReadOnly = true;
-            this.dataGridViewTextBoxColumn15.Width = 200;
             // 
             // dataGridViewTextBoxColumn16
             // 
             this.dataGridViewTextBoxColumn16.DataPropertyName = "Date";
-            this.dataGridViewTextBoxColumn16.HeaderText = "Date";
-            this.dataGridViewTextBoxColumn16.MinimumWidth = 10;
+            resources.ApplyResources(this.dataGridViewTextBoxColumn16, "dataGridViewTextBoxColumn16");
             this.dataGridViewTextBoxColumn16.Name = "dataGridViewTextBoxColumn16";
-            this.dataGridViewTextBoxColumn16.Width = 200;
             // 
             // dataGridViewTextBoxColumn17
             // 
             this.dataGridViewTextBoxColumn17.DataPropertyName = "Time";
-            this.dataGridViewTextBoxColumn17.HeaderText = "Time";
-            this.dataGridViewTextBoxColumn17.MinimumWidth = 10;
+            resources.ApplyResources(this.dataGridViewTextBoxColumn17, "dataGridViewTextBoxColumn17");
             this.dataGridViewTextBoxColumn17.Name = "dataGridViewTextBoxColumn17";
-            this.dataGridViewTextBoxColumn17.Width = 200;
             // 
             // dataGridViewTextBoxColumn18
             // 
             this.dataGridViewTextBoxColumn18.DataPropertyName = "PatientId";
-            this.dataGridViewTextBoxColumn18.HeaderText = "PatientId";
-            this.dataGridViewTextBoxColumn18.MinimumWidth = 10;
+            resources.ApplyResources(this.dataGridViewTextBoxColumn18, "dataGridViewTextBoxColumn18");
             this.dataGridViewTextBoxColumn18.Name = "dataGridViewTextBoxColumn18";
-            this.dataGridViewTextBoxColumn18.Width = 200;
             // 
             // dataGridViewTextBoxColumn19
             // 
             this.dataGridViewTextBoxColumn19.DataPropertyName = "DoctorId";
-            this.dataGridViewTextBoxColumn19.HeaderText = "DoctorId";
-            this.dataGridViewTextBoxColumn19.MinimumWidth = 10;
+            resources.ApplyResources(this.dataGridViewTextBoxColumn19, "dataGridViewTextBoxColumn19");
             this.dataGridViewTextBoxColumn19.Name = "dataGridViewTextBoxColumn19";
-            this.dataGridViewTextBoxColumn19.Width = 200;
             // 
             // appointmentsBindingSource
             // 
@@ -675,13 +519,9 @@
             // 
             // viewTodayBtn
             // 
-            this.viewTodayBtn.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.viewTodayBtn.Location = new System.Drawing.Point(1036, 24);
+            resources.ApplyResources(this.viewTodayBtn, "viewTodayBtn");
             this.viewTodayBtn.Name = "viewTodayBtn";
-            this.viewTodayBtn.Size = new System.Drawing.Size(136, 46);
-            this.viewTodayBtn.TabIndex = 18;
-            this.viewTodayBtn.Text = "View Todays Appointments";
-            this.findPatientTip.SetToolTip(this.viewTodayBtn, "Enter the ID of the patient in the text field to the right.");
+            this.findPatientTip.SetToolTip(this.viewTodayBtn, resources.GetString("viewTodayBtn.ToolTip"));
             this.viewTodayBtn.UseVisualStyleBackColor = true;
             // 
             // recordsTabPage
@@ -689,22 +529,14 @@
             this.recordsTabPage.Controls.Add(this.transferPatientButton);
             this.recordsTabPage.Controls.Add(this.doctorInfo);
             this.recordsTabPage.Controls.Add(this.patientInfo);
-            this.recordsTabPage.Location = new System.Drawing.Point(4, 30);
-            this.recordsTabPage.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            resources.ApplyResources(this.recordsTabPage, "recordsTabPage");
             this.recordsTabPage.Name = "recordsTabPage";
-            this.recordsTabPage.Size = new System.Drawing.Size(1196, 378);
-            this.recordsTabPage.TabIndex = 3;
-            this.recordsTabPage.Text = "Records";
             this.recordsTabPage.UseVisualStyleBackColor = true;
             // 
             // transferPatientButton
             // 
-            this.transferPatientButton.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.transferPatientButton.Location = new System.Drawing.Point(399, 175);
+            resources.ApplyResources(this.transferPatientButton, "transferPatientButton");
             this.transferPatientButton.Name = "transferPatientButton";
-            this.transferPatientButton.Size = new System.Drawing.Size(136, 46);
-            this.transferPatientButton.TabIndex = 20;
-            this.transferPatientButton.Text = "Transfer Patient to Doctor";
             this.transferPatientButton.UseVisualStyleBackColor = true;
             // 
             // doctorInfo
@@ -715,36 +547,27 @@
             this.doctorInfo.Controls.Add(this.specialtyTextBox);
             this.doctorInfo.Controls.Add(this.doctorLastNameTextBox);
             this.doctorInfo.Controls.Add(specialtyLabel);
-            this.doctorInfo.Location = new System.Drawing.Point(399, 13);
+            resources.ApplyResources(this.doctorInfo, "doctorInfo");
             this.doctorInfo.Name = "doctorInfo";
-            this.doctorInfo.Size = new System.Drawing.Size(500, 119);
-            this.doctorInfo.TabIndex = 15;
             this.doctorInfo.TabStop = false;
-            this.doctorInfo.Text = "Doctor\'s Information";
             // 
             // doctorFirstNameTextBox
             // 
             this.doctorFirstNameTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.doctorsBindingSource, "FirstName", true));
-            this.doctorFirstNameTextBox.Location = new System.Drawing.Point(102, 27);
+            resources.ApplyResources(this.doctorFirstNameTextBox, "doctorFirstNameTextBox");
             this.doctorFirstNameTextBox.Name = "doctorFirstNameTextBox";
-            this.doctorFirstNameTextBox.Size = new System.Drawing.Size(100, 28);
-            this.doctorFirstNameTextBox.TabIndex = 5;
             // 
             // specialtyTextBox
             // 
             this.specialtyTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.doctorsBindingSource, "Specialty", true));
-            this.specialtyTextBox.Location = new System.Drawing.Point(102, 78);
+            resources.ApplyResources(this.specialtyTextBox, "specialtyTextBox");
             this.specialtyTextBox.Name = "specialtyTextBox";
-            this.specialtyTextBox.Size = new System.Drawing.Size(100, 28);
-            this.specialtyTextBox.TabIndex = 7;
             // 
             // doctorLastNameTextBox
             // 
             this.doctorLastNameTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.doctorsBindingSource, "LastName", true));
-            this.doctorLastNameTextBox.Location = new System.Drawing.Point(339, 31);
+            resources.ApplyResources(this.doctorLastNameTextBox, "doctorLastNameTextBox");
             this.doctorLastNameTextBox.Name = "doctorLastNameTextBox";
-            this.doctorLastNameTextBox.Size = new System.Drawing.Size(100, 28);
-            this.doctorLastNameTextBox.TabIndex = 9;
             // 
             // patientInfo
             // 
@@ -754,36 +577,27 @@
             this.patientInfo.Controls.Add(this.patientLastNameTextBox);
             this.patientInfo.Controls.Add(patientFirstNameLabelRecords);
             this.patientInfo.Controls.Add(this.patientFirstNameTextBox);
-            this.patientInfo.Location = new System.Drawing.Point(19, 13);
+            resources.ApplyResources(this.patientInfo, "patientInfo");
             this.patientInfo.Name = "patientInfo";
-            this.patientInfo.Size = new System.Drawing.Size(259, 223);
-            this.patientInfo.TabIndex = 14;
             this.patientInfo.TabStop = false;
-            this.patientInfo.Text = "Patient\'s information";
             // 
             // patientIdTextBoxRecords
             // 
             this.patientIdTextBoxRecords.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.patientsBindingSource, "PatientId", true));
-            this.patientIdTextBoxRecords.Location = new System.Drawing.Point(139, 48);
+            resources.ApplyResources(this.patientIdTextBoxRecords, "patientIdTextBoxRecords");
             this.patientIdTextBoxRecords.Name = "patientIdTextBoxRecords";
-            this.patientIdTextBoxRecords.Size = new System.Drawing.Size(100, 28);
-            this.patientIdTextBoxRecords.TabIndex = 1;
             // 
             // patientLastNameTextBox
             // 
             this.patientLastNameTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.patientsBindingSource, "LastName", true));
-            this.patientLastNameTextBox.Location = new System.Drawing.Point(139, 150);
+            resources.ApplyResources(this.patientLastNameTextBox, "patientLastNameTextBox");
             this.patientLastNameTextBox.Name = "patientLastNameTextBox";
-            this.patientLastNameTextBox.Size = new System.Drawing.Size(100, 28);
-            this.patientLastNameTextBox.TabIndex = 13;
             // 
             // patientFirstNameTextBox
             // 
             this.patientFirstNameTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.patientsBindingSource, "FirstName", true));
-            this.patientFirstNameTextBox.Location = new System.Drawing.Point(139, 104);
+            resources.ApplyResources(this.patientFirstNameTextBox, "patientFirstNameTextBox");
             this.patientFirstNameTextBox.Name = "patientFirstNameTextBox";
-            this.patientFirstNameTextBox.Size = new System.Drawing.Size(100, 28);
-            this.patientFirstNameTextBox.TabIndex = 11;
             // 
             // tableAdapterManager
             // 
@@ -804,11 +618,10 @@
             // patientsBindingNavigator
             // 
             this.patientsBindingNavigator.AddNewItem = this.bindingNavigatorAddNewItem;
-            this.patientsBindingNavigator.Anchor = System.Windows.Forms.AnchorStyles.None;
+            resources.ApplyResources(this.patientsBindingNavigator, "patientsBindingNavigator");
             this.patientsBindingNavigator.BindingSource = this.patientsBindingSource;
             this.patientsBindingNavigator.CountItem = this.bindingNavigatorCountItem;
             this.patientsBindingNavigator.DeleteItem = this.bindingNavigatorDeleteItem;
-            this.patientsBindingNavigator.Dock = System.Windows.Forms.DockStyle.None;
             this.patientsBindingNavigator.ImageScalingSize = new System.Drawing.Size(32, 32);
             this.patientsBindingNavigator.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.bindingNavigatorMoveFirstItem,
@@ -823,140 +636,98 @@
             this.bindingNavigatorAddNewItem,
             this.bindingNavigatorDeleteItem,
             this.patientsBindingNavigatorSaveItem});
-            this.patientsBindingNavigator.Location = new System.Drawing.Point(396, 65);
             this.patientsBindingNavigator.MoveFirstItem = this.bindingNavigatorMoveFirstItem;
             this.patientsBindingNavigator.MoveLastItem = this.bindingNavigatorMoveLastItem;
             this.patientsBindingNavigator.MoveNextItem = this.bindingNavigatorMoveNextItem;
             this.patientsBindingNavigator.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
             this.patientsBindingNavigator.Name = "patientsBindingNavigator";
-            this.patientsBindingNavigator.Padding = new System.Windows.Forms.Padding(0);
             this.patientsBindingNavigator.PositionItem = this.bindingNavigatorPositionItem;
-            this.patientsBindingNavigator.Size = new System.Drawing.Size(345, 39);
-            this.patientsBindingNavigator.TabIndex = 2;
-            this.patientsBindingNavigator.Text = "bindingNavigator1";
             // 
             // bindingNavigatorAddNewItem
             // 
             this.bindingNavigatorAddNewItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorAddNewItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorAddNewItem.Image")));
+            resources.ApplyResources(this.bindingNavigatorAddNewItem, "bindingNavigatorAddNewItem");
             this.bindingNavigatorAddNewItem.Name = "bindingNavigatorAddNewItem";
-            this.bindingNavigatorAddNewItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(36, 36);
-            this.bindingNavigatorAddNewItem.Text = "Add new";
             // 
             // bindingNavigatorCountItem
             // 
             this.bindingNavigatorCountItem.Name = "bindingNavigatorCountItem";
-            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(35, 36);
-            this.bindingNavigatorCountItem.Text = "of {0}";
-            this.bindingNavigatorCountItem.ToolTipText = "Total number of items";
+            resources.ApplyResources(this.bindingNavigatorCountItem, "bindingNavigatorCountItem");
             // 
             // bindingNavigatorDeleteItem
             // 
             this.bindingNavigatorDeleteItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorDeleteItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorDeleteItem.Image")));
+            resources.ApplyResources(this.bindingNavigatorDeleteItem, "bindingNavigatorDeleteItem");
             this.bindingNavigatorDeleteItem.Name = "bindingNavigatorDeleteItem";
-            this.bindingNavigatorDeleteItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorDeleteItem.Size = new System.Drawing.Size(36, 36);
-            this.bindingNavigatorDeleteItem.Text = "Delete";
             // 
             // bindingNavigatorMoveFirstItem
             // 
             this.bindingNavigatorMoveFirstItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorMoveFirstItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveFirstItem.Image")));
+            resources.ApplyResources(this.bindingNavigatorMoveFirstItem, "bindingNavigatorMoveFirstItem");
             this.bindingNavigatorMoveFirstItem.Name = "bindingNavigatorMoveFirstItem";
-            this.bindingNavigatorMoveFirstItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMoveFirstItem.Size = new System.Drawing.Size(36, 36);
-            this.bindingNavigatorMoveFirstItem.Text = "Move first";
             // 
             // bindingNavigatorMovePreviousItem
             // 
             this.bindingNavigatorMovePreviousItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorMovePreviousItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMovePreviousItem.Image")));
+            resources.ApplyResources(this.bindingNavigatorMovePreviousItem, "bindingNavigatorMovePreviousItem");
             this.bindingNavigatorMovePreviousItem.Name = "bindingNavigatorMovePreviousItem";
-            this.bindingNavigatorMovePreviousItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMovePreviousItem.Size = new System.Drawing.Size(36, 36);
-            this.bindingNavigatorMovePreviousItem.Text = "Move previous";
             // 
             // bindingNavigatorSeparator
             // 
             this.bindingNavigatorSeparator.Name = "bindingNavigatorSeparator";
-            this.bindingNavigatorSeparator.Size = new System.Drawing.Size(6, 39);
+            resources.ApplyResources(this.bindingNavigatorSeparator, "bindingNavigatorSeparator");
             // 
             // bindingNavigatorPositionItem
             // 
-            this.bindingNavigatorPositionItem.AccessibleName = "Position";
-            this.bindingNavigatorPositionItem.AutoSize = false;
-            this.bindingNavigatorPositionItem.Font = new System.Drawing.Font("Segoe UI", 9F);
+            resources.ApplyResources(this.bindingNavigatorPositionItem, "bindingNavigatorPositionItem");
             this.bindingNavigatorPositionItem.Name = "bindingNavigatorPositionItem";
-            this.bindingNavigatorPositionItem.Size = new System.Drawing.Size(27, 23);
-            this.bindingNavigatorPositionItem.Text = "0";
-            this.bindingNavigatorPositionItem.ToolTipText = "Current position";
             // 
             // bindingNavigatorSeparator1
             // 
             this.bindingNavigatorSeparator1.Name = "bindingNavigatorSeparator1";
-            this.bindingNavigatorSeparator1.Size = new System.Drawing.Size(6, 39);
+            resources.ApplyResources(this.bindingNavigatorSeparator1, "bindingNavigatorSeparator1");
             // 
             // bindingNavigatorMoveNextItem
             // 
             this.bindingNavigatorMoveNextItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorMoveNextItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveNextItem.Image")));
+            resources.ApplyResources(this.bindingNavigatorMoveNextItem, "bindingNavigatorMoveNextItem");
             this.bindingNavigatorMoveNextItem.Name = "bindingNavigatorMoveNextItem";
-            this.bindingNavigatorMoveNextItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMoveNextItem.Size = new System.Drawing.Size(36, 36);
-            this.bindingNavigatorMoveNextItem.Text = "Move next";
             // 
             // bindingNavigatorMoveLastItem
             // 
             this.bindingNavigatorMoveLastItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorMoveLastItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveLastItem.Image")));
+            resources.ApplyResources(this.bindingNavigatorMoveLastItem, "bindingNavigatorMoveLastItem");
             this.bindingNavigatorMoveLastItem.Name = "bindingNavigatorMoveLastItem";
-            this.bindingNavigatorMoveLastItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMoveLastItem.Size = new System.Drawing.Size(36, 36);
-            this.bindingNavigatorMoveLastItem.Text = "Move last";
             // 
             // bindingNavigatorSeparator2
             // 
             this.bindingNavigatorSeparator2.Name = "bindingNavigatorSeparator2";
-            this.bindingNavigatorSeparator2.Size = new System.Drawing.Size(6, 39);
+            resources.ApplyResources(this.bindingNavigatorSeparator2, "bindingNavigatorSeparator2");
             // 
             // patientsBindingNavigatorSaveItem
             // 
             this.patientsBindingNavigatorSaveItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.patientsBindingNavigatorSaveItem.Image = ((System.Drawing.Image)(resources.GetObject("patientsBindingNavigatorSaveItem.Image")));
+            resources.ApplyResources(this.patientsBindingNavigatorSaveItem, "patientsBindingNavigatorSaveItem");
             this.patientsBindingNavigatorSaveItem.Name = "patientsBindingNavigatorSaveItem";
-            this.patientsBindingNavigatorSaveItem.Size = new System.Drawing.Size(36, 36);
-            this.patientsBindingNavigatorSaveItem.Text = "Save Data";
             this.patientsBindingNavigatorSaveItem.Click += new System.EventHandler(this.patientsBindingNavigatorSaveItem_Click);
             // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.timeUserControl1);
             this.groupBox1.Controls.Add(this.dateUserControl1);
-            this.groupBox1.Location = new System.Drawing.Point(19, 6);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            resources.ApplyResources(this.groupBox1, "groupBox1");
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.groupBox1.Size = new System.Drawing.Size(261, 46);
-            this.groupBox1.TabIndex = 3;
             this.groupBox1.TabStop = false;
             // 
             // timeUserControl1
             // 
-            this.timeUserControl1.Location = new System.Drawing.Point(1024, 9);
-            this.timeUserControl1.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            resources.ApplyResources(this.timeUserControl1, "timeUserControl1");
             this.timeUserControl1.Name = "timeUserControl1";
-            this.timeUserControl1.Size = new System.Drawing.Size(166, 29);
-            this.timeUserControl1.TabIndex = 13;
             // 
             // dateUserControl1
             // 
-            this.dateUserControl1.Location = new System.Drawing.Point(10, 9);
-            this.dateUserControl1.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            resources.ApplyResources(this.dateUserControl1, "dateUserControl1");
             this.dateUserControl1.Name = "dateUserControl1";
-            this.dateUserControl1.Size = new System.Drawing.Size(284, 29);
-            this.dateUserControl1.TabIndex = 1;
             // 
             // patientsTableAdapter
             // 
@@ -964,52 +735,37 @@
             // 
             // logoutButton
             // 
-            this.logoutButton.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.logoutButton.Location = new System.Drawing.Point(1174, 12);
+            resources.ApplyResources(this.logoutButton, "logoutButton");
             this.logoutButton.Name = "logoutButton";
-            this.logoutButton.Size = new System.Drawing.Size(136, 46);
-            this.logoutButton.TabIndex = 12;
-            this.logoutButton.Text = "Logout";
             this.logoutButton.UseVisualStyleBackColor = true;
             this.logoutButton.Click += new System.EventHandler(this.logoutButton_Click);
             // 
             // languageComboBox
             // 
             this.languageComboBox.Items.AddRange(new object[] {
-            "English",
-            "Français",
-            "Español"});
-            this.languageComboBox.Location = new System.Drawing.Point(1006, 12);
+            resources.GetString("languageComboBox.Items"),
+            resources.GetString("languageComboBox.Items1"),
+            resources.GetString("languageComboBox.Items2")});
+            resources.ApplyResources(this.languageComboBox, "languageComboBox");
             this.languageComboBox.Name = "languageComboBox";
-            this.languageComboBox.Size = new System.Drawing.Size(153, 21);
-            this.languageComboBox.TabIndex = 13;
             this.languageComboBox.SelectedIndexChanged += new System.EventHandler(this.languageComboBox_SelectedIndexChanged);
             // 
             // languageLabel
             // 
-            this.languageLabel.AutoSize = true;
-            this.languageLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.languageLabel.Location = new System.Drawing.Point(915, 10);
+            resources.ApplyResources(this.languageLabel, "languageLabel");
             this.languageLabel.Name = "languageLabel";
-            this.languageLabel.Size = new System.Drawing.Size(85, 20);
-            this.languageLabel.TabIndex = 14;
-            this.languageLabel.Text = "Language:";
             // 
             // ManagementForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1272, 552);
             this.Controls.Add(this.languageLabel);
             this.Controls.Add(this.languageComboBox);
             this.Controls.Add(this.logoutButton);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.patientsBindingNavigator);
             this.Controls.Add(this.tabControl1);
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "ManagementForm";
-            this.Text = "Hospital Management System";
             this.Load += new System.EventHandler(this.ManagementForm_Load);
             this.tabControl1.ResumeLayout(false);
             this.patientsTabPage.ResumeLayout(false);

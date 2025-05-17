@@ -52,56 +52,71 @@ namespace HospitalManagementSystem
 
         private void languageComboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (languageComboBox.SelectedIndex == 0)
+            //if (languageComboBox.SelectedIndex == 0)
+            //{
+            //    logoutButton.Text = "Logout";
+            //    patientsTabPage.Text = "Patients";
+            //    doctorsTabPage.Text = "Doctors";
+            //    appointmentsTabPage.Text = "Appointments";
+            //    recordsTabPage.Text = "Records";
+            //    filterAgeButton.Text = "Find patients older than...";
+            //    patientAgeLabel.Text = "Age";
+            //    findPatientBtn.Text = "Find Patient";
+            //    patientIdLabelPatients.Text = "Patient ID";
+            //    displayButton.Text = "Display all patients";
+            //    findDoctorBtn.Text = "Find Doctor";
+            //    doctorNameLabel.Text = "Doctor Name";
+            //    doctorIdLabelDoctors.Text = "Doctor Id";
+            //    findAvailableDocBtn.Text = "Find Available Doctor";
+            //    displayAllDoctorssBtn.Text = "Display All Doctors";
+            //    viewTodayBtn.Text = "Display today's Appointments";
+            //    displayAppintmentsBtn.Text = "Display all Appointments";
+            //    patientInfo.Text = "Patient's Information";
+            //    //patientIdLabelRecords.Text = "Id du Patient";
+            //    doctorInfo.Text = "Doctor's Information";
+            //    transferPatientButton.Text = "Transfer Patient To doctor";
+            //}
+            //if (languageComboBox.SelectedIndex == 1)
+            //{
+            //    logoutButton.Text = "Se deconnecter";
+            //    patientsTabPage.Text = "Patients";
+            //    doctorsTabPage.Text = "Docteurs";
+            //    appointmentsTabPage.Text = "Rendez-Vous";
+            //    recordsTabPage.Text = "Dossiers";
+            //    filterAgeButton.Text = "Trouve les patients plus grand que...";
+            //    patientAgeLabel.Text = "Age";
+            //    findPatientBtn.Text = "Trouver le patient";
+            //    patientIdLabelPatients.Text = "Id du Patient.";
+            //    displayButton.Text = "Voir tous les patients";
+            //    findDoctorBtn.Text = "Trouver un docteur";
+            //    doctorNameLabel.Text = "Nom";
+            //    doctorIdLabelDoctors.Text = "Id du docteur";
+            //    findAvailableDocBtn.Text = "Trouver un Docteur disponible";
+            //    displayAllDoctorssBtn.Text = "Voir  tous les docteurs";
+            //    viewTodayBtn.Text = "Voir les rendez-vous pour aujourd'hui";
+            //    displayAppintmentsBtn.Text = "Voir tous les rendez-vous";
+            //    patientInfo.Text = "Informations du Patient";
+            //    displayAppintmentsBtn.Text = "Id du Patient";
+            //    //   patientFirstNameLabelRecords.Text = "Prenom";
+            //    // patientLastNameLabelRecords.Text = "Nom du famille";
+            //    doctorInfo.Text = "Information du Docteur";
+            //    transferPatientButton.Text = "Transferer le Patient Au Docteur";
+            //}
+
+            var changeLanguage = new ChangeLanguage();
+            switch (languageComboBox.SelectedIndex) 
             {
-                logoutButton.Text = "Logout";
-                patientsTabPage.Text = "Patients";
-                doctorsTabPage.Text = "Doctors";
-                appointmentsTabPage.Text = "Appointments";
-                recordsTabPage.Text = "Records";
-                filterAgeButton.Text = "Find patients older than...";
-                patientAgeLabel.Text = "Age";
-                findPatientBtn.Text = "Find Patient";
-                patientIdLabelPatients.Text = "Patient ID";
-                displayButton.Text = "Display all patients";
-                findDoctorBtn.Text = "Find Doctor";
-                doctorNameLabel.Text = "Doctor Name";
-                doctorIdLabelDoctors.Text = "Doctor Id";
-                findAvailableDocBtn.Text = "Find Available Doctor";
-                displayAllDoctorssBtn.Text = "Display All Doctors";
-                viewTodayBtn.Text = "Display today's Appointments";
-                displayAppintmentsBtn.Text = "Display all Appointments";
-                patientInfo.Text = "Patient's Information";
-                //patientIdLabelRecords.Text = "Id du Patient";
-                doctorInfo.Text = "Doctor's Information";
-                transferPatientButton.Text = "Transfer Patient To doctor";
+                case 0: changeLanguage.UpdateLanguage("language", "en");
+                    Application.Restart();
+                    break;
+                case 1: changeLanguage.UpdateLanguage("language", "fr-CA");
+                        Application.Restart();
+                        break;
+                case 2: changeLanguage.UpdateLanguage("language", "es");
+                        Application.Restart();
+                        break;
             }
-            if (languageComboBox.SelectedIndex == 1)
-            {
-                logoutButton.Text = "Se deconnecter";
-                patientsTabPage.Text = "Patients";
-                doctorsTabPage.Text = "Docteurs";
-                appointmentsTabPage.Text = "Rendez-Vous";
-                recordsTabPage.Text = "Dossiers";
-                filterAgeButton.Text = "Trouve les patients plus grand que...";
-                patientAgeLabel.Text = "Age";
-                findPatientBtn.Text = "Trouver le patient";
-                patientIdLabelPatients.Text = "Id du Patient.";
-                displayButton.Text = "Voir tous les patients";
-                findDoctorBtn.Text = "Trouver un docteur";
-                doctorNameLabel.Text = "Nom";
-                doctorIdLabelDoctors.Text = "Id du docteur";
-                findAvailableDocBtn.Text = "Trouver un Docteur disponible";
-                displayAllDoctorssBtn.Text = "Voir  tous les docteurs";
-                viewTodayBtn.Text = "Voir les rendez-vous pour aujourd'hui";
-                displayAppintmentsBtn.Text = "Voir tous les rendez-vous";
-                patientInfo.Text = "Informations du Patient";
-                displayAppintmentsBtn.Text = "Id du Patient";
-                //   patientFirstNameLabelRecords.Text = "Prenom";
-                // patientLastNameLabelRecords.Text = "Nom du famille";
-                doctorInfo.Text = "Information du Docteur";
-                transferPatientButton.Text = "Transferer le Patient Au Docteur";
-            }
+
         }
 
         private void filterAgeButton_Click(object sender, EventArgs e)
