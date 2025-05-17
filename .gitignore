@@ -1,9 +1,9 @@
 # Ignore Visual Studio build files
-bin/
-obj/
+# bin/
+# obj/
 
 # Ignore database files
-*.mdf
+# *.mdf
 
 # Ignore the VS config folder
 .vs/
