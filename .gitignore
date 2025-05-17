@@ -13,3 +13,4 @@ obj/
 *.userosscache
 *.suo
 *.vscode/
+/HospitalManagementSystem/HospitalManagementSystem/bin/Debug/HospitalDatabase.mdf
