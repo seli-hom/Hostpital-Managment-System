@@ -3,6 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\talia\\OneDrive\\Documents\\VANIER\\ComputerScienceTechnology\\Y2S1\\ApplicationDevelopment\\Hostpital-Managment-System\\HospitalManagementSystem\\",
   "Documents": [
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{5A5B220D-F524-4401-A1A1-14C6378CBA86}|HospitalManagementSystem\\HospitalManagementSystem.csproj|c:\\users\\talia\\onedrive\\documents\\vanier\\computersciencetechnology\\y2s1\\applicationdevelopment\\hostpital-managment-system\\hospitalmanagementsystem\\hospitalmanagementsystem\\managementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{5A5B220D-F524-4401-A1A1-14C6378CBA86}|HospitalManagementSystem\\HospitalManagementSystem.csproj|solutionrelative:hospitalmanagementsystem\\managementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
@@ -17,6 +18,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{5A5B220D-F524-4401-A1A1-14C6378CBA86}|HospitalManagementSystem\\HospitalManagementSystem.csproj|c:\\users\\talia\\onedrive\\documents\\vanier\\computersciencetechnology\\y2s1\\applicationdevelopment\\hostpital-managment-system\\hospitalmanagementsystem\\hospitalmanagementsystem\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{5A5B220D-F524-4401-A1A1-14C6378CBA86}|HospitalManagementSystem\\HospitalManagementSystem.csproj|solutionrelative:hospitalmanagementsystem\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+=======
+      "AbsoluteMoniker": "D:0:0:{5A5B220D-F524-4401-A1A1-14C6378CBA86}|HospitalManagementSystem\\HospitalManagementSystem.csproj|C:\\Users\\2057195\\Desktop\\Hostpital-Managment-System\\HospitalManagementSystem\\hospitalmanagementsystem\\managementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A5B220D-F524-4401-A1A1-14C6378CBA86}|HospitalManagementSystem\\HospitalManagementSystem.csproj|solutionrelative:hospitalmanagementsystem\\managementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A5B220D-F524-4401-A1A1-14C6378CBA86}|HospitalManagementSystem\\HospitalManagementSystem.csproj|c:\\users\\2057195\\desktop\\hostpital-managment-system\\hospitalmanagementsystem\\hospitalmanagementsystem\\managementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5A5B220D-F524-4401-A1A1-14C6378CBA86}|HospitalManagementSystem\\HospitalManagementSystem.csproj|solutionrelative:hospitalmanagementsystem\\managementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+>>>>>>> refs/remotes/origin/main
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +35,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< HEAD
           "SelectedChildIndex": 4,
+=======
+          "SelectedChildIndex": 1,
+>>>>>>> refs/remotes/origin/main
           "Children": [
             {
               "$type": "Bookmark",
@@ -60,20 +73,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "ManagementForm.cs",
               "DocumentMoniker": "C:\\Users\\talia\\OneDrive\\Documents\\VANIER\\ComputerScienceTechnology\\Y2S1\\ApplicationDevelopment\\Hostpital-Managment-System\\HospitalManagementSystem\\HospitalManagementSystem\\ManagementForm.cs",
               "RelativeDocumentMoniker": "HospitalManagementSystem\\ManagementForm.cs",
               "ToolTip": "C:\\Users\\talia\\OneDrive\\Documents\\VANIER\\ComputerScienceTechnology\\Y2S1\\ApplicationDevelopment\\Hostpital-Managment-System\\HospitalManagementSystem\\HospitalManagementSystem\\ManagementForm.cs",
               "RelativeToolTip": "HospitalManagementSystem\\ManagementForm.cs",
+<<<<<<< HEAD
               "ViewState": "AgIAACkAAAAAAAAAAAAgwDIAAAAJAAAAAAAAAA==",
+=======
+              "ViewState": "AQIAAAMAAAAAAAAAAAAwwB0AAAAMAAAA",
+>>>>>>> refs/remotes/origin/main
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-15T02:37:21.357Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ManagementForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\talia\\OneDrive\\Documents\\VANIER\\ComputerScienceTechnology\\Y2S1\\ApplicationDevelopment\\Hostpital-Managment-System\\HospitalManagementSystem\\HospitalManagementSystem\\ManagementForm.cs",
               "RelativeDocumentMoniker": "HospitalManagementSystem\\ManagementForm.cs",
