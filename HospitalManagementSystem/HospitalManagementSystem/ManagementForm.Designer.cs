@@ -146,44 +146,52 @@
             // 
             resources.ApplyResources(patientIdLabelRecords, "patientIdLabelRecords");
             patientIdLabelRecords.Name = "patientIdLabelRecords";
+            this.findPatientTip.SetToolTip(patientIdLabelRecords, resources.GetString("patientIdLabelRecords.ToolTip"));
             // 
             // doctorFirstNameLabelRecords
             // 
             resources.ApplyResources(doctorFirstNameLabelRecords, "doctorFirstNameLabelRecords");
             doctorFirstNameLabelRecords.Name = "doctorFirstNameLabelRecords";
+            this.findPatientTip.SetToolTip(doctorFirstNameLabelRecords, resources.GetString("doctorFirstNameLabelRecords.ToolTip"));
             // 
             // specialtyLabel
             // 
             resources.ApplyResources(specialtyLabel, "specialtyLabel");
             specialtyLabel.Name = "specialtyLabel";
+            this.findPatientTip.SetToolTip(specialtyLabel, resources.GetString("specialtyLabel.ToolTip"));
             // 
             // doctorLastNameLabelRecords
             // 
             resources.ApplyResources(doctorLastNameLabelRecords, "doctorLastNameLabelRecords");
             doctorLastNameLabelRecords.Name = "doctorLastNameLabelRecords";
+            this.findPatientTip.SetToolTip(doctorLastNameLabelRecords, resources.GetString("doctorLastNameLabelRecords.ToolTip"));
             // 
             // patientFirstNameLabelRecords
             // 
             resources.ApplyResources(patientFirstNameLabelRecords, "patientFirstNameLabelRecords");
             patientFirstNameLabelRecords.Name = "patientFirstNameLabelRecords";
+            this.findPatientTip.SetToolTip(patientFirstNameLabelRecords, resources.GetString("patientFirstNameLabelRecords.ToolTip"));
             // 
             // patientLastNameLabelRecords
             // 
             resources.ApplyResources(patientLastNameLabelRecords, "patientLastNameLabelRecords");
             patientLastNameLabelRecords.Name = "patientLastNameLabelRecords";
+            this.findPatientTip.SetToolTip(patientLastNameLabelRecords, resources.GetString("patientLastNameLabelRecords.ToolTip"));
             // 
             // tabControl1
             // 
+            resources.ApplyResources(this.tabControl1, "tabControl1");
             this.tabControl1.Controls.Add(this.patientsTabPage);
             this.tabControl1.Controls.Add(this.doctorsTabPage);
             this.tabControl1.Controls.Add(this.appointmentsTabPage);
             this.tabControl1.Controls.Add(this.recordsTabPage);
-            resources.ApplyResources(this.tabControl1, "tabControl1");
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
+            this.findPatientTip.SetToolTip(this.tabControl1, resources.GetString("tabControl1.ToolTip"));
             // 
             // patientsTabPage
             // 
+            resources.ApplyResources(this.patientsTabPage, "patientsTabPage");
             this.patientsTabPage.Controls.Add(this.bloodTypeComboBox);
             this.patientsTabPage.Controls.Add(this.filterByBloodButton);
             this.patientsTabPage.Controls.Add(this.patientIdTextBoxPatients);
@@ -194,12 +202,13 @@
             this.patientsTabPage.Controls.Add(this.findPatientBtn);
             this.patientsTabPage.Controls.Add(this.displayButton);
             this.patientsTabPage.Controls.Add(this.filterAgeButton);
-            resources.ApplyResources(this.patientsTabPage, "patientsTabPage");
             this.patientsTabPage.Name = "patientsTabPage";
+            this.findPatientTip.SetToolTip(this.patientsTabPage, resources.GetString("patientsTabPage.ToolTip"));
             this.patientsTabPage.UseVisualStyleBackColor = true;
             // 
             // bloodTypeComboBox
             // 
+            resources.ApplyResources(this.bloodTypeComboBox, "bloodTypeComboBox");
             this.bloodTypeComboBox.FormattingEnabled = true;
             this.bloodTypeComboBox.Items.AddRange(new object[] {
             resources.GetString("bloodTypeComboBox.Items"),
@@ -210,8 +219,8 @@
             resources.GetString("bloodTypeComboBox.Items5"),
             resources.GetString("bloodTypeComboBox.Items6"),
             resources.GetString("bloodTypeComboBox.Items7")});
-            resources.ApplyResources(this.bloodTypeComboBox, "bloodTypeComboBox");
             this.bloodTypeComboBox.Name = "bloodTypeComboBox";
+            this.findPatientTip.SetToolTip(this.bloodTypeComboBox, resources.GetString("bloodTypeComboBox.ToolTip"));
             // 
             // filterByBloodButton
             // 
@@ -225,24 +234,29 @@
             // 
             resources.ApplyResources(this.patientIdTextBoxPatients, "patientIdTextBoxPatients");
             this.patientIdTextBoxPatients.Name = "patientIdTextBoxPatients";
+            this.findPatientTip.SetToolTip(this.patientIdTextBoxPatients, resources.GetString("patientIdTextBoxPatients.ToolTip"));
             // 
             // patientIdLabelPatients
             // 
             resources.ApplyResources(this.patientIdLabelPatients, "patientIdLabelPatients");
             this.patientIdLabelPatients.Name = "patientIdLabelPatients";
+            this.findPatientTip.SetToolTip(this.patientIdLabelPatients, resources.GetString("patientIdLabelPatients.ToolTip"));
             // 
             // patientAgeTextBox
             // 
             resources.ApplyResources(this.patientAgeTextBox, "patientAgeTextBox");
             this.patientAgeTextBox.Name = "patientAgeTextBox";
+            this.findPatientTip.SetToolTip(this.patientAgeTextBox, resources.GetString("patientAgeTextBox.ToolTip"));
             // 
             // patientAgeLabel
             // 
             resources.ApplyResources(this.patientAgeLabel, "patientAgeLabel");
             this.patientAgeLabel.Name = "patientAgeLabel";
+            this.findPatientTip.SetToolTip(this.patientAgeLabel, resources.GetString("patientAgeLabel.ToolTip"));
             // 
             // patientsDataGridView
             // 
+            resources.ApplyResources(this.patientsDataGridView, "patientsDataGridView");
             this.patientsDataGridView.AutoGenerateColumns = false;
             this.patientsDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.patientsDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -255,8 +269,8 @@
             this.dataGridViewTextBoxColumn7,
             this.dataGridViewTextBoxColumn8});
             this.patientsDataGridView.DataSource = this.patientsBindingSource;
-            resources.ApplyResources(this.patientsDataGridView, "patientsDataGridView");
             this.patientsDataGridView.Name = "patientsDataGridView";
+            this.findPatientTip.SetToolTip(this.patientsDataGridView, resources.GetString("patientsDataGridView.ToolTip"));
             // 
             // dataGridViewTextBoxColumn1
             // 
@@ -343,6 +357,7 @@
             // 
             // doctorsTabPage
             // 
+            resources.ApplyResources(this.doctorsTabPage, "doctorsTabPage");
             this.doctorsTabPage.Controls.Add(this.doctorIdTextBoxDoctors);
             this.doctorsTabPage.Controls.Add(this.doctorIdLabelDoctors);
             this.doctorsTabPage.Controls.Add(this.doctorNameTextBox);
@@ -351,29 +366,33 @@
             this.doctorsTabPage.Controls.Add(this.displayAllDoctorssBtn);
             this.doctorsTabPage.Controls.Add(this.findDoctorBtn);
             this.doctorsTabPage.Controls.Add(this.doctorsDataGridView);
-            resources.ApplyResources(this.doctorsTabPage, "doctorsTabPage");
             this.doctorsTabPage.Name = "doctorsTabPage";
+            this.findPatientTip.SetToolTip(this.doctorsTabPage, resources.GetString("doctorsTabPage.ToolTip"));
             this.doctorsTabPage.UseVisualStyleBackColor = true;
             // 
             // doctorIdTextBoxDoctors
             // 
             resources.ApplyResources(this.doctorIdTextBoxDoctors, "doctorIdTextBoxDoctors");
             this.doctorIdTextBoxDoctors.Name = "doctorIdTextBoxDoctors";
+            this.findPatientTip.SetToolTip(this.doctorIdTextBoxDoctors, resources.GetString("doctorIdTextBoxDoctors.ToolTip"));
             // 
             // doctorIdLabelDoctors
             // 
             resources.ApplyResources(this.doctorIdLabelDoctors, "doctorIdLabelDoctors");
             this.doctorIdLabelDoctors.Name = "doctorIdLabelDoctors";
+            this.findPatientTip.SetToolTip(this.doctorIdLabelDoctors, resources.GetString("doctorIdLabelDoctors.ToolTip"));
             // 
             // doctorNameTextBox
             // 
             resources.ApplyResources(this.doctorNameTextBox, "doctorNameTextBox");
             this.doctorNameTextBox.Name = "doctorNameTextBox";
+            this.findPatientTip.SetToolTip(this.doctorNameTextBox, resources.GetString("doctorNameTextBox.ToolTip"));
             // 
             // doctorNameLabel
             // 
             resources.ApplyResources(this.doctorNameLabel, "doctorNameLabel");
             this.doctorNameLabel.Name = "doctorNameLabel";
+            this.findPatientTip.SetToolTip(this.doctorNameLabel, resources.GetString("doctorNameLabel.ToolTip"));
             // 
             // findAvailableDocBtn
             // 
@@ -401,6 +420,7 @@
             // 
             // doctorsDataGridView
             // 
+            resources.ApplyResources(this.doctorsDataGridView, "doctorsDataGridView");
             this.doctorsDataGridView.AutoGenerateColumns = false;
             this.doctorsDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.doctorsDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -410,9 +430,9 @@
             this.dataGridViewTextBoxColumn13,
             this.dataGridViewTextBoxColumn14});
             this.doctorsDataGridView.DataSource = this.doctorsBindingSource;
-            resources.ApplyResources(this.doctorsDataGridView, "doctorsDataGridView");
             this.doctorsDataGridView.Name = "doctorsDataGridView";
             this.doctorsDataGridView.RowTemplate.Height = 33;
+            this.findPatientTip.SetToolTip(this.doctorsDataGridView, resources.GetString("doctorsDataGridView.ToolTip"));
             // 
             // dataGridViewTextBoxColumn10
             // 
@@ -452,11 +472,12 @@
             // 
             // appointmentsTabPage
             // 
+            resources.ApplyResources(this.appointmentsTabPage, "appointmentsTabPage");
             this.appointmentsTabPage.Controls.Add(this.displayAppintmentsBtn);
             this.appointmentsTabPage.Controls.Add(this.appointmentsDataGridView);
             this.appointmentsTabPage.Controls.Add(this.viewTodayBtn);
-            resources.ApplyResources(this.appointmentsTabPage, "appointmentsTabPage");
             this.appointmentsTabPage.Name = "appointmentsTabPage";
+            this.findPatientTip.SetToolTip(this.appointmentsTabPage, resources.GetString("appointmentsTabPage.ToolTip"));
             this.appointmentsTabPage.UseVisualStyleBackColor = true;
             // 
             // displayAppintmentsBtn
@@ -468,6 +489,7 @@
             // 
             // appointmentsDataGridView
             // 
+            resources.ApplyResources(this.appointmentsDataGridView, "appointmentsDataGridView");
             this.appointmentsDataGridView.AutoGenerateColumns = false;
             this.appointmentsDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.appointmentsDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -477,9 +499,9 @@
             this.dataGridViewTextBoxColumn18,
             this.dataGridViewTextBoxColumn19});
             this.appointmentsDataGridView.DataSource = this.appointmentsBindingSource;
-            resources.ApplyResources(this.appointmentsDataGridView, "appointmentsDataGridView");
             this.appointmentsDataGridView.Name = "appointmentsDataGridView";
             this.appointmentsDataGridView.RowTemplate.Height = 33;
+            this.findPatientTip.SetToolTip(this.appointmentsDataGridView, resources.GetString("appointmentsDataGridView.ToolTip"));
             // 
             // dataGridViewTextBoxColumn15
             // 
@@ -523,81 +545,92 @@
             this.viewTodayBtn.Name = "viewTodayBtn";
             this.findPatientTip.SetToolTip(this.viewTodayBtn, resources.GetString("viewTodayBtn.ToolTip"));
             this.viewTodayBtn.UseVisualStyleBackColor = true;
+            this.viewTodayBtn.Click += new System.EventHandler(this.viewTodayBtn_Click);
             // 
             // recordsTabPage
             // 
+            resources.ApplyResources(this.recordsTabPage, "recordsTabPage");
             this.recordsTabPage.Controls.Add(this.transferPatientButton);
             this.recordsTabPage.Controls.Add(this.doctorInfo);
             this.recordsTabPage.Controls.Add(this.patientInfo);
-            resources.ApplyResources(this.recordsTabPage, "recordsTabPage");
             this.recordsTabPage.Name = "recordsTabPage";
+            this.findPatientTip.SetToolTip(this.recordsTabPage, resources.GetString("recordsTabPage.ToolTip"));
             this.recordsTabPage.UseVisualStyleBackColor = true;
             // 
             // transferPatientButton
             // 
             resources.ApplyResources(this.transferPatientButton, "transferPatientButton");
             this.transferPatientButton.Name = "transferPatientButton";
+            this.findPatientTip.SetToolTip(this.transferPatientButton, resources.GetString("transferPatientButton.ToolTip"));
             this.transferPatientButton.UseVisualStyleBackColor = true;
             // 
             // doctorInfo
             // 
+            resources.ApplyResources(this.doctorInfo, "doctorInfo");
             this.doctorInfo.Controls.Add(this.doctorFirstNameTextBox);
             this.doctorInfo.Controls.Add(doctorFirstNameLabelRecords);
             this.doctorInfo.Controls.Add(doctorLastNameLabelRecords);
             this.doctorInfo.Controls.Add(this.specialtyTextBox);
             this.doctorInfo.Controls.Add(this.doctorLastNameTextBox);
             this.doctorInfo.Controls.Add(specialtyLabel);
-            resources.ApplyResources(this.doctorInfo, "doctorInfo");
             this.doctorInfo.Name = "doctorInfo";
             this.doctorInfo.TabStop = false;
+            this.findPatientTip.SetToolTip(this.doctorInfo, resources.GetString("doctorInfo.ToolTip"));
             // 
             // doctorFirstNameTextBox
             // 
-            this.doctorFirstNameTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.doctorsBindingSource, "FirstName", true));
             resources.ApplyResources(this.doctorFirstNameTextBox, "doctorFirstNameTextBox");
+            this.doctorFirstNameTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.doctorsBindingSource, "FirstName", true));
             this.doctorFirstNameTextBox.Name = "doctorFirstNameTextBox";
+            this.findPatientTip.SetToolTip(this.doctorFirstNameTextBox, resources.GetString("doctorFirstNameTextBox.ToolTip"));
             // 
             // specialtyTextBox
             // 
-            this.specialtyTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.doctorsBindingSource, "Specialty", true));
             resources.ApplyResources(this.specialtyTextBox, "specialtyTextBox");
+            this.specialtyTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.doctorsBindingSource, "Specialty", true));
             this.specialtyTextBox.Name = "specialtyTextBox";
+            this.findPatientTip.SetToolTip(this.specialtyTextBox, resources.GetString("specialtyTextBox.ToolTip"));
             // 
             // doctorLastNameTextBox
             // 
-            this.doctorLastNameTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.doctorsBindingSource, "LastName", true));
             resources.ApplyResources(this.doctorLastNameTextBox, "doctorLastNameTextBox");
+            this.doctorLastNameTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.doctorsBindingSource, "LastName", true));
             this.doctorLastNameTextBox.Name = "doctorLastNameTextBox";
+            this.findPatientTip.SetToolTip(this.doctorLastNameTextBox, resources.GetString("doctorLastNameTextBox.ToolTip"));
             // 
             // patientInfo
             // 
+            resources.ApplyResources(this.patientInfo, "patientInfo");
             this.patientInfo.Controls.Add(this.patientIdTextBoxRecords);
             this.patientInfo.Controls.Add(patientLastNameLabelRecords);
             this.patientInfo.Controls.Add(patientIdLabelRecords);
             this.patientInfo.Controls.Add(this.patientLastNameTextBox);
             this.patientInfo.Controls.Add(patientFirstNameLabelRecords);
             this.patientInfo.Controls.Add(this.patientFirstNameTextBox);
-            resources.ApplyResources(this.patientInfo, "patientInfo");
             this.patientInfo.Name = "patientInfo";
             this.patientInfo.TabStop = false;
+            this.findPatientTip.SetToolTip(this.patientInfo, resources.GetString("patientInfo.ToolTip"));
             // 
             // patientIdTextBoxRecords
             // 
-            this.patientIdTextBoxRecords.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.patientsBindingSource, "PatientId", true));
             resources.ApplyResources(this.patientIdTextBoxRecords, "patientIdTextBoxRecords");
+            this.patientIdTextBoxRecords.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.patientsBindingSource, "PatientId", true));
             this.patientIdTextBoxRecords.Name = "patientIdTextBoxRecords";
+            this.findPatientTip.SetToolTip(this.patientIdTextBoxRecords, resources.GetString("patientIdTextBoxRecords.ToolTip"));
             // 
             // patientLastNameTextBox
             // 
-            this.patientLastNameTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.patientsBindingSource, "LastName", true));
             resources.ApplyResources(this.patientLastNameTextBox, "patientLastNameTextBox");
+            this.patientLastNameTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.patientsBindingSource, "LastName", true));
             this.patientLastNameTextBox.Name = "patientLastNameTextBox";
+            this.findPatientTip.SetToolTip(this.patientLastNameTextBox, resources.GetString("patientLastNameTextBox.ToolTip"));
             // 
             // patientFirstNameTextBox
             // 
-            this.patientFirstNameTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.patientsBindingSource, "FirstName", true));
             resources.ApplyResources(this.patientFirstNameTextBox, "patientFirstNameTextBox");
+            this.patientFirstNameTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.patientsBindingSource, "FirstName", true));
             this.patientFirstNameTextBox.Name = "patientFirstNameTextBox";
+            this.findPatientTip.SetToolTip(this.patientFirstNameTextBox, resources.GetString("patientFirstNameTextBox.ToolTip"));
             // 
             // tableAdapterManager
             // 
@@ -617,8 +650,8 @@
             // 
             // patientsBindingNavigator
             // 
-            this.patientsBindingNavigator.AddNewItem = this.bindingNavigatorAddNewItem;
             resources.ApplyResources(this.patientsBindingNavigator, "patientsBindingNavigator");
+            this.patientsBindingNavigator.AddNewItem = this.bindingNavigatorAddNewItem;
             this.patientsBindingNavigator.BindingSource = this.patientsBindingSource;
             this.patientsBindingNavigator.CountItem = this.bindingNavigatorCountItem;
             this.patientsBindingNavigator.DeleteItem = this.bindingNavigatorDeleteItem;
@@ -642,40 +675,41 @@
             this.patientsBindingNavigator.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
             this.patientsBindingNavigator.Name = "patientsBindingNavigator";
             this.patientsBindingNavigator.PositionItem = this.bindingNavigatorPositionItem;
+            this.findPatientTip.SetToolTip(this.patientsBindingNavigator, resources.GetString("patientsBindingNavigator.ToolTip"));
             // 
             // bindingNavigatorAddNewItem
             // 
-            this.bindingNavigatorAddNewItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             resources.ApplyResources(this.bindingNavigatorAddNewItem, "bindingNavigatorAddNewItem");
+            this.bindingNavigatorAddNewItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.bindingNavigatorAddNewItem.Name = "bindingNavigatorAddNewItem";
             // 
             // bindingNavigatorCountItem
             // 
-            this.bindingNavigatorCountItem.Name = "bindingNavigatorCountItem";
             resources.ApplyResources(this.bindingNavigatorCountItem, "bindingNavigatorCountItem");
+            this.bindingNavigatorCountItem.Name = "bindingNavigatorCountItem";
             // 
             // bindingNavigatorDeleteItem
             // 
-            this.bindingNavigatorDeleteItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             resources.ApplyResources(this.bindingNavigatorDeleteItem, "bindingNavigatorDeleteItem");
+            this.bindingNavigatorDeleteItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.bindingNavigatorDeleteItem.Name = "bindingNavigatorDeleteItem";
             // 
             // bindingNavigatorMoveFirstItem
             // 
-            this.bindingNavigatorMoveFirstItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             resources.ApplyResources(this.bindingNavigatorMoveFirstItem, "bindingNavigatorMoveFirstItem");
+            this.bindingNavigatorMoveFirstItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.bindingNavigatorMoveFirstItem.Name = "bindingNavigatorMoveFirstItem";
             // 
             // bindingNavigatorMovePreviousItem
             // 
-            this.bindingNavigatorMovePreviousItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             resources.ApplyResources(this.bindingNavigatorMovePreviousItem, "bindingNavigatorMovePreviousItem");
+            this.bindingNavigatorMovePreviousItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.bindingNavigatorMovePreviousItem.Name = "bindingNavigatorMovePreviousItem";
             // 
             // bindingNavigatorSeparator
             // 
-            this.bindingNavigatorSeparator.Name = "bindingNavigatorSeparator";
             resources.ApplyResources(this.bindingNavigatorSeparator, "bindingNavigatorSeparator");
+            this.bindingNavigatorSeparator.Name = "bindingNavigatorSeparator";
             // 
             // bindingNavigatorPositionItem
             // 
@@ -684,50 +718,53 @@
             // 
             // bindingNavigatorSeparator1
             // 
-            this.bindingNavigatorSeparator1.Name = "bindingNavigatorSeparator1";
             resources.ApplyResources(this.bindingNavigatorSeparator1, "bindingNavigatorSeparator1");
+            this.bindingNavigatorSeparator1.Name = "bindingNavigatorSeparator1";
             // 
             // bindingNavigatorMoveNextItem
             // 
-            this.bindingNavigatorMoveNextItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             resources.ApplyResources(this.bindingNavigatorMoveNextItem, "bindingNavigatorMoveNextItem");
+            this.bindingNavigatorMoveNextItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.bindingNavigatorMoveNextItem.Name = "bindingNavigatorMoveNextItem";
             // 
             // bindingNavigatorMoveLastItem
             // 
-            this.bindingNavigatorMoveLastItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             resources.ApplyResources(this.bindingNavigatorMoveLastItem, "bindingNavigatorMoveLastItem");
+            this.bindingNavigatorMoveLastItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.bindingNavigatorMoveLastItem.Name = "bindingNavigatorMoveLastItem";
             // 
             // bindingNavigatorSeparator2
             // 
-            this.bindingNavigatorSeparator2.Name = "bindingNavigatorSeparator2";
             resources.ApplyResources(this.bindingNavigatorSeparator2, "bindingNavigatorSeparator2");
+            this.bindingNavigatorSeparator2.Name = "bindingNavigatorSeparator2";
             // 
             // patientsBindingNavigatorSaveItem
             // 
-            this.patientsBindingNavigatorSaveItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             resources.ApplyResources(this.patientsBindingNavigatorSaveItem, "patientsBindingNavigatorSaveItem");
+            this.patientsBindingNavigatorSaveItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.patientsBindingNavigatorSaveItem.Name = "patientsBindingNavigatorSaveItem";
             this.patientsBindingNavigatorSaveItem.Click += new System.EventHandler(this.patientsBindingNavigatorSaveItem_Click);
             // 
             // groupBox1
             // 
+            resources.ApplyResources(this.groupBox1, "groupBox1");
             this.groupBox1.Controls.Add(this.timeUserControl1);
             this.groupBox1.Controls.Add(this.dateUserControl1);
-            resources.ApplyResources(this.groupBox1, "groupBox1");
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.TabStop = false;
+            this.findPatientTip.SetToolTip(this.groupBox1, resources.GetString("groupBox1.ToolTip"));
             // 
             // timeUserControl1
             // 
             resources.ApplyResources(this.timeUserControl1, "timeUserControl1");
             this.timeUserControl1.Name = "timeUserControl1";
+            this.findPatientTip.SetToolTip(this.timeUserControl1, resources.GetString("timeUserControl1.ToolTip"));
             // 
             // dateUserControl1
             // 
             resources.ApplyResources(this.dateUserControl1, "dateUserControl1");
             this.dateUserControl1.Name = "dateUserControl1";
+            this.findPatientTip.SetToolTip(this.dateUserControl1, resources.GetString("dateUserControl1.ToolTip"));
             // 
             // patientsTableAdapter
             // 
@@ -737,23 +774,26 @@
             // 
             resources.ApplyResources(this.logoutButton, "logoutButton");
             this.logoutButton.Name = "logoutButton";
+            this.findPatientTip.SetToolTip(this.logoutButton, resources.GetString("logoutButton.ToolTip"));
             this.logoutButton.UseVisualStyleBackColor = true;
             this.logoutButton.Click += new System.EventHandler(this.logoutButton_Click);
             // 
             // languageComboBox
             // 
+            resources.ApplyResources(this.languageComboBox, "languageComboBox");
             this.languageComboBox.Items.AddRange(new object[] {
             resources.GetString("languageComboBox.Items"),
             resources.GetString("languageComboBox.Items1"),
             resources.GetString("languageComboBox.Items2")});
-            resources.ApplyResources(this.languageComboBox, "languageComboBox");
             this.languageComboBox.Name = "languageComboBox";
+            this.findPatientTip.SetToolTip(this.languageComboBox, resources.GetString("languageComboBox.ToolTip"));
             this.languageComboBox.SelectedIndexChanged += new System.EventHandler(this.languageComboBox_SelectedIndexChanged);
             // 
             // languageLabel
             // 
             resources.ApplyResources(this.languageLabel, "languageLabel");
             this.languageLabel.Name = "languageLabel";
+            this.findPatientTip.SetToolTip(this.languageLabel, resources.GetString("languageLabel.ToolTip"));
             // 
             // ManagementForm
             // 
@@ -766,6 +806,7 @@
             this.Controls.Add(this.patientsBindingNavigator);
             this.Controls.Add(this.tabControl1);
             this.Name = "ManagementForm";
+            this.findPatientTip.SetToolTip(this, resources.GetString("$this.ToolTip"));
             this.Load += new System.EventHandler(this.ManagementForm_Load);
             this.tabControl1.ResumeLayout(false);
             this.patientsTabPage.ResumeLayout(false);

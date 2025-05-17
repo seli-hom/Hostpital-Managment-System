@@ -74,3 +74,6 @@ C:\Users\Samuel\Selihom\Desktop\gitRepos\Hostpital-Managment-System\HospitalMana
 C:\Users\Samuel\Selihom\Desktop\gitRepos\Hostpital-Managment-System\HospitalManagementSystem\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.csproj.CoreCompileInputs.cache
 C:\Users\Samuel\Selihom\Desktop\gitRepos\Hostpital-Managment-System\HospitalManagementSystem\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.exe
 C:\Users\Samuel\Selihom\Desktop\gitRepos\Hostpital-Managment-System\HospitalManagementSystem\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.pdb
+C:\Users\Samuel\Selihom\Desktop\gitRepos\Hostpital-Managment-System\HospitalManagementSystem\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.ManagementForm.en.resources
+C:\Users\Samuel\Selihom\Desktop\gitRepos\Hostpital-Managment-System\HospitalManagementSystem\HospitalManagementSystem\bin\Debug\en\HospitalManagementSystem.resources.dll
+C:\Users\Samuel\Selihom\Desktop\gitRepos\Hostpital-Managment-System\HospitalManagementSystem\HospitalManagementSystem\obj\Debug\en\HospitalManagementSystem.resources.dll
