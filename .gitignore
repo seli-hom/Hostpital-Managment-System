@@ -1,1 +1,15 @@
+# Ignore Visual Studio build files
+bin/
+obj/
+
+# Ignore database files
+*.mdf
+
+# Ignore the VS config folder
 .vs/
+
+# Ignore user-specific files
+*.user
+*.userosscache
+*.suo
+*.vscode/
