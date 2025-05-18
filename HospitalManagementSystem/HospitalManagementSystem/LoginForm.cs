@@ -34,7 +34,9 @@ namespace HospitalManagementSystem
                 return;
             }
 
-            if (users.ContainsKey(username) && users[username] == password)
+            var loginAdapter = new HospitalDatabaseDataSetTableAdapters.LoginTableAdapter();
+            var result = loginAdapter.GetDataByUsernameAndPassword(username, password);
+            if (result.Rows.Count > 0)
             {
                 loginAttempts = 0;
                 this.Hide();

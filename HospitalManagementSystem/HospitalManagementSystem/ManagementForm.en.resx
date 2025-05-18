@@ -121,78 +121,339 @@
   <data name="patientIdLabelRecords.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="patientIdLabelRecords.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 51</value>
+  </data>
+  <data name="patientIdLabelRecords.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 21</value>
+  </data>
   <data name="doctorFirstNameLabelRecords.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="doctorFirstNameLabelRecords.Location" type="System.Drawing.Point, System.Drawing">
-    <value>22, 41</value>
+    <value>16, 33</value>
+  </data>
+  <data name="doctorFirstNameLabelRecords.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 21</value>
   </data>
   <data name="specialtyLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="specialtyLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>22, 104</value>
+    <value>16, 84</value>
+  </data>
+  <data name="specialtyLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 21</value>
   </data>
   <data name="doctorLastNameLabelRecords.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
+  <data name="doctorLastNameLabelRecords.Location" type="System.Drawing.Point, System.Drawing">
+    <value>238, 34</value>
+  </data>
+  <data name="doctorLastNameLabelRecords.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 21</value>
+  </data>
   <data name="patientFirstNameLabelRecords.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
+  </data>
+  <data name="patientFirstNameLabelRecords.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 107</value>
+  </data>
+  <data name="patientFirstNameLabelRecords.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 21</value>
   </data>
   <data name="patientLastNameLabelRecords.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
+  <data name="patientLastNameLabelRecords.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 157</value>
+  </data>
+  <data name="patientLastNameLabelRecords.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 21</value>
+  </data>
   <data name="bloodTypeComboBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>913, 384</value>
+    <value>685, 312</value>
+  </data>
+  <data name="bloodTypeComboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>221, 29</value>
   </data>
   <data name="filterByBloodButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
+  <data name="filterByBloodButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>434, 312</value>
+  </data>
+  <data name="filterByBloodButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 46</value>
+  </data>
+  <data name="patientIdTextBoxPatients.Location" type="System.Drawing.Point, System.Drawing">
+    <value>685, 258</value>
+  </data>
+  <data name="patientIdTextBoxPatients.Size" type="System.Drawing.Size, System.Drawing">
+    <value>221, 27</value>
+  </data>
   <data name="patientIdLabelPatients.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
+  </data>
+  <data name="patientIdLabelPatients.Location" type="System.Drawing.Point, System.Drawing">
+    <value>575, 262</value>
+  </data>
+  <data name="patientIdLabelPatients.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 20</value>
+  </data>
+  <data name="patientAgeTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>205, 264</value>
+  </data>
+  <data name="patientAgeTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 27</value>
   </data>
   <data name="patientAgeLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
+  <data name="patientAgeLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 268</value>
+  </data>
+  <data name="patientAgeLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 20</value>
+  </data>
+  <data name="patientsDataGridView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 5</value>
+  </data>
+  <data name="patientsDataGridView.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="patientsDataGridView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>901, 220</value>
+  </data>
   <data name="findPatientBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
+  </data>
+  <data name="findPatientBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>433, 248</value>
+  </data>
+  <data name="findPatientBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 46</value>
   </data>
   <data name="displayButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
+  <data name="displayButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>936, 5</value>
+  </data>
+  <data name="displayButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>222, 46</value>
+  </data>
   <data name="filterAgeButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
+  </data>
+  <data name="filterAgeButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 245</value>
+  </data>
+  <data name="filterAgeButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 46</value>
+  </data>
+  <data name="patientsTabPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 30</value>
+  </data>
+  <data name="patientsTabPage.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="patientsTabPage.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="patientsTabPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1196, 378</value>
+  </data>
+  <data name="doctorIdTextBoxDoctors.Location" type="System.Drawing.Point, System.Drawing">
+    <value>293, 298</value>
+  </data>
+  <data name="doctorIdTextBoxDoctors.Size" type="System.Drawing.Size, System.Drawing">
+    <value>221, 27</value>
   </data>
   <data name="doctorIdLabelDoctors.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
+  <data name="doctorIdLabelDoctors.Location" type="System.Drawing.Point, System.Drawing">
+    <value>180, 305</value>
+  </data>
+  <data name="doctorIdLabelDoctors.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 20</value>
+  </data>
+  <data name="doctorNameTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>293, 260</value>
+  </data>
+  <data name="doctorNameTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>221, 27</value>
+  </data>
   <data name="doctorNameLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
+  </data>
+  <data name="doctorNameLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>180, 267</value>
+  </data>
+  <data name="doctorNameLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 20</value>
   </data>
   <data name="findAvailableDocBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
+  <data name="findAvailableDocBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1022, 18</value>
+  </data>
+  <data name="findAvailableDocBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 46</value>
+  </data>
   <data name="displayAllDoctorssBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
+  </data>
+  <data name="displayAllDoctorssBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1022, 86</value>
+  </data>
+  <data name="displayAllDoctorssBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 46</value>
   </data>
   <data name="findDoctorBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
+  <data name="findDoctorBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 267</value>
+  </data>
+  <data name="findDoctorBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 46</value>
+  </data>
+  <data name="doctorsDataGridView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 4</value>
+  </data>
+  <data name="doctorsDataGridView.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="doctorsDataGridView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>983, 243</value>
+  </data>
+  <data name="doctorsTabPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 30</value>
+  </data>
+  <data name="doctorsTabPage.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="doctorsTabPage.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="doctorsTabPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1196, 378</value>
+  </data>
   <data name="displayAppintmentsBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
+  </data>
+  <data name="displayAppintmentsBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1036, 101</value>
+  </data>
+  <data name="displayAppintmentsBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 46</value>
+  </data>
+  <data name="appointmentsDataGridView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-2, 0</value>
+  </data>
+  <data name="appointmentsDataGridView.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="appointmentsDataGridView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1014, 238</value>
   </data>
   <data name="viewTodayBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
+  <data name="viewTodayBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1036, 24</value>
+  </data>
+  <data name="viewTodayBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 46</value>
+  </data>
+  <data name="appointmentsTabPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 30</value>
+  </data>
+  <data name="appointmentsTabPage.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="appointmentsTabPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1196, 378</value>
+  </data>
   <data name="transferPatientButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
+  <data name="transferPatientButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>399, 175</value>
+  </data>
+  <data name="transferPatientButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 46</value>
+  </data>
   <data name="doctorFirstNameTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>159, 37</value>
+    <value>119, 30</value>
+  </data>
+  <data name="doctorFirstNameTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 28</value>
   </data>
   <data name="specialtyTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>159, 100</value>
+    <value>119, 81</value>
+  </data>
+  <data name="specialtyTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 28</value>
+  </data>
+  <data name="doctorLastNameTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>339, 31</value>
+  </data>
+  <data name="doctorLastNameTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 28</value>
+  </data>
+  <data name="doctorInfo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>399, 13</value>
+  </data>
+  <data name="doctorInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>500, 119</value>
+  </data>
+  <data name="patientIdTextBoxRecords.Location" type="System.Drawing.Point, System.Drawing">
+    <value>139, 48</value>
+  </data>
+  <data name="patientIdTextBoxRecords.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 28</value>
+  </data>
+  <data name="patientLastNameTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>139, 150</value>
+  </data>
+  <data name="patientLastNameTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 28</value>
+  </data>
+  <data name="patientFirstNameTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>139, 104</value>
+  </data>
+  <data name="patientFirstNameTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 28</value>
+  </data>
+  <data name="patientInfo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 13</value>
+  </data>
+  <data name="patientInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>259, 223</value>
+  </data>
+  <data name="recordsTabPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 30</value>
+  </data>
+  <data name="recordsTabPage.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="recordsTabPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1196, 378</value>
+  </data>
+  <data name="tabControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 98</value>
+  </data>
+  <data name="tabControl1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="tabControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1204, 412</value>
   </data>
   <data name="bindingNavigatorAddNewItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -205,6 +466,9 @@
         A+U59hiluowbQMzVVfmgPKU/GdcPxlmx5TArB6KzJunf0gTtPcqBzeluhCYsCIz3wm/rUw78WX4AJCPY
         nlwVm9EAAAAASUVORK5CYII=
 </value>
+  </data>
+  <data name="bindingNavigatorCountItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 36</value>
   </data>
   <data name="bindingNavigatorDeleteItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -238,6 +502,9 @@
         9FMv/9fwnUa+ASCg4jGBMgMGLwAA0BRgmCws/7cAAAAASUVORK5CYII=
 </value>
   </data>
+  <data name="bindingNavigatorPositionItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>27, 23</value>
+  </data>
   <data name="bindingNavigatorMoveNextItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
@@ -265,11 +532,59 @@
         JtoAbIbR3gBi8KgBg9IAcjDcAEoAAPRDDFMGBb7pAAAAAElFTkSuQmCC
 </value>
   </data>
+  <data name="patientsBindingNavigator.Location" type="System.Drawing.Point, System.Drawing">
+    <value>427, 65</value>
+  </data>
+  <data name="patientsBindingNavigator.Size" type="System.Drawing.Size, System.Drawing">
+    <value>345, 39</value>
+  </data>
+  <data name="timeUserControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1024, 9</value>
+  </data>
+  <data name="timeUserControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 29</value>
+  </data>
+  <data name="dateUserControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 9</value>
+  </data>
+  <data name="dateUserControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>284, 29</value>
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 6</value>
+  </data>
+  <data name="groupBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="groupBox1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>261, 46</value>
+  </data>
   <data name="logoutButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
+  <data name="logoutButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1174, 12</value>
+  </data>
+  <data name="logoutButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 46</value>
+  </data>
+  <data name="languageComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1006, 12</value>
+  </data>
+  <data name="languageComboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 21</value>
+  </data>
   <data name="languageLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
+  </data>
+  <data name="languageLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>915, 10</value>
+  </data>
+  <data name="languageLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 20</value>
   </data>
   <data name="themeButton.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft YaHei, 9.75pt</value>
@@ -277,14 +592,20 @@
   <data name="themeButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="themeButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+  <data name="themeButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 65</value>
   </data>
   <data name="themeButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>142, 37</value>
+    <value>106, 30</value>
   </data>
   <data name="themeButton.Text" xml:space="preserve">
     <value>Set Dark</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1335, 552</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -4234,7 +4555,10 @@
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
 </value>
   </data>
-  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="$this.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>1351, 591</value>
   </data>
 </root>

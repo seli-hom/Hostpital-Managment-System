@@ -62,12 +62,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddUserForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddUserForm.Designer.cs">
+      <DependentUpon>AddUserForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="ChangeLanguage.cs" />
     <Compile Include="DateUserControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="DateUserControl.Designer.cs">
       <DependentUpon>DateUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HospitalDatabaseDataSet.cs">
+      <DependentUpon>HospitalDatabaseDataSet.xsd</DependentUpon>
     </Compile>
     <Compile Include="HospitalDatabaseDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -94,6 +103,9 @@
     <Compile Include="TimeUserControl.Designer.cs">
       <DependentUpon>TimeUserControl.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="AddUserForm.resx">
+      <DependentUpon>AddUserForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DateUserControl.resx">
       <DependentUpon>DateUserControl.cs</DependentUpon>
     </EmbeddedResource>
@@ -156,10 +168,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="HospitalDatabase.mdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="HospitalDatabase_log.ldf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <DependentUpon>HospitalDatabase.mdf</DependentUpon>
     </Content>
   </ItemGroup>

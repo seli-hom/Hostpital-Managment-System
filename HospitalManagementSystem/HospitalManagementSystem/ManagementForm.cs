@@ -428,5 +428,10 @@ namespace HospitalManagementSystem
                 recordsTabPage.ForeColor = Color.Black;
             }
         }
+
+        private void addNewUserButton_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
