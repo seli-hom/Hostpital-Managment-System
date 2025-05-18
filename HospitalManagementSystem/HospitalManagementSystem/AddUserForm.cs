@@ -16,10 +16,5 @@ namespace HospitalManagementSystem
         {
             InitializeComponent();
         }
-
-        private void usernameLabel_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }

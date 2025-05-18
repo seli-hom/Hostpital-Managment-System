@@ -38,9 +38,10 @@ namespace HospitalManagementSystem
             var result = loginAdapter.GetDataByUsernameAndPassword(username, password);
             if (result.Rows.Count > 0)
             {
+                bool isAdmin = (username == "admin");// the user is an admin, they will be able to add users
                 loginAttempts = 0;
                 this.Hide();
-                ManagementForm mainForm = new ManagementForm();
+                ManagementForm mainForm = new ManagementForm(isAdmin);
                 mainForm.ShowDialog();
                 this.Close();
                 return;

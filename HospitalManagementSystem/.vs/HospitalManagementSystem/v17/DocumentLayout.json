@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\marko\\Documents\\School_Docs\\ComputerScienceTech_W2025\\AppDev01_W2025\\FinalProject\\Hostpital-Managment-System\\HospitalManagementSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5A5B220D-F524-4401-A1A1-14C6378CBA86}|HospitalManagementSystem\\HospitalManagementSystem.csproj|c:\\users\\marko\\documents\\school_docs\\computersciencetech_w2025\\appdev01_w2025\\finalproject\\hostpital-managment-system\\hospitalmanagementsystem\\hospitalmanagementsystem\\adduserform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A5B220D-F524-4401-A1A1-14C6378CBA86}|HospitalManagementSystem\\HospitalManagementSystem.csproj|solutionrelative:hospitalmanagementsystem\\adduserform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5A5B220D-F524-4401-A1A1-14C6378CBA86}|HospitalManagementSystem\\HospitalManagementSystem.csproj|c:\\users\\marko\\documents\\school_docs\\computersciencetech_w2025\\appdev01_w2025\\finalproject\\hostpital-managment-system\\hospitalmanagementsystem\\hospitalmanagementsystem\\adduserform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5A5B220D-F524-4401-A1A1-14C6378CBA86}|HospitalManagementSystem\\HospitalManagementSystem.csproj|solutionrelative:hospitalmanagementsystem\\adduserform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5A5B220D-F524-4401-A1A1-14C6378CBA86}|HospitalManagementSystem\\HospitalManagementSystem.csproj|c:\\users\\marko\\documents\\school_docs\\computersciencetech_w2025\\appdev01_w2025\\finalproject\\hostpital-managment-system\\hospitalmanagementsystem\\hospitalmanagementsystem\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A5B220D-F524-4401-A1A1-14C6378CBA86}|HospitalManagementSystem\\HospitalManagementSystem.csproj|solutionrelative:hospitalmanagementsystem\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5A5B220D-F524-4401-A1A1-14C6378CBA86}|HospitalManagementSystem\\HospitalManagementSystem.csproj|C:\\Users\\marko\\Documents\\School_Docs\\ComputerScienceTech_W2025\\AppDev01_W2025\\FinalProject\\Hostpital-Managment-System\\HospitalManagementSystem\\hospitalmanagementsystem\\managementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A5B220D-F524-4401-A1A1-14C6378CBA86}|HospitalManagementSystem\\HospitalManagementSystem.csproj|solutionrelative:hospitalmanagementsystem\\managementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5A5B220D-F524-4401-A1A1-14C6378CBA86}|HospitalManagementSystem\\HospitalManagementSystem.csproj|c:\\users\\marko\\documents\\school_docs\\computersciencetech_w2025\\appdev01_w2025\\finalproject\\hostpital-managment-system\\hospitalmanagementsystem\\hospitalmanagementsystem\\managementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{5A5B220D-F524-4401-A1A1-14C6378CBA86}|HospitalManagementSystem\\HospitalManagementSystem.csproj|solutionrelative:hospitalmanagementsystem\\managementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5A5B220D-F524-4401-A1A1-14C6378CBA86}|HospitalManagementSystem\\HospitalManagementSystem.csproj|C:\\Users\\marko\\Documents\\School_Docs\\ComputerScienceTech_W2025\\AppDev01_W2025\\FinalProject\\Hostpital-Managment-System\\HospitalManagementSystem\\hospitalmanagementsystem\\managementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A5B220D-F524-4401-A1A1-14C6378CBA86}|HospitalManagementSystem\\HospitalManagementSystem.csproj|solutionrelative:hospitalmanagementsystem\\managementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5A5B220D-F524-4401-A1A1-14C6378CBA86}|HospitalManagementSystem\\HospitalManagementSystem.csproj|c:\\users\\marko\\documents\\school_docs\\computersciencetech_w2025\\appdev01_w2025\\finalproject\\hostpital-managment-system\\hospitalmanagementsystem\\hospitalmanagementsystem\\adduserform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5A5B220D-F524-4401-A1A1-14C6378CBA86}|HospitalManagementSystem\\HospitalManagementSystem.csproj|solutionrelative:hospitalmanagementsystem\\adduserform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A5B220D-F524-4401-A1A1-14C6378CBA86}|HospitalManagementSystem\\HospitalManagementSystem.csproj|c:\\users\\marko\\documents\\school_docs\\computersciencetech_w2025\\appdev01_w2025\\finalproject\\hostpital-managment-system\\hospitalmanagementsystem\\hospitalmanagementsystem\\adduserform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A5B220D-F524-4401-A1A1-14C6378CBA86}|HospitalManagementSystem\\HospitalManagementSystem.csproj|solutionrelative:hospitalmanagementsystem\\adduserform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A5B220D-F524-4401-A1A1-14C6378CBA86}|HospitalManagementSystem\\HospitalManagementSystem.csproj|c:\\users\\marko\\documents\\school_docs\\computersciencetech_w2025\\appdev01_w2025\\finalproject\\hostpital-managment-system\\hospitalmanagementsystem\\hospitalmanagementsystem\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A5B220D-F524-4401-A1A1-14C6378CBA86}|HospitalManagementSystem\\HospitalManagementSystem.csproj|solutionrelative:hospitalmanagementsystem\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5A5B220D-F524-4401-A1A1-14C6378CBA86}|HospitalManagementSystem\\HospitalManagementSystem.csproj|C:\\Users\\marko\\Documents\\School_Docs\\ComputerScienceTech_W2025\\AppDev01_W2025\\FinalProject\\Hostpital-Managment-System\\HospitalManagementSystem\\hospitalmanagementsystem\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -46,24 +46,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "AddUserForm.cs",
               "DocumentMoniker": "C:\\Users\\marko\\Documents\\School_Docs\\ComputerScienceTech_W2025\\AppDev01_W2025\\FinalProject\\Hostpital-Managment-System\\HospitalManagementSystem\\HospitalManagementSystem\\AddUserForm.cs",
               "RelativeDocumentMoniker": "HospitalManagementSystem\\AddUserForm.cs",
               "ToolTip": "C:\\Users\\marko\\Documents\\School_Docs\\ComputerScienceTech_W2025\\AppDev01_W2025\\FinalProject\\Hostpital-Managment-System\\HospitalManagementSystem\\HospitalManagementSystem\\AddUserForm.cs",
               "RelativeToolTip": "HospitalManagementSystem\\AddUserForm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAArwBUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAArwBEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-18T15:28:48.983Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "AddUserForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\marko\\Documents\\School_Docs\\ComputerScienceTech_W2025\\AppDev01_W2025\\FinalProject\\Hostpital-Managment-System\\HospitalManagementSystem\\HospitalManagementSystem\\AddUserForm.cs",
               "RelativeDocumentMoniker": "HospitalManagementSystem\\AddUserForm.cs",
@@ -75,7 +75,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "ManagementForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\marko\\Documents\\School_Docs\\ComputerScienceTech_W2025\\AppDev01_W2025\\FinalProject\\Hostpital-Managment-System\\HospitalManagementSystem\\HospitalManagementSystem\\ManagementForm.cs",
               "RelativeDocumentMoniker": "HospitalManagementSystem\\ManagementForm.cs",
@@ -87,13 +87,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "ManagementForm.cs",
+              "DocumentMoniker": "C:\\Users\\marko\\Documents\\School_Docs\\ComputerScienceTech_W2025\\AppDev01_W2025\\FinalProject\\Hostpital-Managment-System\\HospitalManagementSystem\\HospitalManagementSystem\\ManagementForm.cs",
+              "RelativeDocumentMoniker": "HospitalManagementSystem\\ManagementForm.cs",
+              "ToolTip": "C:\\Users\\marko\\Documents\\School_Docs\\ComputerScienceTech_W2025\\AppDev01_W2025\\FinalProject\\Hostpital-Managment-System\\HospitalManagementSystem\\HospitalManagementSystem\\ManagementForm.cs",
+              "RelativeToolTip": "HospitalManagementSystem\\ManagementForm.cs",
+              "ViewState": "AgIAAKMBAAAAAAAAAAAgwLsBAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T02:37:21.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "LoginForm.cs",
               "DocumentMoniker": "C:\\Users\\marko\\Documents\\School_Docs\\ComputerScienceTech_W2025\\AppDev01_W2025\\FinalProject\\Hostpital-Managment-System\\HospitalManagementSystem\\HospitalManagementSystem\\LoginForm.cs",
               "RelativeDocumentMoniker": "HospitalManagementSystem\\LoginForm.cs",
               "ToolTip": "C:\\Users\\marko\\Documents\\School_Docs\\ComputerScienceTech_W2025\\AppDev01_W2025\\FinalProject\\Hostpital-Managment-System\\HospitalManagementSystem\\HospitalManagementSystem\\LoginForm.cs",
               "RelativeToolTip": "HospitalManagementSystem\\LoginForm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAABCAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwCQAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-17T23:16:24.622Z",
               "EditorCaption": ""
@@ -146,19 +159,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-17T22:23:02.665Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ManagementForm.cs",
-              "DocumentMoniker": "C:\\Users\\marko\\Documents\\School_Docs\\ComputerScienceTech_W2025\\AppDev01_W2025\\FinalProject\\Hostpital-Managment-System\\HospitalManagementSystem\\HospitalManagementSystem\\ManagementForm.cs",
-              "RelativeDocumentMoniker": "HospitalManagementSystem\\ManagementForm.cs",
-              "ToolTip": "C:\\Users\\marko\\Documents\\School_Docs\\ComputerScienceTech_W2025\\AppDev01_W2025\\FinalProject\\Hostpital-Managment-System\\HospitalManagementSystem\\HospitalManagementSystem\\ManagementForm.cs",
-              "RelativeToolTip": "HospitalManagementSystem\\ManagementForm.cs",
-              "ViewState": "AgIAAJwBAAAAAAAAAAArwLEBAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T02:37:21.357Z",
               "EditorCaption": ""
             }
           ]

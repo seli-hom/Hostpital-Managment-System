@@ -16,10 +16,12 @@ namespace HospitalManagementSystem
     {
 
         string connectionString = System.Configuration.ConfigurationManager.ConnectionStrings["HospitalDBConnectionString"].ConnectionString;
+        private bool isAdminUser;
 
-        public ManagementForm()
+        public ManagementForm(bool isAdmin)
         {
             InitializeComponent();
+            isAdminUser = isAdmin;
         }
 
         private void patientsBindingNavigatorSaveItem_Click(object sender, EventArgs e)
@@ -431,7 +433,15 @@ namespace HospitalManagementSystem
 
         private void addNewUserButton_Click(object sender, EventArgs e)
         {
-
+            if (!isAdminUser)
+            {
+                MessageBox.Show("Only the admin can add new users.", "Access Denied", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+            else {
+                MessageBox.Show("You are admin, add a user now :).", "Access", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                return;
+            }
         }
     }
 }

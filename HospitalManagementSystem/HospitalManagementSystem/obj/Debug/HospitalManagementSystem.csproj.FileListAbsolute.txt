@@ -80,3 +80,4 @@ C:\Users\marko\Documents\School_Docs\ComputerScienceTech_W2025\AppDev01_W2025\Fi
 C:\Users\marko\Documents\School_Docs\ComputerScienceTech_W2025\AppDev01_W2025\FinalProject\Hostpital-Managment-System\HospitalManagementSystem\HospitalManagementSystem\obj\Debug\en\HospitalManagementSystem.resources.dll
 C:\Users\marko\Documents\School_Docs\ComputerScienceTech_W2025\AppDev01_W2025\FinalProject\Hostpital-Managment-System\HospitalManagementSystem\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.exe
 C:\Users\marko\Documents\School_Docs\ComputerScienceTech_W2025\AppDev01_W2025\FinalProject\Hostpital-Managment-System\HospitalManagementSystem\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.pdb
+C:\Users\marko\Documents\School_Docs\ComputerScienceTech_W2025\AppDev01_W2025\FinalProject\Hostpital-Managment-System\HospitalManagementSystem\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.AddUserForm.resources
