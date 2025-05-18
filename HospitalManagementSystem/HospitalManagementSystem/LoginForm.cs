@@ -6,14 +6,7 @@ namespace HospitalManagementSystem
 {
     public partial class LoginForm : Form
     {
-        // Simple username → password mapping
-        private readonly Dictionary<string, string> users = new Dictionary<string, string>()
-        {
-            { "admin", "admin123" },
-            { "doctor", "docpass" }
-        };
-
-        private const int MaxLoginAttempts = 3;
+        private const int MaxLoginAttempts = 3; 
         private int loginAttempts = 0;
 
         public LoginForm()
@@ -38,7 +31,7 @@ namespace HospitalManagementSystem
             var result = loginAdapter.GetDataByUsernameAndPassword(username, password);
             if (result.Rows.Count > 0)
             {
-                bool isAdmin = (username == "admin");// the user is an admin, they will be able to add users
+                bool isAdmin = username.Equals("admin");// the user is an admin, they will be able to add users
                 loginAttempts = 0;
                 this.Hide();
                 ManagementForm mainForm = new ManagementForm(isAdmin);
@@ -47,8 +40,7 @@ namespace HospitalManagementSystem
                 return;
             }
 
-            loginAttempts++;
-            if (MaxLoginAttempts > 0)
+            if (MaxLoginAttempts - loginAttempts > 1)
             {
                 MessageBox.Show($"Invalid credentials. Attempts left: {MaxLoginAttempts - loginAttempts}");
             }
@@ -57,6 +49,8 @@ namespace HospitalManagementSystem
                 MessageBox.Show("Invalid credentials. Last Attempt");
 
             }
+            loginAttempts++;
+
         }
 
         private void showPasswordButton_Click(object sender, EventArgs e)

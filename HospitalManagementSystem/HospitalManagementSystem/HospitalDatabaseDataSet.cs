@@ -4,6 +4,9 @@
 
     partial class HospitalDatabaseDataSet
     {
+        partial class LoginDataTable
+        {
+        }
     }
 }
 

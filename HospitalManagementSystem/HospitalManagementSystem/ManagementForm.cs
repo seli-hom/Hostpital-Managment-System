@@ -439,8 +439,10 @@ namespace HospitalManagementSystem
                 return;
             }
             else {
-                MessageBox.Show("You are admin, add a user now :).", "Access", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                return;
+                this.Hide();
+                AddUserForm addUserForm = new AddUserForm();
+                addUserForm.ShowDialog();
+                this.Close();
             }
         }
     }
