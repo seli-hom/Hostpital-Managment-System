@@ -111,12 +111,13 @@
             this.patientsBindingNavigatorSaveItem = new System.Windows.Forms.ToolStripButton();
             this.findPatientTip = new System.Windows.Forms.ToolTip(this.components);
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.timeUserControl1 = new HospitalManagementSystem.TimeUserControl();
-            this.dateUserControl1 = new HospitalManagementSystem.DateUserControl();
-            this.patientsTableAdapter = new HospitalManagementSystem.HospitalDatabaseDataSetTableAdapters.PatientsTableAdapter();
             this.logoutButton = new System.Windows.Forms.Button();
             this.languageComboBox = new System.Windows.Forms.ComboBox();
             this.languageLabel = new System.Windows.Forms.Label();
+            this.patientsTableAdapter = new HospitalManagementSystem.HospitalDatabaseDataSetTableAdapters.PatientsTableAdapter();
+            this.themeButton = new System.Windows.Forms.Button();
+            this.timeUserControl1 = new HospitalManagementSystem.TimeUserControl();
+            this.dateUserControl1 = new HospitalManagementSystem.DateUserControl();
             patientIdLabelRecords = new System.Windows.Forms.Label();
             doctorFirstNameLabelRecords = new System.Windows.Forms.Label();
             specialtyLabel = new System.Windows.Forms.Label();
@@ -192,6 +193,7 @@
             // patientsTabPage
             // 
             resources.ApplyResources(this.patientsTabPage, "patientsTabPage");
+            this.patientsTabPage.BackColor = System.Drawing.Color.AliceBlue;
             this.patientsTabPage.Controls.Add(this.bloodTypeComboBox);
             this.patientsTabPage.Controls.Add(this.filterByBloodButton);
             this.patientsTabPage.Controls.Add(this.patientIdTextBoxPatients);
@@ -204,7 +206,6 @@
             this.patientsTabPage.Controls.Add(this.filterAgeButton);
             this.patientsTabPage.Name = "patientsTabPage";
             this.findPatientTip.SetToolTip(this.patientsTabPage, resources.GetString("patientsTabPage.ToolTip"));
-            this.patientsTabPage.UseVisualStyleBackColor = true;
             // 
             // bloodTypeComboBox
             // 
@@ -366,6 +367,7 @@
             this.doctorsTabPage.Controls.Add(this.displayAllDoctorssBtn);
             this.doctorsTabPage.Controls.Add(this.findDoctorBtn);
             this.doctorsTabPage.Controls.Add(this.doctorsDataGridView);
+            this.doctorsTabPage.ForeColor = System.Drawing.SystemColors.ControlText;
             this.doctorsTabPage.Name = "doctorsTabPage";
             this.findPatientTip.SetToolTip(this.doctorsTabPage, resources.GetString("doctorsTabPage.ToolTip"));
             this.doctorsTabPage.UseVisualStyleBackColor = true;
@@ -754,22 +756,6 @@
             this.groupBox1.TabStop = false;
             this.findPatientTip.SetToolTip(this.groupBox1, resources.GetString("groupBox1.ToolTip"));
             // 
-            // timeUserControl1
-            // 
-            resources.ApplyResources(this.timeUserControl1, "timeUserControl1");
-            this.timeUserControl1.Name = "timeUserControl1";
-            this.findPatientTip.SetToolTip(this.timeUserControl1, resources.GetString("timeUserControl1.ToolTip"));
-            // 
-            // dateUserControl1
-            // 
-            resources.ApplyResources(this.dateUserControl1, "dateUserControl1");
-            this.dateUserControl1.Name = "dateUserControl1";
-            this.findPatientTip.SetToolTip(this.dateUserControl1, resources.GetString("dateUserControl1.ToolTip"));
-            // 
-            // patientsTableAdapter
-            // 
-            this.patientsTableAdapter.ClearBeforeFill = true;
-            // 
             // logoutButton
             // 
             resources.ApplyResources(this.logoutButton, "logoutButton");
@@ -795,16 +781,45 @@
             this.languageLabel.Name = "languageLabel";
             this.findPatientTip.SetToolTip(this.languageLabel, resources.GetString("languageLabel.ToolTip"));
             // 
+            // patientsTableAdapter
+            // 
+            this.patientsTableAdapter.ClearBeforeFill = true;
+            // 
+            // themeButton
+            // 
+            resources.ApplyResources(this.themeButton, "themeButton");
+            this.themeButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.themeButton.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.themeButton.Name = "themeButton";
+            this.findPatientTip.SetToolTip(this.themeButton, resources.GetString("themeButton.ToolTip"));
+            this.themeButton.UseVisualStyleBackColor = false;
+            this.themeButton.Click += new System.EventHandler(this.themeButton_Click);
+            // 
+            // timeUserControl1
+            // 
+            resources.ApplyResources(this.timeUserControl1, "timeUserControl1");
+            this.timeUserControl1.Name = "timeUserControl1";
+            this.findPatientTip.SetToolTip(this.timeUserControl1, resources.GetString("timeUserControl1.ToolTip"));
+            // 
+            // dateUserControl1
+            // 
+            resources.ApplyResources(this.dateUserControl1, "dateUserControl1");
+            this.dateUserControl1.Name = "dateUserControl1";
+            this.findPatientTip.SetToolTip(this.dateUserControl1, resources.GetString("dateUserControl1.ToolTip"));
+            // 
             // ManagementForm
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.Controls.Add(this.themeButton);
             this.Controls.Add(this.languageLabel);
             this.Controls.Add(this.languageComboBox);
             this.Controls.Add(this.logoutButton);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.patientsBindingNavigator);
             this.Controls.Add(this.tabControl1);
+            this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.Name = "ManagementForm";
             this.findPatientTip.SetToolTip(this, resources.GetString("$this.ToolTip"));
             this.Load += new System.EventHandler(this.ManagementForm_Load);
@@ -919,6 +934,7 @@
         private System.Windows.Forms.Label patientAgeLabel;
         private System.Windows.Forms.ComboBox bloodTypeComboBox;
         private System.Windows.Forms.Button filterByBloodButton;
+        private System.Windows.Forms.Button themeButton;
     }
 }
 

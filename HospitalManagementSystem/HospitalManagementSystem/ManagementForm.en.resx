@@ -117,103 +117,71 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="patientIdLabelRecords.ToolTip" xml:space="preserve">
-    <value />
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="patientIdLabelRecords.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="doctorFirstNameLabelRecords.ToolTip" xml:space="preserve">
-    <value />
+  <data name="doctorFirstNameLabelRecords.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="specialtyLabel.ToolTip" xml:space="preserve">
-    <value />
+  <data name="specialtyLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="doctorLastNameLabelRecords.ToolTip" xml:space="preserve">
-    <value />
+  <data name="doctorLastNameLabelRecords.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="patientFirstNameLabelRecords.ToolTip" xml:space="preserve">
-    <value />
+  <data name="patientFirstNameLabelRecords.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="patientLastNameLabelRecords.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="bloodTypeComboBox.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="patientIdTextBoxPatients.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="patientIdLabelPatients.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="patientAgeTextBox.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="patientAgeLabel.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="patientsDataGridView.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="patientsTabPage.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="doctorIdTextBoxDoctors.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="doctorIdLabelDoctors.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="doctorNameTextBox.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="doctorNameLabel.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="doctorsDataGridView.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="doctorsTabPage.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="appointmentsDataGridView.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="appointmentsTabPage.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="transferPatientButton.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="doctorFirstNameTextBox.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="specialtyTextBox.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="doctorLastNameTextBox.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="doctorInfo.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="patientIdTextBoxRecords.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="patientLastNameTextBox.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="patientFirstNameTextBox.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="patientInfo.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="recordsTabPage.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="tabControl1.ToolTip" xml:space="preserve">
-    <value />
+  <data name="patientLastNameLabelRecords.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="bloodTypeComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>913, 384</value>
+  </data>
+  <data name="filterByBloodButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="patientIdLabelPatients.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="patientAgeLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="findPatientBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="displayButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="filterAgeButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="doctorIdLabelDoctors.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="doctorNameLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="findAvailableDocBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="displayAllDoctorssBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="findDoctorBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="displayAppintmentsBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="viewTodayBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="transferPatientButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="bindingNavigatorAddNewItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
@@ -285,26 +253,26 @@
         JtoAbIbR3gBi8KgBg9IAcjDcAEoAAPRDDFMGBb7pAAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="patientsBindingNavigator.ToolTip" xml:space="preserve">
-    <value />
+  <data name="logoutButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="timeUserControl1.ToolTip" xml:space="preserve">
-    <value />
+  <data name="languageLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="dateUserControl1.ToolTip" xml:space="preserve">
-    <value />
+  <data name="themeButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 9.75pt</value>
   </data>
-  <data name="groupBox1.ToolTip" xml:space="preserve">
-    <value />
+  <data name="themeButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="logoutButton.ToolTip" xml:space="preserve">
-    <value />
+  <data name="themeButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
-  <data name="languageComboBox.ToolTip" xml:space="preserve">
-    <value />
+  <data name="themeButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>142, 37</value>
   </data>
-  <data name="languageLabel.ToolTip" xml:space="preserve">
-    <value />
+  <data name="themeButton.Text" xml:space="preserve">
+    <value>Set Dark</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -4253,8 +4221,5 @@
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
 </value>
-  </data>
-  <data name="$this.ToolTip" xml:space="preserve">
-    <value />
   </data>
 </root>

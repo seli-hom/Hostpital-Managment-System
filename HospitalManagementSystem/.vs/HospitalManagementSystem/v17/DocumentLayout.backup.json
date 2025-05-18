@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Samuel\\Selihom\\Desktop\\gitRepos\\Hostpital-Managment-System\\HospitalManagementSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5A5B220D-F524-4401-A1A1-14C6378CBA86}|HospitalManagementSystem\\HospitalManagementSystem.csproj|c:\\users\\samuel\\selihom\\desktop\\gitrepos\\hostpital-managment-system\\hospitalmanagementsystem\\hospitalmanagementsystem\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A5B220D-F524-4401-A1A1-14C6378CBA86}|HospitalManagementSystem\\HospitalManagementSystem.csproj|solutionrelative:hospitalmanagementsystem\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5A5B220D-F524-4401-A1A1-14C6378CBA86}|HospitalManagementSystem\\HospitalManagementSystem.csproj|c:\\users\\samuel\\selihom\\desktop\\gitrepos\\hostpital-managment-system\\hospitalmanagementsystem\\hospitalmanagementsystem\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5A5B220D-F524-4401-A1A1-14C6378CBA86}|HospitalManagementSystem\\HospitalManagementSystem.csproj|solutionrelative:hospitalmanagementsystem\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{5A5B220D-F524-4401-A1A1-14C6378CBA86}|HospitalManagementSystem\\HospitalManagementSystem.csproj|C:\\Users\\Samuel\\Selihom\\Desktop\\gitRepos\\Hostpital-Managment-System\\HospitalManagementSystem\\hospitalmanagementsystem\\managementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5A5B220D-F524-4401-A1A1-14C6378CBA86}|HospitalManagementSystem\\HospitalManagementSystem.csproj|solutionrelative:hospitalmanagementsystem\\managementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5A5B220D-F524-4401-A1A1-14C6378CBA86}|HospitalManagementSystem\\HospitalManagementSystem.csproj|c:\\users\\samuel\\selihom\\desktop\\gitrepos\\hostpital-managment-system\\hospitalmanagementsystem\\hospitalmanagementsystem\\managementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,15 +15,23 @@
       "RelativeMoniker": "D:0:0:{5A5B220D-F524-4401-A1A1-14C6378CBA86}|HospitalManagementSystem\\HospitalManagementSystem.csproj|solutionrelative:hospitalmanagementsystem\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Samuel\\AppData\\Local\\Temp\\tmpD32F.tmp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5A5B220D-F524-4401-A1A1-14C6378CBA86}|HospitalManagementSystem\\HospitalManagementSystem.csproj|C:\\Users\\Samuel\\Selihom\\Desktop\\gitRepos\\Hostpital-Managment-System\\HospitalManagementSystem\\hospitalmanagementsystem\\managementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5A5B220D-F524-4401-A1A1-14C6378CBA86}|HospitalManagementSystem\\HospitalManagementSystem.csproj|solutionrelative:hospitalmanagementsystem\\managementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{5A5B220D-F524-4401-A1A1-14C6378CBA86}|HospitalManagementSystem\\HospitalManagementSystem.csproj|c:\\users\\samuel\\selihom\\desktop\\gitrepos\\hostpital-managment-system\\hospitalmanagementsystem\\hospitalmanagementsystem\\managementform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A5B220D-F524-4401-A1A1-14C6378CBA86}|HospitalManagementSystem\\HospitalManagementSystem.csproj|solutionrelative:hospitalmanagementsystem\\managementform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5A5B220D-F524-4401-A1A1-14C6378CBA86}|HospitalManagementSystem\\HospitalManagementSystem.csproj|C:\\Users\\Samuel\\Selihom\\Desktop\\gitRepos\\Hostpital-Managment-System\\HospitalManagementSystem\\hospitalmanagementsystem\\changelanguage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5A5B220D-F524-4401-A1A1-14C6378CBA86}|HospitalManagementSystem\\HospitalManagementSystem.csproj|solutionrelative:hospitalmanagementsystem\\changelanguage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A5B220D-F524-4401-A1A1-14C6378CBA86}|HospitalManagementSystem\\HospitalManagementSystem.csproj|c:\\users\\samuel\\selihom\\desktop\\gitrepos\\hostpital-managment-system\\hospitalmanagementsystem\\hospitalmanagementsystem\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A5B220D-F524-4401-A1A1-14C6378CBA86}|HospitalManagementSystem\\HospitalManagementSystem.csproj|solutionrelative:hospitalmanagementsystem\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A5B220D-F524-4401-A1A1-14C6378CBA86}|HospitalManagementSystem\\HospitalManagementSystem.csproj|c:\\users\\samuel\\selihom\\desktop\\gitrepos\\hostpital-managment-system\\hospitalmanagementsystem\\hospitalmanagementsystem\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5A5B220D-F524-4401-A1A1-14C6378CBA86}|HospitalManagementSystem\\HospitalManagementSystem.csproj|solutionrelative:hospitalmanagementsystem\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Samuel\\AppData\\Local\\Temp\\tmpD32F.tmp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5A5B220D-F524-4401-A1A1-14C6378CBA86}|HospitalManagementSystem\\HospitalManagementSystem.csproj|C:\\Users\\Samuel\\Selihom\\Desktop\\gitRepos\\Hostpital-Managment-System\\HospitalManagementSystem\\hospitalmanagementsystem\\hospitaldatabasedataset.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}",
@@ -41,29 +45,42 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "ManagementForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Samuel\\Selihom\\Desktop\\gitRepos\\Hostpital-Managment-System\\HospitalManagementSystem\\HospitalManagementSystem\\ManagementForm.Designer.cs",
+              "RelativeDocumentMoniker": "HospitalManagementSystem\\ManagementForm.Designer.cs",
+              "ToolTip": "C:\\Users\\Samuel\\Selihom\\Desktop\\gitRepos\\Hostpital-Managment-System\\HospitalManagementSystem\\HospitalManagementSystem\\ManagementForm.Designer.cs*",
+              "RelativeToolTip": "HospitalManagementSystem\\ManagementForm.Designer.cs*",
+              "ViewState": "AgIAAH8DAAAAAAAAAAAvwI4DAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T23:59:15.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "LoginForm.cs",
               "DocumentMoniker": "C:\\Users\\Samuel\\Selihom\\Desktop\\gitRepos\\Hostpital-Managment-System\\HospitalManagementSystem\\HospitalManagementSystem\\LoginForm.cs",
               "RelativeDocumentMoniker": "HospitalManagementSystem\\LoginForm.cs",
-              "ToolTip": "C:\\Users\\Samuel\\Selihom\\Desktop\\gitRepos\\Hostpital-Managment-System\\HospitalManagementSystem\\HospitalManagementSystem\\LoginForm.cs*",
-              "RelativeToolTip": "HospitalManagementSystem\\LoginForm.cs*",
-              "ViewState": "AgIAACgAAAAAAAAAAAAswDcAAAA0AAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Samuel\\Selihom\\Desktop\\gitRepos\\Hostpital-Managment-System\\HospitalManagementSystem\\HospitalManagementSystem\\LoginForm.cs",
+              "RelativeToolTip": "HospitalManagementSystem\\LoginForm.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAAAEcAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-17T23:16:24.622Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "LoginForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Samuel\\Selihom\\Desktop\\gitRepos\\Hostpital-Managment-System\\HospitalManagementSystem\\HospitalManagementSystem\\LoginForm.cs",
               "RelativeDocumentMoniker": "HospitalManagementSystem\\LoginForm.cs",
-              "ToolTip": "C:\\Users\\Samuel\\Selihom\\Desktop\\gitRepos\\Hostpital-Managment-System\\HospitalManagementSystem\\HospitalManagementSystem\\LoginForm.cs [Design]*",
-              "RelativeToolTip": "HospitalManagementSystem\\LoginForm.cs [Design]*",
+              "ToolTip": "C:\\Users\\Samuel\\Selihom\\Desktop\\gitRepos\\Hostpital-Managment-System\\HospitalManagementSystem\\HospitalManagementSystem\\LoginForm.cs [Design]",
+              "RelativeToolTip": "HospitalManagementSystem\\LoginForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-17T23:16:14.297Z",
               "EditorCaption": " [Design]"
@@ -78,7 +95,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "tmpD32F.tmp.cs",
               "DocumentMoniker": "C:\\Users\\Samuel\\AppData\\Local\\Temp\\tmpD32F.tmp.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\AppData\\Local\\Temp\\tmpD32F.tmp.cs",
@@ -90,7 +107,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "ChangeLanguage.cs",
               "DocumentMoniker": "C:\\Users\\Samuel\\Selihom\\Desktop\\gitRepos\\Hostpital-Managment-System\\HospitalManagementSystem\\HospitalManagementSystem\\ChangeLanguage.cs",
               "RelativeDocumentMoniker": "HospitalManagementSystem\\ChangeLanguage.cs",
@@ -98,22 +115,24 @@
               "RelativeToolTip": "HospitalManagementSystem\\ChangeLanguage.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T22:23:02.665Z"
+              "WhenOpened": "2025-05-17T22:23:02.665Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "HospitalDatabaseDataSet.xsd",
               "DocumentMoniker": "C:\\Users\\Samuel\\Selihom\\Desktop\\gitRepos\\Hostpital-Managment-System\\HospitalManagementSystem\\HospitalManagementSystem\\HospitalDatabaseDataSet.xsd",
               "RelativeDocumentMoniker": "HospitalManagementSystem\\HospitalDatabaseDataSet.xsd",
               "ToolTip": "C:\\Users\\Samuel\\Selihom\\Desktop\\gitRepos\\Hostpital-Managment-System\\HospitalManagementSystem\\HospitalManagementSystem\\HospitalDatabaseDataSet.xsd",
               "RelativeToolTip": "HospitalManagementSystem\\HospitalDatabaseDataSet.xsd",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003579|",
-              "WhenOpened": "2025-05-17T21:22:11.143Z"
+              "WhenOpened": "2025-05-17T21:22:11.143Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "App.config",
               "DocumentMoniker": "C:\\Users\\Samuel\\Selihom\\Desktop\\gitRepos\\Hostpital-Managment-System\\HospitalManagementSystem\\HospitalManagementSystem\\App.config",
               "RelativeDocumentMoniker": "HospitalManagementSystem\\App.config",
@@ -126,27 +145,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "ManagementForm.cs",
               "DocumentMoniker": "C:\\Users\\Samuel\\Selihom\\Desktop\\gitRepos\\Hostpital-Managment-System\\HospitalManagementSystem\\HospitalManagementSystem\\ManagementForm.cs",
               "RelativeDocumentMoniker": "HospitalManagementSystem\\ManagementForm.cs",
-              "ToolTip": "C:\\Users\\Samuel\\Selihom\\Desktop\\gitRepos\\Hostpital-Managment-System\\HospitalManagementSystem\\HospitalManagementSystem\\ManagementForm.cs",
-              "RelativeToolTip": "HospitalManagementSystem\\ManagementForm.cs",
-              "ViewState": "AgIAAHYBAAAAAAAAAAAowIQBAAARAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Samuel\\Selihom\\Desktop\\gitRepos\\Hostpital-Managment-System\\HospitalManagementSystem\\HospitalManagementSystem\\ManagementForm.cs*",
+              "RelativeToolTip": "HospitalManagementSystem\\ManagementForm.cs*",
+              "ViewState": "AgIAAJUBAAAAAAAAAAAswKMBAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-15T02:37:21.357Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "ManagementForm.cs [Design - English]",
               "DocumentMoniker": "C:\\Users\\Samuel\\Selihom\\Desktop\\gitRepos\\Hostpital-Managment-System\\HospitalManagementSystem\\HospitalManagementSystem\\ManagementForm.cs",
               "RelativeDocumentMoniker": "HospitalManagementSystem\\ManagementForm.cs",
-              "ToolTip": "C:\\Users\\Samuel\\Selihom\\Desktop\\gitRepos\\Hostpital-Managment-System\\HospitalManagementSystem\\HospitalManagementSystem\\ManagementForm.cs [Design - English]",
-              "RelativeToolTip": "HospitalManagementSystem\\ManagementForm.cs [Design - English]",
+              "ToolTip": "C:\\Users\\Samuel\\Selihom\\Desktop\\gitRepos\\Hostpital-Managment-System\\HospitalManagementSystem\\HospitalManagementSystem\\ManagementForm.cs [Design - English]*",
+              "RelativeToolTip": "HospitalManagementSystem\\ManagementForm.cs [Design - English]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T14:46:05.818Z"
+              "WhenOpened": "2025-04-22T14:46:05.818Z",
+              "EditorCaption": " [Design - English]"
             }
           ]
         }

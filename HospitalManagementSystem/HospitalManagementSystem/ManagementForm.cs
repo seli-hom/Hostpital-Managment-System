@@ -393,5 +393,40 @@ namespace HospitalManagementSystem
                 }
             }
         }
+
+        private void themeButton_Click(object sender, EventArgs e)
+        {
+            if (themeButton.Text.Equals("Set Dark"))
+            {
+                themeButton.ForeColor = Color.Black;
+                themeButton.BackColor = Color.White;
+                themeButton.Text = "Set Light";
+                this.BackColor = Color.DarkGray;
+                patientsTabPage.BackColor = Color.FromArgb(64, 64, 64);
+                //patientsTabPage.ForeColor = Color.White;
+                doctorsTabPage.BackColor = Color.FromArgb(64, 64, 64);
+                //doctorsTabPage.ForeColor = Color.White;
+                appointmentsTabPage.BackColor = Color.FromArgb(64, 64, 64);
+                //appointmentsTabPage.ForeColor = Color.White;
+                recordsTabPage.BackColor = Color.FromArgb(64, 64, 64);
+                //recordsTabPage.ForeColor = Color.White;
+
+            }
+            else
+            {
+                themeButton.ForeColor = Color.White;
+                themeButton.BackColor = Color.FromArgb(64, 64, 64);
+                themeButton.Text = "Set Dark";
+                this.BackColor = Color.PaleTurquoise;
+                patientsTabPage.BackColor = Color.AliceBlue;
+                patientsTabPage.ForeColor = Color.Black;
+                doctorsTabPage.BackColor = Color.AliceBlue;
+                doctorsTabPage.ForeColor = Color.Black;
+                appointmentsTabPage.BackColor = Color.AliceBlue;
+                appointmentsTabPage.ForeColor = Color.Black;
+                recordsTabPage.BackColor = Color.AliceBlue;
+                recordsTabPage.ForeColor = Color.Black;
+            }
+        }
     }
 }
