@@ -73,7 +73,6 @@ namespace HospitalManagementSystem
                     patientsTabPage.Text = "Patients";
                     doctorsTabPage.Text = "Doctors";
                     appointmentsTabPage.Text = "Appointments";
-                    recordsTabPage.Text = "Records";
                     filterAgeButton.Text = "Find patients older than...";
                     patientAgeLabel.Text = "Age";
                     findPatientBtn.Text = "Find Patient";
@@ -86,10 +85,7 @@ namespace HospitalManagementSystem
                     displayAllDoctorssBtn.Text = "Display All Doctors";
                     viewTodayBtn.Text = "Display today's Appointments";
                     displayAppintmentsBtn.Text = "Display all Appointments";
-                    patientInfo.Text = "Patient's Information";
-                    //patientIdLabelRecords.Text = "Id du Patient";
-                    doctorInfo.Text = "Doctor's Information";
-                    transferPatientButton.Text = "Transfer Patient To doctor";
+
                     //Application.Restart();
                     break;
                 case 1: changeLanguage.UpdateLanguage("language", "fr-CA");
@@ -97,7 +93,7 @@ namespace HospitalManagementSystem
                     patientsTabPage.Text = "Patients";
                     doctorsTabPage.Text = "Docteurs";
                     appointmentsTabPage.Text = "Rendez-Vous";
-                    recordsTabPage.Text = "Dossiers";
+
                     filterAgeButton.Text = "Trouve les patients plus grand que...";
                     patientAgeLabel.Text = "Age";
                     findPatientBtn.Text = "Trouver le patient";
@@ -110,12 +106,9 @@ namespace HospitalManagementSystem
                     displayAllDoctorssBtn.Text = "Voir  tous les docteurs";
                     viewTodayBtn.Text = "Voir les rendez-vous pour aujourd'hui";
                     displayAppintmentsBtn.Text = "Voir tous les rendez-vous";
-                    patientInfo.Text = "Informations du Patient";
                     displayAppintmentsBtn.Text = "Id du Patient";
                     //   patientFirstNameLabelRecords.Text = "Prenom";
                     // patientLastNameLabelRecords.Text = "Nom du famille";
-                    doctorInfo.Text = "Information du Docteur";
-                    transferPatientButton.Text = "Transferer le Patient Au Docteur";
                     //Application.Restart();
                     break;
                 case 2: changeLanguage.UpdateLanguage("language", "es");
@@ -123,7 +116,6 @@ namespace HospitalManagementSystem
                     patientsTabPage.Text = "Pacientes";
                     doctorsTabPage.Text = "Doctores";
                     appointmentsTabPage.Text = "Citas";
-                    recordsTabPage.Text = "Expedientes";
                     filterAgeButton.Text = "Encontrar pacientes mayores que...";
                     patientAgeLabel.Text = "Edad";
                     findPatientBtn.Text = "Buscar paciente";
@@ -136,12 +128,9 @@ namespace HospitalManagementSystem
                     displayAllDoctorssBtn.Text = "Ver todos los doctores";
                     viewTodayBtn.Text = "Ver las citas de hoy";
                     displayAppintmentsBtn.Text = "Ver todas las citas";
-                    patientInfo.Text = "Información del paciente";
                     displayAppintmentsBtn.Text = "ID del paciente";
                     // patientFirstNameLabelRecords.Text = "Nombre";
                     // patientLastNameLabelRecords.Text = "Apellido";
-                    doctorInfo.Text = "Información del doctor";
-                    transferPatientButton.Text = "Transferir paciente al doctor";
 
                     //Application.Restart();
                     break;
@@ -259,6 +248,7 @@ namespace HospitalManagementSystem
                 }
             }
         }
+
 
         private void displayButton_Click(object sender, EventArgs e)
         {

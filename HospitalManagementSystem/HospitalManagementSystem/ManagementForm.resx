@@ -117,1380 +117,21 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="patientIdLabelRecords.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="patientIdLabelRecords.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="patientIdLabelRecords.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="patientIdLabelRecords.Location" type="System.Drawing.Point, System.Drawing">
-    <value>13, 51</value>
-  </data>
-  <data name="patientIdLabelRecords.Size" type="System.Drawing.Size, System.Drawing">
-    <value>88, 21</value>
-  </data>
-  <data name="patientIdLabelRecords.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="patientIdLabelRecords.Text" xml:space="preserve">
-    <value>Patient Id:</value>
-  </data>
-  <data name="&gt;&gt;patientIdLabelRecords.Name" xml:space="preserve">
-    <value>patientIdLabelRecords</value>
-  </data>
-  <data name="&gt;&gt;patientIdLabelRecords.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;patientIdLabelRecords.Parent" xml:space="preserve">
-    <value>patientInfo</value>
-  </data>
-  <data name="&gt;&gt;patientIdLabelRecords.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <metadata name="doctorFirstNameLabelRecords.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
-  <data name="doctorFirstNameLabelRecords.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="doctorFirstNameLabelRecords.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="doctorFirstNameLabelRecords.Location" type="System.Drawing.Point, System.Drawing">
-    <value>-1, 30</value>
-  </data>
-  <data name="doctorFirstNameLabelRecords.Size" type="System.Drawing.Size, System.Drawing">
-    <value>97, 21</value>
-  </data>
-  <data name="doctorFirstNameLabelRecords.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="doctorFirstNameLabelRecords.Text" xml:space="preserve">
-    <value>First Name:</value>
-  </data>
-  <data name="&gt;&gt;doctorFirstNameLabelRecords.Name" xml:space="preserve">
-    <value>doctorFirstNameLabelRecords</value>
-  </data>
-  <data name="&gt;&gt;doctorFirstNameLabelRecords.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;doctorFirstNameLabelRecords.Parent" xml:space="preserve">
-    <value>doctorInfo</value>
-  </data>
-  <data name="&gt;&gt;doctorFirstNameLabelRecords.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <metadata name="specialtyLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
-  <data name="specialtyLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="specialtyLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="specialtyLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>-1, 81</value>
-  </data>
-  <data name="specialtyLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>81, 21</value>
-  </data>
-  <data name="specialtyLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="specialtyLabel.Text" xml:space="preserve">
-    <value>Specialty:</value>
-  </data>
-  <data name="&gt;&gt;specialtyLabel.Name" xml:space="preserve">
-    <value>specialtyLabel</value>
-  </data>
-  <data name="&gt;&gt;specialtyLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;specialtyLabel.Parent" xml:space="preserve">
-    <value>doctorInfo</value>
-  </data>
-  <data name="&gt;&gt;specialtyLabel.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <metadata name="doctorLastNameLabelRecords.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
-  <data name="doctorLastNameLabelRecords.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="doctorLastNameLabelRecords.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="doctorLastNameLabelRecords.Location" type="System.Drawing.Point, System.Drawing">
-    <value>238, 34</value>
-  </data>
-  <data name="doctorLastNameLabelRecords.Size" type="System.Drawing.Size, System.Drawing">
-    <value>95, 21</value>
-  </data>
-  <data name="doctorLastNameLabelRecords.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="doctorLastNameLabelRecords.Text" xml:space="preserve">
-    <value>Last Name:</value>
-  </data>
-  <data name="&gt;&gt;doctorLastNameLabelRecords.Name" xml:space="preserve">
-    <value>doctorLastNameLabelRecords</value>
-  </data>
-  <data name="&gt;&gt;doctorLastNameLabelRecords.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;doctorLastNameLabelRecords.Parent" xml:space="preserve">
-    <value>doctorInfo</value>
-  </data>
-  <data name="&gt;&gt;doctorLastNameLabelRecords.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <metadata name="patientFirstNameLabelRecords.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
-  <data name="patientFirstNameLabelRecords.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="patientFirstNameLabelRecords.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="patientFirstNameLabelRecords.Location" type="System.Drawing.Point, System.Drawing">
-    <value>13, 107</value>
-  </data>
-  <data name="patientFirstNameLabelRecords.Size" type="System.Drawing.Size, System.Drawing">
-    <value>97, 21</value>
-  </data>
-  <data name="patientFirstNameLabelRecords.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="patientFirstNameLabelRecords.Text" xml:space="preserve">
-    <value>First Name:</value>
-  </data>
-  <data name="&gt;&gt;patientFirstNameLabelRecords.Name" xml:space="preserve">
-    <value>patientFirstNameLabelRecords</value>
-  </data>
-  <data name="&gt;&gt;patientFirstNameLabelRecords.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;patientFirstNameLabelRecords.Parent" xml:space="preserve">
-    <value>patientInfo</value>
-  </data>
-  <data name="&gt;&gt;patientFirstNameLabelRecords.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <metadata name="patientLastNameLabelRecords.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
-  <data name="patientLastNameLabelRecords.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="patientLastNameLabelRecords.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="patientLastNameLabelRecords.Location" type="System.Drawing.Point, System.Drawing">
-    <value>13, 157</value>
-  </data>
-  <data name="patientLastNameLabelRecords.Size" type="System.Drawing.Size, System.Drawing">
-    <value>95, 21</value>
-  </data>
-  <data name="patientLastNameLabelRecords.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="patientLastNameLabelRecords.Text" xml:space="preserve">
-    <value>Last Name:</value>
-  </data>
-  <data name="&gt;&gt;patientLastNameLabelRecords.Name" xml:space="preserve">
-    <value>patientLastNameLabelRecords</value>
-  </data>
-  <data name="&gt;&gt;patientLastNameLabelRecords.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;patientLastNameLabelRecords.Parent" xml:space="preserve">
-    <value>patientInfo</value>
-  </data>
-  <data name="&gt;&gt;patientLastNameLabelRecords.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="bloodTypeComboBox.Items" xml:space="preserve">
-    <value>A-</value>
-  </data>
-  <data name="bloodTypeComboBox.Items1" xml:space="preserve">
-    <value>A+</value>
-  </data>
-  <data name="bloodTypeComboBox.Items2" xml:space="preserve">
-    <value>AB-</value>
-  </data>
-  <data name="bloodTypeComboBox.Items3" xml:space="preserve">
-    <value>AB+</value>
-  </data>
-  <data name="bloodTypeComboBox.Items4" xml:space="preserve">
-    <value>B-</value>
-  </data>
-  <data name="bloodTypeComboBox.Items5" xml:space="preserve">
-    <value>B+</value>
-  </data>
-  <data name="bloodTypeComboBox.Items6" xml:space="preserve">
-    <value>O-</value>
-  </data>
-  <data name="bloodTypeComboBox.Items7" xml:space="preserve">
-    <value>O+</value>
-  </data>
-  <data name="bloodTypeComboBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>583, 321</value>
-  </data>
-  <data name="bloodTypeComboBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>323, 29</value>
-  </data>
-  <data name="bloodTypeComboBox.TabIndex" type="System.Int32, mscorlib">
-    <value>29</value>
-  </data>
-  <data name="&gt;&gt;bloodTypeComboBox.Name" xml:space="preserve">
-    <value>bloodTypeComboBox</value>
-  </data>
-  <data name="&gt;&gt;bloodTypeComboBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;bloodTypeComboBox.Parent" xml:space="preserve">
-    <value>patientsTabPage</value>
-  </data>
-  <data name="&gt;&gt;bloodTypeComboBox.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="filterByBloodButton.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft YaHei, 9.75pt</value>
-  </data>
-  <data name="filterByBloodButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="filterByBloodButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>434, 312</value>
-  </data>
-  <data name="filterByBloodButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>136, 46</value>
-  </data>
-  <data name="filterByBloodButton.TabIndex" type="System.Int32, mscorlib">
-    <value>28</value>
-  </data>
-  <data name="filterByBloodButton.Text" xml:space="preserve">
-    <value>Filter By BloodType</value>
-  </data>
-  <metadata name="findPatientTip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>1112, 17</value>
-  </metadata>
-  <data name="filterByBloodButton.ToolTip" xml:space="preserve">
-    <value>Enter the ID of the patient in the text field to the right.</value>
-  </data>
-  <data name="&gt;&gt;filterByBloodButton.Name" xml:space="preserve">
-    <value>filterByBloodButton</value>
-  </data>
-  <data name="&gt;&gt;filterByBloodButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;filterByBloodButton.Parent" xml:space="preserve">
-    <value>patientsTabPage</value>
-  </data>
-  <data name="&gt;&gt;filterByBloodButton.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="patientIdTextBoxPatients.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft YaHei UI, 11.25pt</value>
-  </data>
-  <data name="patientIdTextBoxPatients.Location" type="System.Drawing.Point, System.Drawing">
-    <value>685, 258</value>
-  </data>
-  <data name="patientIdTextBoxPatients.Size" type="System.Drawing.Size, System.Drawing">
-    <value>221, 27</value>
-  </data>
-  <data name="patientIdTextBoxPatients.TabIndex" type="System.Int32, mscorlib">
-    <value>25</value>
-  </data>
-  <data name="&gt;&gt;patientIdTextBoxPatients.Name" xml:space="preserve">
-    <value>patientIdTextBoxPatients</value>
-  </data>
-  <data name="&gt;&gt;patientIdTextBoxPatients.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;patientIdTextBoxPatients.Parent" xml:space="preserve">
-    <value>patientsTabPage</value>
-  </data>
-  <data name="&gt;&gt;patientIdTextBoxPatients.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="patientIdLabelPatients.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="patientIdLabelPatients.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft YaHei UI, 11.25pt</value>
-  </data>
-  <data name="patientIdLabelPatients.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="patientIdLabelPatients.Location" type="System.Drawing.Point, System.Drawing">
-    <value>575, 262</value>
-  </data>
-  <data name="patientIdLabelPatients.Size" type="System.Drawing.Size, System.Drawing">
-    <value>83, 20</value>
-  </data>
-  <data name="patientIdLabelPatients.TabIndex" type="System.Int32, mscorlib">
-    <value>24</value>
-  </data>
-  <data name="patientIdLabelPatients.Text" xml:space="preserve">
-    <value>Patient ID:</value>
-  </data>
-  <data name="&gt;&gt;patientIdLabelPatients.Name" xml:space="preserve">
-    <value>patientIdLabelPatients</value>
-  </data>
-  <data name="&gt;&gt;patientIdLabelPatients.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;patientIdLabelPatients.Parent" xml:space="preserve">
-    <value>patientsTabPage</value>
-  </data>
-  <data name="&gt;&gt;patientIdLabelPatients.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="patientAgeTextBox.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft YaHei UI, 11.25pt</value>
-  </data>
-  <data name="patientAgeTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>205, 264</value>
-  </data>
-  <data name="patientAgeTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>148, 27</value>
-  </data>
-  <data name="patientAgeTextBox.TabIndex" type="System.Int32, mscorlib">
-    <value>21</value>
-  </data>
-  <data name="&gt;&gt;patientAgeTextBox.Name" xml:space="preserve">
-    <value>patientAgeTextBox</value>
-  </data>
-  <data name="&gt;&gt;patientAgeTextBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;patientAgeTextBox.Parent" xml:space="preserve">
-    <value>patientsTabPage</value>
-  </data>
-  <data name="&gt;&gt;patientAgeTextBox.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="patientAgeLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="patientAgeLabel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft YaHei UI, 11.25pt</value>
-  </data>
-  <data name="patientAgeLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="patientAgeLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>156, 268</value>
-  </data>
-  <data name="patientAgeLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>43, 20</value>
-  </data>
-  <data name="patientAgeLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>20</value>
-  </data>
-  <data name="patientAgeLabel.Text" xml:space="preserve">
-    <value>Age:</value>
-  </data>
-  <data name="&gt;&gt;patientAgeLabel.Name" xml:space="preserve">
-    <value>patientAgeLabel</value>
-  </data>
-  <data name="&gt;&gt;patientAgeLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;patientAgeLabel.Parent" xml:space="preserve">
-    <value>patientsTabPage</value>
-  </data>
-  <data name="&gt;&gt;patientAgeLabel.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="dataGridViewTextBoxColumn1.HeaderText" xml:space="preserve">
-    <value>PatientId</value>
-  </data>
-  <data name="dataGridViewTextBoxColumn1.MinimumWidth" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="dataGridViewTextBoxColumn1.Width" type="System.Int32, mscorlib">
-    <value>200</value>
-  </data>
-  <data name="dataGridViewTextBoxColumn2.HeaderText" xml:space="preserve">
-    <value>FirstName</value>
-  </data>
-  <data name="dataGridViewTextBoxColumn2.MinimumWidth" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="dataGridViewTextBoxColumn2.Width" type="System.Int32, mscorlib">
-    <value>200</value>
-  </data>
-  <data name="dataGridViewTextBoxColumn3.HeaderText" xml:space="preserve">
-    <value>LastName</value>
-  </data>
-  <data name="dataGridViewTextBoxColumn3.MinimumWidth" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="dataGridViewTextBoxColumn3.Width" type="System.Int32, mscorlib">
-    <value>200</value>
-  </data>
-  <data name="dataGridViewTextBoxColumn4.HeaderText" xml:space="preserve">
-    <value>Address</value>
-  </data>
-  <data name="dataGridViewTextBoxColumn4.MinimumWidth" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="dataGridViewTextBoxColumn4.Width" type="System.Int32, mscorlib">
-    <value>200</value>
-  </data>
-  <data name="dataGridViewTextBoxColumn5.HeaderText" xml:space="preserve">
-    <value>Contact</value>
-  </data>
-  <data name="dataGridViewTextBoxColumn5.MinimumWidth" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="dataGridViewTextBoxColumn5.Width" type="System.Int32, mscorlib">
-    <value>200</value>
-  </data>
-  <data name="dataGridViewTextBoxColumn6.HeaderText" xml:space="preserve">
-    <value>DateOfBirth</value>
-  </data>
-  <data name="dataGridViewTextBoxColumn6.MinimumWidth" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="dataGridViewTextBoxColumn6.Width" type="System.Int32, mscorlib">
-    <value>200</value>
-  </data>
-  <data name="dataGridViewTextBoxColumn7.HeaderText" xml:space="preserve">
-    <value>Sex</value>
-  </data>
-  <data name="dataGridViewTextBoxColumn7.MinimumWidth" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="dataGridViewTextBoxColumn7.Width" type="System.Int32, mscorlib">
-    <value>200</value>
-  </data>
-  <data name="dataGridViewTextBoxColumn8.HeaderText" xml:space="preserve">
-    <value>BloodType</value>
-  </data>
-  <data name="dataGridViewTextBoxColumn8.MinimumWidth" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="dataGridViewTextBoxColumn8.Width" type="System.Int32, mscorlib">
-    <value>200</value>
-  </data>
   <metadata name="patientsBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>289, 17</value>
   </metadata>
   <metadata name="hospitalDatabaseDataSet.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>105, 17</value>
   </metadata>
-  <data name="patientsDataGridView.Location" type="System.Drawing.Point, System.Drawing">
-    <value>5, 5</value>
-  </data>
-  <data name="patientsDataGridView.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
-  </data>
-  <data name="patientsDataGridView.RowHeadersWidth" type="System.Int32, mscorlib">
-    <value>82</value>
-  </data>
-  <data name="patientsDataGridView.Size" type="System.Drawing.Size, System.Drawing">
-    <value>901, 220</value>
-  </data>
-  <data name="patientsDataGridView.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="&gt;&gt;patientsDataGridView.Name" xml:space="preserve">
-    <value>patientsDataGridView</value>
-  </data>
-  <data name="&gt;&gt;patientsDataGridView.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;patientsDataGridView.Parent" xml:space="preserve">
-    <value>patientsTabPage</value>
-  </data>
-  <data name="&gt;&gt;patientsDataGridView.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="findPatientBtn.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft YaHei, 9.75pt</value>
-  </data>
-  <data name="findPatientBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="findPatientBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>433, 248</value>
-  </data>
-  <data name="findPatientBtn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>136, 46</value>
-  </data>
-  <data name="findPatientBtn.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="findPatientBtn.Text" xml:space="preserve">
-    <value>Find Patient:</value>
-  </data>
-  <data name="findPatientBtn.ToolTip" xml:space="preserve">
-    <value>Enter the ID of the patient in the text field to the right.</value>
-  </data>
-  <data name="&gt;&gt;findPatientBtn.Name" xml:space="preserve">
-    <value>findPatientBtn</value>
-  </data>
-  <data name="&gt;&gt;findPatientBtn.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;findPatientBtn.Parent" xml:space="preserve">
-    <value>patientsTabPage</value>
-  </data>
-  <data name="&gt;&gt;findPatientBtn.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="displayButton.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft YaHei, 9.75pt</value>
-  </data>
-  <data name="displayButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="displayButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>936, 5</value>
-  </data>
-  <data name="displayButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>222, 46</value>
-  </data>
-  <data name="displayButton.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="displayButton.Text" xml:space="preserve">
-    <value>Display All Patients</value>
-  </data>
-  <data name="displayButton.ToolTip" xml:space="preserve">
-    <value>Enter the ID of the patient in the text field to the right.</value>
-  </data>
-  <data name="&gt;&gt;displayButton.Name" xml:space="preserve">
-    <value>displayButton</value>
-  </data>
-  <data name="&gt;&gt;displayButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;displayButton.Parent" xml:space="preserve">
-    <value>patientsTabPage</value>
-  </data>
-  <data name="&gt;&gt;displayButton.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="filterAgeButton.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft YaHei, 9.75pt</value>
-  </data>
-  <data name="filterAgeButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="filterAgeButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>13, 245</value>
-  </data>
-  <data name="filterAgeButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>136, 46</value>
-  </data>
-  <data name="filterAgeButton.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="filterAgeButton.Text" xml:space="preserve">
-    <value>Find Patients older than...</value>
-  </data>
-  <data name="filterAgeButton.ToolTip" xml:space="preserve">
-    <value>Enter the ID of the patient in the text field to the right.</value>
-  </data>
-  <data name="&gt;&gt;filterAgeButton.Name" xml:space="preserve">
-    <value>filterAgeButton</value>
-  </data>
-  <data name="&gt;&gt;filterAgeButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;filterAgeButton.Parent" xml:space="preserve">
-    <value>patientsTabPage</value>
-  </data>
-  <data name="&gt;&gt;filterAgeButton.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="patientsTabPage.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 30</value>
-  </data>
-  <data name="patientsTabPage.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
-  </data>
-  <data name="patientsTabPage.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
-  </data>
-  <data name="patientsTabPage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1196, 378</value>
-  </data>
-  <data name="patientsTabPage.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="patientsTabPage.Text" xml:space="preserve">
-    <value>Patients</value>
-  </data>
-  <data name="&gt;&gt;patientsTabPage.Name" xml:space="preserve">
-    <value>patientsTabPage</value>
-  </data>
-  <data name="&gt;&gt;patientsTabPage.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;patientsTabPage.Parent" xml:space="preserve">
-    <value>tabControl1</value>
-  </data>
-  <data name="&gt;&gt;patientsTabPage.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="doctorIdTextBoxDoctors.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft YaHei UI, 11.25pt</value>
-  </data>
-  <data name="doctorIdTextBoxDoctors.Location" type="System.Drawing.Point, System.Drawing">
-    <value>293, 298</value>
-  </data>
-  <data name="doctorIdTextBoxDoctors.Size" type="System.Drawing.Size, System.Drawing">
-    <value>221, 27</value>
-  </data>
-  <data name="doctorIdTextBoxDoctors.TabIndex" type="System.Int32, mscorlib">
-    <value>19</value>
-  </data>
-  <data name="&gt;&gt;doctorIdTextBoxDoctors.Name" xml:space="preserve">
-    <value>doctorIdTextBoxDoctors</value>
-  </data>
-  <data name="&gt;&gt;doctorIdTextBoxDoctors.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;doctorIdTextBoxDoctors.Parent" xml:space="preserve">
-    <value>doctorsTabPage</value>
-  </data>
-  <data name="&gt;&gt;doctorIdTextBoxDoctors.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="doctorIdLabelDoctors.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="doctorIdLabelDoctors.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft YaHei UI, 11.25pt</value>
-  </data>
-  <data name="doctorIdLabelDoctors.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="doctorIdLabelDoctors.Location" type="System.Drawing.Point, System.Drawing">
-    <value>180, 305</value>
-  </data>
-  <data name="doctorIdLabelDoctors.Size" type="System.Drawing.Size, System.Drawing">
-    <value>83, 20</value>
-  </data>
-  <data name="doctorIdLabelDoctors.TabIndex" type="System.Int32, mscorlib">
-    <value>18</value>
-  </data>
-  <data name="doctorIdLabelDoctors.Text" xml:space="preserve">
-    <value>Doctor ID:</value>
-  </data>
-  <data name="&gt;&gt;doctorIdLabelDoctors.Name" xml:space="preserve">
-    <value>doctorIdLabelDoctors</value>
-  </data>
-  <data name="&gt;&gt;doctorIdLabelDoctors.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;doctorIdLabelDoctors.Parent" xml:space="preserve">
-    <value>doctorsTabPage</value>
-  </data>
-  <data name="&gt;&gt;doctorIdLabelDoctors.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="doctorNameTextBox.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft YaHei UI, 11.25pt</value>
-  </data>
-  <data name="doctorNameTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>293, 260</value>
-  </data>
-  <data name="doctorNameTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>221, 27</value>
-  </data>
-  <data name="doctorNameTextBox.TabIndex" type="System.Int32, mscorlib">
-    <value>17</value>
-  </data>
-  <data name="&gt;&gt;doctorNameTextBox.Name" xml:space="preserve">
-    <value>doctorNameTextBox</value>
-  </data>
-  <data name="&gt;&gt;doctorNameTextBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;doctorNameTextBox.Parent" xml:space="preserve">
-    <value>doctorsTabPage</value>
-  </data>
-  <data name="&gt;&gt;doctorNameTextBox.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="doctorNameLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="doctorNameLabel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft YaHei UI, 11.25pt</value>
-  </data>
-  <data name="doctorNameLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="doctorNameLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>180, 267</value>
-  </data>
-  <data name="doctorNameLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>111, 20</value>
-  </data>
-  <data name="doctorNameLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>16</value>
-  </data>
-  <data name="doctorNameLabel.Text" xml:space="preserve">
-    <value>Doctor Name:</value>
-  </data>
-  <data name="&gt;&gt;doctorNameLabel.Name" xml:space="preserve">
-    <value>doctorNameLabel</value>
-  </data>
-  <data name="&gt;&gt;doctorNameLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;doctorNameLabel.Parent" xml:space="preserve">
-    <value>doctorsTabPage</value>
-  </data>
-  <data name="&gt;&gt;doctorNameLabel.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="findAvailableDocBtn.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft YaHei, 9.75pt</value>
-  </data>
-  <data name="findAvailableDocBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="findAvailableDocBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1022, 18</value>
-  </data>
-  <data name="findAvailableDocBtn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>136, 46</value>
-  </data>
-  <data name="findAvailableDocBtn.TabIndex" type="System.Int32, mscorlib">
-    <value>15</value>
-  </data>
-  <data name="findAvailableDocBtn.Text" xml:space="preserve">
-    <value>Find Available Doctors</value>
-  </data>
-  <data name="findAvailableDocBtn.ToolTip" xml:space="preserve">
-    <value>Enter the ID of the patient in the text field to the right.</value>
-  </data>
-  <data name="&gt;&gt;findAvailableDocBtn.Name" xml:space="preserve">
-    <value>findAvailableDocBtn</value>
-  </data>
-  <data name="&gt;&gt;findAvailableDocBtn.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;findAvailableDocBtn.Parent" xml:space="preserve">
-    <value>doctorsTabPage</value>
-  </data>
-  <data name="&gt;&gt;findAvailableDocBtn.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="displayAllDoctorssBtn.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft YaHei, 9.75pt</value>
-  </data>
-  <data name="displayAllDoctorssBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="displayAllDoctorssBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1022, 86</value>
-  </data>
-  <data name="displayAllDoctorssBtn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>136, 46</value>
-  </data>
-  <data name="displayAllDoctorssBtn.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
-  </data>
-  <data name="displayAllDoctorssBtn.Text" xml:space="preserve">
-    <value>Display All Doctors</value>
-  </data>
-  <data name="displayAllDoctorssBtn.ToolTip" xml:space="preserve">
-    <value>Enter the ID of the patient in the text field to the right.</value>
-  </data>
-  <data name="&gt;&gt;displayAllDoctorssBtn.Name" xml:space="preserve">
-    <value>displayAllDoctorssBtn</value>
-  </data>
-  <data name="&gt;&gt;displayAllDoctorssBtn.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;displayAllDoctorssBtn.Parent" xml:space="preserve">
-    <value>doctorsTabPage</value>
-  </data>
-  <data name="&gt;&gt;displayAllDoctorssBtn.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="findDoctorBtn.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft YaHei, 9.75pt</value>
-  </data>
-  <data name="findDoctorBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="findDoctorBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>13, 267</value>
-  </data>
-  <data name="findDoctorBtn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>136, 46</value>
-  </data>
-  <data name="findDoctorBtn.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="findDoctorBtn.Text" xml:space="preserve">
-    <value>Find Doctor:</value>
-  </data>
-  <data name="findDoctorBtn.ToolTip" xml:space="preserve">
-    <value>Enter the ID or name of the doctor</value>
-  </data>
-  <data name="&gt;&gt;findDoctorBtn.Name" xml:space="preserve">
-    <value>findDoctorBtn</value>
-  </data>
-  <data name="&gt;&gt;findDoctorBtn.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;findDoctorBtn.Parent" xml:space="preserve">
-    <value>doctorsTabPage</value>
-  </data>
-  <data name="&gt;&gt;findDoctorBtn.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="dataGridViewTextBoxColumn10.HeaderText" xml:space="preserve">
-    <value>DoctorId</value>
-  </data>
-  <data name="dataGridViewTextBoxColumn10.MinimumWidth" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="dataGridViewTextBoxColumn10.Width" type="System.Int32, mscorlib">
-    <value>200</value>
-  </data>
-  <data name="dataGridViewTextBoxColumn11.HeaderText" xml:space="preserve">
-    <value>FirstName</value>
-  </data>
-  <data name="dataGridViewTextBoxColumn11.MinimumWidth" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="dataGridViewTextBoxColumn11.Width" type="System.Int32, mscorlib">
-    <value>200</value>
-  </data>
-  <data name="dataGridViewTextBoxColumn12.HeaderText" xml:space="preserve">
-    <value>LastName</value>
-  </data>
-  <data name="dataGridViewTextBoxColumn12.MinimumWidth" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="dataGridViewTextBoxColumn12.Width" type="System.Int32, mscorlib">
-    <value>200</value>
-  </data>
-  <data name="dataGridViewTextBoxColumn13.HeaderText" xml:space="preserve">
-    <value>Contact</value>
-  </data>
-  <data name="dataGridViewTextBoxColumn13.MinimumWidth" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="dataGridViewTextBoxColumn13.Width" type="System.Int32, mscorlib">
-    <value>200</value>
-  </data>
-  <data name="dataGridViewTextBoxColumn14.HeaderText" xml:space="preserve">
-    <value>Specialty</value>
-  </data>
-  <data name="dataGridViewTextBoxColumn14.MinimumWidth" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="dataGridViewTextBoxColumn14.Width" type="System.Int32, mscorlib">
-    <value>200</value>
-  </data>
+  <metadata name="hospitalDatabaseDataSet.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>105, 17</value>
+  </metadata>
   <metadata name="doctorsBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>820, 17</value>
   </metadata>
-  <data name="doctorsDataGridView.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 4</value>
-  </data>
-  <data name="doctorsDataGridView.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
-  </data>
-  <data name="doctorsDataGridView.RowHeadersWidth" type="System.Int32, mscorlib">
-    <value>82</value>
-  </data>
-  <data name="doctorsDataGridView.Size" type="System.Drawing.Size, System.Drawing">
-    <value>983, 243</value>
-  </data>
-  <data name="doctorsDataGridView.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;doctorsDataGridView.Name" xml:space="preserve">
-    <value>doctorsDataGridView</value>
-  </data>
-  <data name="&gt;&gt;doctorsDataGridView.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;doctorsDataGridView.Parent" xml:space="preserve">
-    <value>doctorsTabPage</value>
-  </data>
-  <data name="&gt;&gt;doctorsDataGridView.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="doctorsTabPage.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 30</value>
-  </data>
-  <data name="doctorsTabPage.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
-  </data>
-  <data name="doctorsTabPage.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
-  </data>
-  <data name="doctorsTabPage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1196, 378</value>
-  </data>
-  <data name="doctorsTabPage.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="doctorsTabPage.Text" xml:space="preserve">
-    <value>Doctors</value>
-  </data>
-  <data name="&gt;&gt;doctorsTabPage.Name" xml:space="preserve">
-    <value>doctorsTabPage</value>
-  </data>
-  <data name="&gt;&gt;doctorsTabPage.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;doctorsTabPage.Parent" xml:space="preserve">
-    <value>tabControl1</value>
-  </data>
-  <data name="&gt;&gt;doctorsTabPage.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="displayAppintmentsBtn.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft YaHei, 9.75pt</value>
-  </data>
-  <data name="displayAppintmentsBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="displayAppintmentsBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1036, 101</value>
-  </data>
-  <data name="displayAppintmentsBtn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>136, 46</value>
-  </data>
-  <data name="displayAppintmentsBtn.TabIndex" type="System.Int32, mscorlib">
-    <value>20</value>
-  </data>
-  <data name="displayAppintmentsBtn.Text" xml:space="preserve">
-    <value>Display All Appintments</value>
-  </data>
-  <data name="displayAppintmentsBtn.ToolTip" xml:space="preserve">
-    <value>Enter the ID of the patient in the text field to the right.</value>
-  </data>
-  <data name="&gt;&gt;displayAppintmentsBtn.Name" xml:space="preserve">
-    <value>displayAppintmentsBtn</value>
-  </data>
-  <data name="&gt;&gt;displayAppintmentsBtn.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;displayAppintmentsBtn.Parent" xml:space="preserve">
-    <value>appointmentsTabPage</value>
-  </data>
-  <data name="&gt;&gt;displayAppintmentsBtn.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="dataGridViewTextBoxColumn15.HeaderText" xml:space="preserve">
-    <value>AppointmentId</value>
-  </data>
-  <data name="dataGridViewTextBoxColumn15.MinimumWidth" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="dataGridViewTextBoxColumn15.Width" type="System.Int32, mscorlib">
-    <value>200</value>
-  </data>
-  <data name="dataGridViewTextBoxColumn16.HeaderText" xml:space="preserve">
-    <value>Date</value>
-  </data>
-  <data name="dataGridViewTextBoxColumn16.MinimumWidth" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="dataGridViewTextBoxColumn16.Width" type="System.Int32, mscorlib">
-    <value>200</value>
-  </data>
-  <data name="dataGridViewTextBoxColumn17.HeaderText" xml:space="preserve">
-    <value>Time</value>
-  </data>
-  <data name="dataGridViewTextBoxColumn17.MinimumWidth" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="dataGridViewTextBoxColumn17.Width" type="System.Int32, mscorlib">
-    <value>200</value>
-  </data>
-  <data name="dataGridViewTextBoxColumn18.HeaderText" xml:space="preserve">
-    <value>PatientId</value>
-  </data>
-  <data name="dataGridViewTextBoxColumn18.MinimumWidth" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="dataGridViewTextBoxColumn18.Width" type="System.Int32, mscorlib">
-    <value>200</value>
-  </data>
-  <data name="dataGridViewTextBoxColumn19.HeaderText" xml:space="preserve">
-    <value>DoctorId</value>
-  </data>
-  <data name="dataGridViewTextBoxColumn19.MinimumWidth" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="dataGridViewTextBoxColumn19.Width" type="System.Int32, mscorlib">
-    <value>200</value>
-  </data>
   <metadata name="appointmentsBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 54</value>
   </metadata>
-  <data name="appointmentsDataGridView.Location" type="System.Drawing.Point, System.Drawing">
-    <value>-2, 0</value>
-  </data>
-  <data name="appointmentsDataGridView.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
-  </data>
-  <data name="appointmentsDataGridView.RowHeadersWidth" type="System.Int32, mscorlib">
-    <value>82</value>
-  </data>
-  <data name="appointmentsDataGridView.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1014, 238</value>
-  </data>
-  <data name="appointmentsDataGridView.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;appointmentsDataGridView.Name" xml:space="preserve">
-    <value>appointmentsDataGridView</value>
-  </data>
-  <data name="&gt;&gt;appointmentsDataGridView.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;appointmentsDataGridView.Parent" xml:space="preserve">
-    <value>appointmentsTabPage</value>
-  </data>
-  <data name="&gt;&gt;appointmentsDataGridView.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="viewTodayBtn.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft YaHei, 9.75pt</value>
-  </data>
-  <data name="viewTodayBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="viewTodayBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1036, 24</value>
-  </data>
-  <data name="viewTodayBtn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>136, 46</value>
-  </data>
-  <data name="viewTodayBtn.TabIndex" type="System.Int32, mscorlib">
-    <value>18</value>
-  </data>
-  <data name="viewTodayBtn.Text" xml:space="preserve">
-    <value>View Todays Appointments</value>
-  </data>
-  <data name="viewTodayBtn.ToolTip" xml:space="preserve">
-    <value>Enter the ID of the patient in the text field to the right.</value>
-  </data>
-  <data name="&gt;&gt;viewTodayBtn.Name" xml:space="preserve">
-    <value>viewTodayBtn</value>
-  </data>
-  <data name="&gt;&gt;viewTodayBtn.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;viewTodayBtn.Parent" xml:space="preserve">
-    <value>appointmentsTabPage</value>
-  </data>
-  <data name="&gt;&gt;viewTodayBtn.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="appointmentsTabPage.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 30</value>
-  </data>
-  <data name="appointmentsTabPage.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
-  </data>
-  <data name="appointmentsTabPage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1196, 378</value>
-  </data>
-  <data name="appointmentsTabPage.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="appointmentsTabPage.Text" xml:space="preserve">
-    <value>Appointments</value>
-  </data>
-  <data name="&gt;&gt;appointmentsTabPage.Name" xml:space="preserve">
-    <value>appointmentsTabPage</value>
-  </data>
-  <data name="&gt;&gt;appointmentsTabPage.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;appointmentsTabPage.Parent" xml:space="preserve">
-    <value>tabControl1</value>
-  </data>
-  <data name="&gt;&gt;appointmentsTabPage.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="transferPatientButton.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft YaHei, 9.75pt</value>
-  </data>
-  <data name="transferPatientButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="transferPatientButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>399, 175</value>
-  </data>
-  <data name="transferPatientButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>136, 46</value>
-  </data>
-  <data name="transferPatientButton.TabIndex" type="System.Int32, mscorlib">
-    <value>20</value>
-  </data>
-  <data name="transferPatientButton.Text" xml:space="preserve">
-    <value>Transfer Patient to Doctor</value>
-  </data>
-  <data name="&gt;&gt;transferPatientButton.Name" xml:space="preserve">
-    <value>transferPatientButton</value>
-  </data>
-  <data name="&gt;&gt;transferPatientButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;transferPatientButton.Parent" xml:space="preserve">
-    <value>recordsTabPage</value>
-  </data>
-  <data name="&gt;&gt;transferPatientButton.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="doctorFirstNameTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>102, 27</value>
-  </data>
-  <data name="doctorFirstNameTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 28</value>
-  </data>
-  <data name="doctorFirstNameTextBox.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;doctorFirstNameTextBox.Name" xml:space="preserve">
-    <value>doctorFirstNameTextBox</value>
-  </data>
-  <data name="&gt;&gt;doctorFirstNameTextBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;doctorFirstNameTextBox.Parent" xml:space="preserve">
-    <value>doctorInfo</value>
-  </data>
-  <data name="&gt;&gt;doctorFirstNameTextBox.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="specialtyTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>102, 78</value>
-  </data>
-  <data name="specialtyTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 28</value>
-  </data>
-  <data name="specialtyTextBox.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;specialtyTextBox.Name" xml:space="preserve">
-    <value>specialtyTextBox</value>
-  </data>
-  <data name="&gt;&gt;specialtyTextBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;specialtyTextBox.Parent" xml:space="preserve">
-    <value>doctorInfo</value>
-  </data>
-  <data name="&gt;&gt;specialtyTextBox.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="doctorLastNameTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>339, 31</value>
-  </data>
-  <data name="doctorLastNameTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 28</value>
-  </data>
-  <data name="doctorLastNameTextBox.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="&gt;&gt;doctorLastNameTextBox.Name" xml:space="preserve">
-    <value>doctorLastNameTextBox</value>
-  </data>
-  <data name="&gt;&gt;doctorLastNameTextBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;doctorLastNameTextBox.Parent" xml:space="preserve">
-    <value>doctorInfo</value>
-  </data>
-  <data name="&gt;&gt;doctorLastNameTextBox.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="doctorInfo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>399, 13</value>
-  </data>
-  <data name="doctorInfo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>500, 119</value>
-  </data>
-  <data name="doctorInfo.TabIndex" type="System.Int32, mscorlib">
-    <value>15</value>
-  </data>
-  <data name="doctorInfo.Text" xml:space="preserve">
-    <value>Doctor's Information</value>
-  </data>
-  <data name="&gt;&gt;doctorInfo.Name" xml:space="preserve">
-    <value>doctorInfo</value>
-  </data>
-  <data name="&gt;&gt;doctorInfo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;doctorInfo.Parent" xml:space="preserve">
-    <value>recordsTabPage</value>
-  </data>
-  <data name="&gt;&gt;doctorInfo.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="patientIdTextBoxRecords.Location" type="System.Drawing.Point, System.Drawing">
-    <value>139, 48</value>
-  </data>
-  <data name="patientIdTextBoxRecords.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 28</value>
-  </data>
-  <data name="patientIdTextBoxRecords.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;patientIdTextBoxRecords.Name" xml:space="preserve">
-    <value>patientIdTextBoxRecords</value>
-  </data>
-  <data name="&gt;&gt;patientIdTextBoxRecords.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;patientIdTextBoxRecords.Parent" xml:space="preserve">
-    <value>patientInfo</value>
-  </data>
-  <data name="&gt;&gt;patientIdTextBoxRecords.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="patientLastNameTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>139, 150</value>
-  </data>
-  <data name="patientLastNameTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 28</value>
-  </data>
-  <data name="patientLastNameTextBox.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
-  </data>
-  <data name="&gt;&gt;patientLastNameTextBox.Name" xml:space="preserve">
-    <value>patientLastNameTextBox</value>
-  </data>
-  <data name="&gt;&gt;patientLastNameTextBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;patientLastNameTextBox.Parent" xml:space="preserve">
-    <value>patientInfo</value>
-  </data>
-  <data name="&gt;&gt;patientLastNameTextBox.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="patientFirstNameTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>139, 104</value>
-  </data>
-  <data name="patientFirstNameTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 28</value>
-  </data>
-  <data name="patientFirstNameTextBox.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="&gt;&gt;patientFirstNameTextBox.Name" xml:space="preserve">
-    <value>patientFirstNameTextBox</value>
-  </data>
-  <data name="&gt;&gt;patientFirstNameTextBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;patientFirstNameTextBox.Parent" xml:space="preserve">
-    <value>patientInfo</value>
-  </data>
-  <data name="&gt;&gt;patientFirstNameTextBox.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="patientInfo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>19, 13</value>
-  </data>
-  <data name="patientInfo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>259, 223</value>
-  </data>
-  <data name="patientInfo.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
-  </data>
-  <data name="patientInfo.Text" xml:space="preserve">
-    <value>Patient's information</value>
-  </data>
-  <data name="&gt;&gt;patientInfo.Name" xml:space="preserve">
-    <value>patientInfo</value>
-  </data>
-  <data name="&gt;&gt;patientInfo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;patientInfo.Parent" xml:space="preserve">
-    <value>recordsTabPage</value>
-  </data>
-  <data name="&gt;&gt;patientInfo.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="recordsTabPage.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 30</value>
-  </data>
-  <data name="recordsTabPage.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
-  </data>
-  <data name="recordsTabPage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1196, 378</value>
-  </data>
-  <data name="recordsTabPage.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="recordsTabPage.Text" xml:space="preserve">
-    <value>Records</value>
-  </data>
-  <data name="&gt;&gt;recordsTabPage.Name" xml:space="preserve">
-    <value>recordsTabPage</value>
-  </data>
-  <data name="&gt;&gt;recordsTabPage.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;recordsTabPage.Parent" xml:space="preserve">
-    <value>tabControl1</value>
-  </data>
-  <data name="&gt;&gt;recordsTabPage.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="tabControl1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft YaHei UI, 12pt</value>
-  </data>
-  <data name="tabControl1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 98</value>
-  </data>
-  <data name="tabControl1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
-  </data>
-  <data name="tabControl1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1204, 412</value>
-  </data>
-  <data name="tabControl1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;tabControl1.Name" xml:space="preserve">
-    <value>tabControl1</value>
-  </data>
-  <data name="&gt;&gt;tabControl1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tabControl1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;tabControl1.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
   <metadata name="tableAdapterManager.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>462, 17</value>
   </metadata>
@@ -1503,6 +144,7 @@
   <metadata name="patientsBindingNavigator.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>631, 17</value>
   </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="bindingNavigatorAddNewItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAd
@@ -1515,6 +157,7 @@
         nlwVm9EAAAAASUVORK5CYII=
 </value>
   </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="bindingNavigatorAddNewItem.RightToLeftAutoMirrorImage" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -1524,6 +167,7 @@
   <data name="bindingNavigatorAddNewItem.Text" xml:space="preserve">
     <value>Add new</value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="patientsBindingNavigator.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
   </data>
@@ -1703,6 +347,9 @@
   <data name="&gt;&gt;patientsBindingNavigator.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
+  <metadata name="findPatientTip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1112, 17</value>
+  </metadata>
   <data name="themeButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -1732,6 +379,57 @@
   </data>
   <data name="&gt;&gt;themeButton.ZOrder" xml:space="preserve">
     <value>2</value>
+  </data>
+  <data name="&gt;&gt;timeUserControl1.Name" xml:space="preserve">
+    <value>timeUserControl1</value>
+  </data>
+  <data name="&gt;&gt;timeUserControl1.Type" xml:space="preserve">
+    <value>HospitalManagementSystem.TimeUserControl, HospitalManagementSystem, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;timeUserControl1.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;timeUserControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;dateUserControl1.Name" xml:space="preserve">
+    <value>dateUserControl1</value>
+  </data>
+  <data name="&gt;&gt;dateUserControl1.Type" xml:space="preserve">
+    <value>HospitalManagementSystem.DateUserControl, HospitalManagementSystem, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;dateUserControl1.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;dateUserControl1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 6</value>
+  </data>
+  <data name="groupBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="groupBox1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>261, 46</value>
+  </data>
+  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
+    <value>6</value>
   </data>
   <data name="timeUserControl1.Location" type="System.Drawing.Point, System.Drawing">
     <value>1024, 9</value>
@@ -1780,33 +478,6 @@
   </data>
   <data name="&gt;&gt;dateUserControl1.ZOrder" xml:space="preserve">
     <value>1</value>
-  </data>
-  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>19, 6</value>
-  </data>
-  <data name="groupBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
-  </data>
-  <data name="groupBox1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
-  </data>
-  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>261, 46</value>
-  </data>
-  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
-    <value>groupBox1</value>
-  </data>
-  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
-    <value>6</value>
   </data>
   <metadata name="logoutButton.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -1975,6 +646,1185 @@
   </data>
   <data name="&gt;&gt;changePswButton.ZOrder" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="&gt;&gt;displayAppintmentsBtn.Name" xml:space="preserve">
+    <value>displayAppintmentsBtn</value>
+  </data>
+  <data name="&gt;&gt;displayAppintmentsBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;displayAppintmentsBtn.Parent" xml:space="preserve">
+    <value>appointmentsTabPage</value>
+  </data>
+  <data name="&gt;&gt;displayAppintmentsBtn.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;appointmentsDataGridView.Name" xml:space="preserve">
+    <value>appointmentsDataGridView</value>
+  </data>
+  <data name="&gt;&gt;appointmentsDataGridView.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;appointmentsDataGridView.Parent" xml:space="preserve">
+    <value>appointmentsTabPage</value>
+  </data>
+  <data name="&gt;&gt;appointmentsDataGridView.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;viewTodayBtn.Name" xml:space="preserve">
+    <value>viewTodayBtn</value>
+  </data>
+  <data name="&gt;&gt;viewTodayBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;viewTodayBtn.Parent" xml:space="preserve">
+    <value>appointmentsTabPage</value>
+  </data>
+  <data name="&gt;&gt;viewTodayBtn.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="appointmentsTabPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 30</value>
+  </data>
+  <data name="appointmentsTabPage.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="appointmentsTabPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1196, 378</value>
+  </data>
+  <data name="appointmentsTabPage.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="appointmentsTabPage.Text" xml:space="preserve">
+    <value>Appointments</value>
+  </data>
+  <data name="&gt;&gt;appointmentsTabPage.Name" xml:space="preserve">
+    <value>appointmentsTabPage</value>
+  </data>
+  <data name="&gt;&gt;appointmentsTabPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;appointmentsTabPage.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;appointmentsTabPage.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="viewTodayBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 9.75pt</value>
+  </data>
+  <data name="viewTodayBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="viewTodayBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1036, 24</value>
+  </data>
+  <data name="viewTodayBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 46</value>
+  </data>
+  <data name="viewTodayBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="viewTodayBtn.Text" xml:space="preserve">
+    <value>View Todays Appointments</value>
+  </data>
+  <data name="viewTodayBtn.ToolTip" xml:space="preserve">
+    <value>Enter the ID of the patient in the text field to the right.</value>
+  </data>
+  <data name="&gt;&gt;viewTodayBtn.Name" xml:space="preserve">
+    <value>viewTodayBtn</value>
+  </data>
+  <data name="&gt;&gt;viewTodayBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;viewTodayBtn.Parent" xml:space="preserve">
+    <value>appointmentsTabPage</value>
+  </data>
+  <data name="&gt;&gt;viewTodayBtn.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="appointmentsDataGridView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-2, 0</value>
+  </data>
+  <data name="appointmentsDataGridView.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="appointmentsDataGridView.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>82</value>
+  </data>
+  <data name="appointmentsDataGridView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1014, 238</value>
+  </data>
+  <data name="appointmentsDataGridView.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;appointmentsDataGridView.Name" xml:space="preserve">
+    <value>appointmentsDataGridView</value>
+  </data>
+  <data name="&gt;&gt;appointmentsDataGridView.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;appointmentsDataGridView.Parent" xml:space="preserve">
+    <value>appointmentsTabPage</value>
+  </data>
+  <data name="&gt;&gt;appointmentsDataGridView.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn19.HeaderText" xml:space="preserve">
+    <value>DoctorId</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn19.MinimumWidth" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn19.Width" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn18.HeaderText" xml:space="preserve">
+    <value>PatientId</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn18.MinimumWidth" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn18.Width" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn17.HeaderText" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn17.MinimumWidth" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn17.Width" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn16.HeaderText" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn16.MinimumWidth" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn16.Width" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn15.HeaderText" xml:space="preserve">
+    <value>AppointmentId</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn15.MinimumWidth" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn15.Width" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <data name="displayAppintmentsBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 9.75pt</value>
+  </data>
+  <data name="displayAppintmentsBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="displayAppintmentsBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1036, 101</value>
+  </data>
+  <data name="displayAppintmentsBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 46</value>
+  </data>
+  <data name="displayAppintmentsBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="displayAppintmentsBtn.Text" xml:space="preserve">
+    <value>Display All Appintments</value>
+  </data>
+  <data name="displayAppintmentsBtn.ToolTip" xml:space="preserve">
+    <value>Enter the ID of the patient in the text field to the right.</value>
+  </data>
+  <data name="&gt;&gt;displayAppintmentsBtn.Name" xml:space="preserve">
+    <value>displayAppintmentsBtn</value>
+  </data>
+  <data name="&gt;&gt;displayAppintmentsBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;displayAppintmentsBtn.Parent" xml:space="preserve">
+    <value>appointmentsTabPage</value>
+  </data>
+  <data name="&gt;&gt;displayAppintmentsBtn.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;doctorIdTextBoxDoctors.Name" xml:space="preserve">
+    <value>doctorIdTextBoxDoctors</value>
+  </data>
+  <data name="&gt;&gt;doctorIdTextBoxDoctors.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;doctorIdTextBoxDoctors.Parent" xml:space="preserve">
+    <value>doctorsTabPage</value>
+  </data>
+  <data name="&gt;&gt;doctorIdTextBoxDoctors.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;doctorNameTextBox.Name" xml:space="preserve">
+    <value>doctorNameTextBox</value>
+  </data>
+  <data name="&gt;&gt;doctorNameTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;doctorNameTextBox.Parent" xml:space="preserve">
+    <value>doctorsTabPage</value>
+  </data>
+  <data name="&gt;&gt;doctorNameTextBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;doctorIdLabelDoctors.Name" xml:space="preserve">
+    <value>doctorIdLabelDoctors</value>
+  </data>
+  <data name="&gt;&gt;doctorIdLabelDoctors.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;doctorIdLabelDoctors.Parent" xml:space="preserve">
+    <value>doctorsTabPage</value>
+  </data>
+  <data name="&gt;&gt;doctorIdLabelDoctors.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;doctorNameLabel.Name" xml:space="preserve">
+    <value>doctorNameLabel</value>
+  </data>
+  <data name="&gt;&gt;doctorNameLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;doctorNameLabel.Parent" xml:space="preserve">
+    <value>doctorsTabPage</value>
+  </data>
+  <data name="&gt;&gt;doctorNameLabel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;findAvailableDocBtn.Name" xml:space="preserve">
+    <value>findAvailableDocBtn</value>
+  </data>
+  <data name="&gt;&gt;findAvailableDocBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;findAvailableDocBtn.Parent" xml:space="preserve">
+    <value>doctorsTabPage</value>
+  </data>
+  <data name="&gt;&gt;findAvailableDocBtn.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;displayAllDoctorssBtn.Name" xml:space="preserve">
+    <value>displayAllDoctorssBtn</value>
+  </data>
+  <data name="&gt;&gt;displayAllDoctorssBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;displayAllDoctorssBtn.Parent" xml:space="preserve">
+    <value>doctorsTabPage</value>
+  </data>
+  <data name="&gt;&gt;displayAllDoctorssBtn.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;findDoctorBtn.Name" xml:space="preserve">
+    <value>findDoctorBtn</value>
+  </data>
+  <data name="&gt;&gt;findDoctorBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;findDoctorBtn.Parent" xml:space="preserve">
+    <value>doctorsTabPage</value>
+  </data>
+  <data name="&gt;&gt;findDoctorBtn.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;doctorsDataGridView.Name" xml:space="preserve">
+    <value>doctorsDataGridView</value>
+  </data>
+  <data name="&gt;&gt;doctorsDataGridView.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;doctorsDataGridView.Parent" xml:space="preserve">
+    <value>doctorsTabPage</value>
+  </data>
+  <data name="&gt;&gt;doctorsDataGridView.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="doctorsTabPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 30</value>
+  </data>
+  <data name="doctorsTabPage.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="doctorsTabPage.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="doctorsTabPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1196, 378</value>
+  </data>
+  <data name="doctorsTabPage.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="doctorsTabPage.Text" xml:space="preserve">
+    <value>Doctors</value>
+  </data>
+  <data name="&gt;&gt;doctorsTabPage.Name" xml:space="preserve">
+    <value>doctorsTabPage</value>
+  </data>
+  <data name="&gt;&gt;doctorsTabPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;doctorsTabPage.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;doctorsTabPage.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="doctorsDataGridView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 4</value>
+  </data>
+  <data name="doctorsDataGridView.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="doctorsDataGridView.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>82</value>
+  </data>
+  <data name="doctorsDataGridView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>983, 243</value>
+  </data>
+  <data name="doctorsDataGridView.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;doctorsDataGridView.Name" xml:space="preserve">
+    <value>doctorsDataGridView</value>
+  </data>
+  <data name="&gt;&gt;doctorsDataGridView.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;doctorsDataGridView.Parent" xml:space="preserve">
+    <value>doctorsTabPage</value>
+  </data>
+  <data name="&gt;&gt;doctorsDataGridView.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn14.HeaderText" xml:space="preserve">
+    <value>Specialty</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn14.MinimumWidth" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn14.Width" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn13.HeaderText" xml:space="preserve">
+    <value>Contact</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn13.MinimumWidth" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn13.Width" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn12.HeaderText" xml:space="preserve">
+    <value>LastName</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn12.MinimumWidth" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn12.Width" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn11.HeaderText" xml:space="preserve">
+    <value>FirstName</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn11.MinimumWidth" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn11.Width" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn10.HeaderText" xml:space="preserve">
+    <value>DoctorId</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn10.MinimumWidth" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn10.Width" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <data name="findDoctorBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 9.75pt</value>
+  </data>
+  <data name="findDoctorBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="findDoctorBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 267</value>
+  </data>
+  <data name="findDoctorBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 46</value>
+  </data>
+  <data name="findDoctorBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="findDoctorBtn.Text" xml:space="preserve">
+    <value>Find Doctor:</value>
+  </data>
+  <data name="findDoctorBtn.ToolTip" xml:space="preserve">
+    <value>Enter the ID or name of the doctor</value>
+  </data>
+  <data name="&gt;&gt;findDoctorBtn.Name" xml:space="preserve">
+    <value>findDoctorBtn</value>
+  </data>
+  <data name="&gt;&gt;findDoctorBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;findDoctorBtn.Parent" xml:space="preserve">
+    <value>doctorsTabPage</value>
+  </data>
+  <data name="&gt;&gt;findDoctorBtn.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="displayAllDoctorssBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 9.75pt</value>
+  </data>
+  <data name="displayAllDoctorssBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="displayAllDoctorssBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1022, 86</value>
+  </data>
+  <data name="displayAllDoctorssBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 46</value>
+  </data>
+  <data name="displayAllDoctorssBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="displayAllDoctorssBtn.Text" xml:space="preserve">
+    <value>Display All Doctors</value>
+  </data>
+  <data name="displayAllDoctorssBtn.ToolTip" xml:space="preserve">
+    <value>Enter the ID of the patient in the text field to the right.</value>
+  </data>
+  <data name="&gt;&gt;displayAllDoctorssBtn.Name" xml:space="preserve">
+    <value>displayAllDoctorssBtn</value>
+  </data>
+  <data name="&gt;&gt;displayAllDoctorssBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;displayAllDoctorssBtn.Parent" xml:space="preserve">
+    <value>doctorsTabPage</value>
+  </data>
+  <data name="&gt;&gt;displayAllDoctorssBtn.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="findAvailableDocBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 9.75pt</value>
+  </data>
+  <data name="findAvailableDocBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="findAvailableDocBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1022, 18</value>
+  </data>
+  <data name="findAvailableDocBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 46</value>
+  </data>
+  <data name="findAvailableDocBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="findAvailableDocBtn.Text" xml:space="preserve">
+    <value>Find Available Doctors</value>
+  </data>
+  <data name="findAvailableDocBtn.ToolTip" xml:space="preserve">
+    <value>Enter the ID of the patient in the text field to the right.</value>
+  </data>
+  <data name="&gt;&gt;findAvailableDocBtn.Name" xml:space="preserve">
+    <value>findAvailableDocBtn</value>
+  </data>
+  <data name="&gt;&gt;findAvailableDocBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;findAvailableDocBtn.Parent" xml:space="preserve">
+    <value>doctorsTabPage</value>
+  </data>
+  <data name="&gt;&gt;findAvailableDocBtn.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="doctorNameLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="doctorNameLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei UI, 11.25pt</value>
+  </data>
+  <data name="doctorNameLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="doctorNameLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>180, 267</value>
+  </data>
+  <data name="doctorNameLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 20</value>
+  </data>
+  <data name="doctorNameLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="doctorNameLabel.Text" xml:space="preserve">
+    <value>Doctor Name:</value>
+  </data>
+  <data name="&gt;&gt;doctorNameLabel.Name" xml:space="preserve">
+    <value>doctorNameLabel</value>
+  </data>
+  <data name="&gt;&gt;doctorNameLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;doctorNameLabel.Parent" xml:space="preserve">
+    <value>doctorsTabPage</value>
+  </data>
+  <data name="&gt;&gt;doctorNameLabel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="doctorIdLabelDoctors.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="doctorIdLabelDoctors.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei UI, 11.25pt</value>
+  </data>
+  <data name="doctorIdLabelDoctors.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="doctorIdLabelDoctors.Location" type="System.Drawing.Point, System.Drawing">
+    <value>180, 305</value>
+  </data>
+  <data name="doctorIdLabelDoctors.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 20</value>
+  </data>
+  <data name="doctorIdLabelDoctors.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="doctorIdLabelDoctors.Text" xml:space="preserve">
+    <value>Doctor ID:</value>
+  </data>
+  <data name="&gt;&gt;doctorIdLabelDoctors.Name" xml:space="preserve">
+    <value>doctorIdLabelDoctors</value>
+  </data>
+  <data name="&gt;&gt;doctorIdLabelDoctors.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;doctorIdLabelDoctors.Parent" xml:space="preserve">
+    <value>doctorsTabPage</value>
+  </data>
+  <data name="&gt;&gt;doctorIdLabelDoctors.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="doctorNameTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei UI, 11.25pt</value>
+  </data>
+  <data name="doctorNameTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>293, 260</value>
+  </data>
+  <data name="doctorNameTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>221, 27</value>
+  </data>
+  <data name="doctorNameTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;doctorNameTextBox.Name" xml:space="preserve">
+    <value>doctorNameTextBox</value>
+  </data>
+  <data name="&gt;&gt;doctorNameTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;doctorNameTextBox.Parent" xml:space="preserve">
+    <value>doctorsTabPage</value>
+  </data>
+  <data name="&gt;&gt;doctorNameTextBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="doctorIdTextBoxDoctors.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei UI, 11.25pt</value>
+  </data>
+  <data name="doctorIdTextBoxDoctors.Location" type="System.Drawing.Point, System.Drawing">
+    <value>293, 298</value>
+  </data>
+  <data name="doctorIdTextBoxDoctors.Size" type="System.Drawing.Size, System.Drawing">
+    <value>221, 27</value>
+  </data>
+  <data name="doctorIdTextBoxDoctors.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;doctorIdTextBoxDoctors.Name" xml:space="preserve">
+    <value>doctorIdTextBoxDoctors</value>
+  </data>
+  <data name="&gt;&gt;doctorIdTextBoxDoctors.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;doctorIdTextBoxDoctors.Parent" xml:space="preserve">
+    <value>doctorsTabPage</value>
+  </data>
+  <data name="&gt;&gt;doctorIdTextBoxDoctors.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;bloodTypeComboBox.Name" xml:space="preserve">
+    <value>bloodTypeComboBox</value>
+  </data>
+  <data name="&gt;&gt;bloodTypeComboBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bloodTypeComboBox.Parent" xml:space="preserve">
+    <value>patientsTabPage</value>
+  </data>
+  <data name="&gt;&gt;bloodTypeComboBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;filterByBloodButton.Name" xml:space="preserve">
+    <value>filterByBloodButton</value>
+  </data>
+  <data name="&gt;&gt;filterByBloodButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;filterByBloodButton.Parent" xml:space="preserve">
+    <value>patientsTabPage</value>
+  </data>
+  <data name="&gt;&gt;filterByBloodButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;patientIdTextBoxPatients.Name" xml:space="preserve">
+    <value>patientIdTextBoxPatients</value>
+  </data>
+  <data name="&gt;&gt;patientIdTextBoxPatients.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;patientIdTextBoxPatients.Parent" xml:space="preserve">
+    <value>patientsTabPage</value>
+  </data>
+  <data name="&gt;&gt;patientIdTextBoxPatients.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;patientAgeTextBox.Name" xml:space="preserve">
+    <value>patientAgeTextBox</value>
+  </data>
+  <data name="&gt;&gt;patientAgeTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;patientAgeTextBox.Parent" xml:space="preserve">
+    <value>patientsTabPage</value>
+  </data>
+  <data name="&gt;&gt;patientAgeTextBox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;patientIdLabelPatients.Name" xml:space="preserve">
+    <value>patientIdLabelPatients</value>
+  </data>
+  <data name="&gt;&gt;patientIdLabelPatients.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;patientIdLabelPatients.Parent" xml:space="preserve">
+    <value>patientsTabPage</value>
+  </data>
+  <data name="&gt;&gt;patientIdLabelPatients.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;patientAgeLabel.Name" xml:space="preserve">
+    <value>patientAgeLabel</value>
+  </data>
+  <data name="&gt;&gt;patientAgeLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;patientAgeLabel.Parent" xml:space="preserve">
+    <value>patientsTabPage</value>
+  </data>
+  <data name="&gt;&gt;patientAgeLabel.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;patientsDataGridView.Name" xml:space="preserve">
+    <value>patientsDataGridView</value>
+  </data>
+  <data name="&gt;&gt;patientsDataGridView.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;patientsDataGridView.Parent" xml:space="preserve">
+    <value>patientsTabPage</value>
+  </data>
+  <data name="&gt;&gt;patientsDataGridView.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;findPatientBtn.Name" xml:space="preserve">
+    <value>findPatientBtn</value>
+  </data>
+  <data name="&gt;&gt;findPatientBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;findPatientBtn.Parent" xml:space="preserve">
+    <value>patientsTabPage</value>
+  </data>
+  <data name="&gt;&gt;findPatientBtn.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;displayButton.Name" xml:space="preserve">
+    <value>displayButton</value>
+  </data>
+  <data name="&gt;&gt;displayButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;displayButton.Parent" xml:space="preserve">
+    <value>patientsTabPage</value>
+  </data>
+  <data name="&gt;&gt;displayButton.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;filterAgeButton.Name" xml:space="preserve">
+    <value>filterAgeButton</value>
+  </data>
+  <data name="&gt;&gt;filterAgeButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;filterAgeButton.Parent" xml:space="preserve">
+    <value>patientsTabPage</value>
+  </data>
+  <data name="&gt;&gt;filterAgeButton.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="patientsTabPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 30</value>
+  </data>
+  <data name="patientsTabPage.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="patientsTabPage.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="patientsTabPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1196, 378</value>
+  </data>
+  <data name="patientsTabPage.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="patientsTabPage.Text" xml:space="preserve">
+    <value>Patients</value>
+  </data>
+  <data name="&gt;&gt;patientsTabPage.Name" xml:space="preserve">
+    <value>patientsTabPage</value>
+  </data>
+  <data name="&gt;&gt;patientsTabPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;patientsTabPage.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;patientsTabPage.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="filterAgeButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 9.75pt</value>
+  </data>
+  <data name="filterAgeButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="filterAgeButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 245</value>
+  </data>
+  <data name="filterAgeButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 46</value>
+  </data>
+  <data name="filterAgeButton.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="filterAgeButton.Text" xml:space="preserve">
+    <value>Find Patients older than...</value>
+  </data>
+  <data name="filterAgeButton.ToolTip" xml:space="preserve">
+    <value>Enter the ID of the patient in the text field to the right.</value>
+  </data>
+  <data name="&gt;&gt;filterAgeButton.Name" xml:space="preserve">
+    <value>filterAgeButton</value>
+  </data>
+  <data name="&gt;&gt;filterAgeButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;filterAgeButton.Parent" xml:space="preserve">
+    <value>patientsTabPage</value>
+  </data>
+  <data name="&gt;&gt;filterAgeButton.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="displayButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 9.75pt</value>
+  </data>
+  <data name="displayButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="displayButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>936, 5</value>
+  </data>
+  <data name="displayButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>222, 46</value>
+  </data>
+  <data name="displayButton.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="displayButton.Text" xml:space="preserve">
+    <value>Display All Patients</value>
+  </data>
+  <data name="displayButton.ToolTip" xml:space="preserve">
+    <value>Enter the ID of the patient in the text field to the right.</value>
+  </data>
+  <data name="&gt;&gt;displayButton.Name" xml:space="preserve">
+    <value>displayButton</value>
+  </data>
+  <data name="&gt;&gt;displayButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;displayButton.Parent" xml:space="preserve">
+    <value>patientsTabPage</value>
+  </data>
+  <data name="&gt;&gt;displayButton.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="findPatientBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 9.75pt</value>
+  </data>
+  <data name="findPatientBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="findPatientBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>433, 248</value>
+  </data>
+  <data name="findPatientBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 46</value>
+  </data>
+  <data name="findPatientBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="findPatientBtn.Text" xml:space="preserve">
+    <value>Find Patient:</value>
+  </data>
+  <data name="findPatientBtn.ToolTip" xml:space="preserve">
+    <value>Enter the ID of the patient in the text field to the right.</value>
+  </data>
+  <data name="&gt;&gt;findPatientBtn.Name" xml:space="preserve">
+    <value>findPatientBtn</value>
+  </data>
+  <data name="&gt;&gt;findPatientBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;findPatientBtn.Parent" xml:space="preserve">
+    <value>patientsTabPage</value>
+  </data>
+  <data name="&gt;&gt;findPatientBtn.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="patientsDataGridView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 5</value>
+  </data>
+  <data name="patientsDataGridView.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="patientsDataGridView.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>82</value>
+  </data>
+  <data name="patientsDataGridView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>901, 220</value>
+  </data>
+  <data name="patientsDataGridView.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;patientsDataGridView.Name" xml:space="preserve">
+    <value>patientsDataGridView</value>
+  </data>
+  <data name="&gt;&gt;patientsDataGridView.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;patientsDataGridView.Parent" xml:space="preserve">
+    <value>patientsTabPage</value>
+  </data>
+  <data name="&gt;&gt;patientsDataGridView.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn8.HeaderText" xml:space="preserve">
+    <value>BloodType</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn8.MinimumWidth" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn8.Width" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn7.HeaderText" xml:space="preserve">
+    <value>Sex</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn7.MinimumWidth" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn7.Width" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn6.HeaderText" xml:space="preserve">
+    <value>DateOfBirth</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn6.MinimumWidth" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn6.Width" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn5.HeaderText" xml:space="preserve">
+    <value>Contact</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn5.MinimumWidth" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn5.Width" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn4.HeaderText" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn4.MinimumWidth" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn4.Width" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn3.HeaderText" xml:space="preserve">
+    <value>LastName</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn3.MinimumWidth" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn3.Width" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn2.HeaderText" xml:space="preserve">
+    <value>FirstName</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn2.MinimumWidth" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn2.Width" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn1.HeaderText" xml:space="preserve">
+    <value>PatientId</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn1.MinimumWidth" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn1.Width" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <data name="patientAgeLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="patientAgeLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei UI, 11.25pt</value>
+  </data>
+  <data name="patientAgeLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="patientAgeLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 268</value>
+  </data>
+  <data name="patientAgeLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 20</value>
+  </data>
+  <data name="patientAgeLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="patientAgeLabel.Text" xml:space="preserve">
+    <value>Age:</value>
+  </data>
+  <data name="&gt;&gt;patientAgeLabel.Name" xml:space="preserve">
+    <value>patientAgeLabel</value>
+  </data>
+  <data name="&gt;&gt;patientAgeLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;patientAgeLabel.Parent" xml:space="preserve">
+    <value>patientsTabPage</value>
+  </data>
+  <data name="&gt;&gt;patientAgeLabel.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="patientIdLabelPatients.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="patientIdLabelPatients.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei UI, 11.25pt</value>
+  </data>
+  <data name="patientIdLabelPatients.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="patientIdLabelPatients.Location" type="System.Drawing.Point, System.Drawing">
+    <value>575, 262</value>
+  </data>
+  <data name="patientIdLabelPatients.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 20</value>
+  </data>
+  <data name="patientIdLabelPatients.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="patientIdLabelPatients.Text" xml:space="preserve">
+    <value>Patient ID:</value>
+  </data>
+  <data name="&gt;&gt;patientIdLabelPatients.Name" xml:space="preserve">
+    <value>patientIdLabelPatients</value>
+  </data>
+  <data name="&gt;&gt;patientIdLabelPatients.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;patientIdLabelPatients.Parent" xml:space="preserve">
+    <value>patientsTabPage</value>
+  </data>
+  <data name="&gt;&gt;patientIdLabelPatients.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="patientAgeTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei UI, 11.25pt</value>
+  </data>
+  <data name="patientAgeTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>205, 264</value>
+  </data>
+  <data name="patientAgeTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 27</value>
+  </data>
+  <data name="patientAgeTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;patientAgeTextBox.Name" xml:space="preserve">
+    <value>patientAgeTextBox</value>
+  </data>
+  <data name="&gt;&gt;patientAgeTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;patientAgeTextBox.Parent" xml:space="preserve">
+    <value>patientsTabPage</value>
+  </data>
+  <data name="&gt;&gt;patientAgeTextBox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="patientIdTextBoxPatients.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei UI, 11.25pt</value>
+  </data>
+  <data name="patientIdTextBoxPatients.Location" type="System.Drawing.Point, System.Drawing">
+    <value>685, 258</value>
+  </data>
+  <data name="patientIdTextBoxPatients.Size" type="System.Drawing.Size, System.Drawing">
+    <value>221, 27</value>
+  </data>
+  <data name="patientIdTextBoxPatients.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;patientIdTextBoxPatients.Name" xml:space="preserve">
+    <value>patientIdTextBoxPatients</value>
+  </data>
+  <data name="&gt;&gt;patientIdTextBoxPatients.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;patientIdTextBoxPatients.Parent" xml:space="preserve">
+    <value>patientsTabPage</value>
+  </data>
+  <data name="&gt;&gt;patientIdTextBoxPatients.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="filterByBloodButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 9.75pt</value>
+  </data>
+  <data name="filterByBloodButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="filterByBloodButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>434, 312</value>
+  </data>
+  <data name="filterByBloodButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 46</value>
+  </data>
+  <data name="filterByBloodButton.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="filterByBloodButton.Text" xml:space="preserve">
+    <value>Filter By BloodType</value>
+  </data>
+  <data name="filterByBloodButton.ToolTip" xml:space="preserve">
+    <value>Enter the ID of the patient in the text field to the right.</value>
+  </data>
+  <data name="&gt;&gt;filterByBloodButton.Name" xml:space="preserve">
+    <value>filterByBloodButton</value>
+  </data>
+  <data name="&gt;&gt;filterByBloodButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;filterByBloodButton.Parent" xml:space="preserve">
+    <value>patientsTabPage</value>
+  </data>
+  <data name="&gt;&gt;filterByBloodButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="bloodTypeComboBox.Items" xml:space="preserve">
+    <value>A-</value>
+  </data>
+  <data name="bloodTypeComboBox.Items1" xml:space="preserve">
+    <value>A+</value>
+  </data>
+  <data name="bloodTypeComboBox.Items2" xml:space="preserve">
+    <value>AB-</value>
+  </data>
+  <data name="bloodTypeComboBox.Items3" xml:space="preserve">
+    <value>AB+</value>
+  </data>
+  <data name="bloodTypeComboBox.Items4" xml:space="preserve">
+    <value>B-</value>
+  </data>
+  <data name="bloodTypeComboBox.Items5" xml:space="preserve">
+    <value>B+</value>
+  </data>
+  <data name="bloodTypeComboBox.Items6" xml:space="preserve">
+    <value>O-</value>
+  </data>
+  <data name="bloodTypeComboBox.Items7" xml:space="preserve">
+    <value>O+</value>
+  </data>
+  <data name="bloodTypeComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>583, 321</value>
+  </data>
+  <data name="bloodTypeComboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>323, 29</value>
+  </data>
+  <data name="bloodTypeComboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="&gt;&gt;bloodTypeComboBox.Name" xml:space="preserve">
+    <value>bloodTypeComboBox</value>
+  </data>
+  <data name="&gt;&gt;bloodTypeComboBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bloodTypeComboBox.Parent" xml:space="preserve">
+    <value>patientsTabPage</value>
+  </data>
+  <data name="&gt;&gt;bloodTypeComboBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabControl1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei UI, 12pt</value>
+  </data>
+  <data name="tabControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 98</value>
+  </data>
+  <data name="tabControl1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="tabControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1204, 412</value>
+  </data>
+  <data name="tabControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.Name" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.ZOrder" xml:space="preserve">
+    <value>8</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -5948,54 +5798,6 @@
   <data name="$this.Text" xml:space="preserve">
     <value>Hospital Management System</value>
   </data>
-  <data name="&gt;&gt;dataGridViewTextBoxColumn1.Name" xml:space="preserve">
-    <value>dataGridViewTextBoxColumn1</value>
-  </data>
-  <data name="&gt;&gt;dataGridViewTextBoxColumn1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;dataGridViewTextBoxColumn2.Name" xml:space="preserve">
-    <value>dataGridViewTextBoxColumn2</value>
-  </data>
-  <data name="&gt;&gt;dataGridViewTextBoxColumn2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;dataGridViewTextBoxColumn3.Name" xml:space="preserve">
-    <value>dataGridViewTextBoxColumn3</value>
-  </data>
-  <data name="&gt;&gt;dataGridViewTextBoxColumn3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;dataGridViewTextBoxColumn4.Name" xml:space="preserve">
-    <value>dataGridViewTextBoxColumn4</value>
-  </data>
-  <data name="&gt;&gt;dataGridViewTextBoxColumn4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;dataGridViewTextBoxColumn5.Name" xml:space="preserve">
-    <value>dataGridViewTextBoxColumn5</value>
-  </data>
-  <data name="&gt;&gt;dataGridViewTextBoxColumn5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;dataGridViewTextBoxColumn6.Name" xml:space="preserve">
-    <value>dataGridViewTextBoxColumn6</value>
-  </data>
-  <data name="&gt;&gt;dataGridViewTextBoxColumn6.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;dataGridViewTextBoxColumn7.Name" xml:space="preserve">
-    <value>dataGridViewTextBoxColumn7</value>
-  </data>
-  <data name="&gt;&gt;dataGridViewTextBoxColumn7.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;dataGridViewTextBoxColumn8.Name" xml:space="preserve">
-    <value>dataGridViewTextBoxColumn8</value>
-  </data>
-  <data name="&gt;&gt;dataGridViewTextBoxColumn8.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="&gt;&gt;patientsBindingSource.Name" xml:space="preserve">
     <value>patientsBindingSource</value>
   </data>
@@ -6008,71 +5810,11 @@
   <data name="&gt;&gt;hospitalDatabaseDataSet.Type" xml:space="preserve">
     <value>HospitalManagementSystem.HospitalDatabaseDataSet, HospitalDatabaseDataSet.Designer.cs.dll, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
-  <data name="&gt;&gt;dataGridViewTextBoxColumn10.Name" xml:space="preserve">
-    <value>dataGridViewTextBoxColumn10</value>
-  </data>
-  <data name="&gt;&gt;dataGridViewTextBoxColumn10.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;dataGridViewTextBoxColumn11.Name" xml:space="preserve">
-    <value>dataGridViewTextBoxColumn11</value>
-  </data>
-  <data name="&gt;&gt;dataGridViewTextBoxColumn11.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;dataGridViewTextBoxColumn12.Name" xml:space="preserve">
-    <value>dataGridViewTextBoxColumn12</value>
-  </data>
-  <data name="&gt;&gt;dataGridViewTextBoxColumn12.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;dataGridViewTextBoxColumn13.Name" xml:space="preserve">
-    <value>dataGridViewTextBoxColumn13</value>
-  </data>
-  <data name="&gt;&gt;dataGridViewTextBoxColumn13.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;dataGridViewTextBoxColumn14.Name" xml:space="preserve">
-    <value>dataGridViewTextBoxColumn14</value>
-  </data>
-  <data name="&gt;&gt;dataGridViewTextBoxColumn14.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="&gt;&gt;doctorsBindingSource.Name" xml:space="preserve">
     <value>doctorsBindingSource</value>
   </data>
   <data name="&gt;&gt;doctorsBindingSource.Type" xml:space="preserve">
     <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;dataGridViewTextBoxColumn15.Name" xml:space="preserve">
-    <value>dataGridViewTextBoxColumn15</value>
-  </data>
-  <data name="&gt;&gt;dataGridViewTextBoxColumn15.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;dataGridViewTextBoxColumn16.Name" xml:space="preserve">
-    <value>dataGridViewTextBoxColumn16</value>
-  </data>
-  <data name="&gt;&gt;dataGridViewTextBoxColumn16.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;dataGridViewTextBoxColumn17.Name" xml:space="preserve">
-    <value>dataGridViewTextBoxColumn17</value>
-  </data>
-  <data name="&gt;&gt;dataGridViewTextBoxColumn17.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;dataGridViewTextBoxColumn18.Name" xml:space="preserve">
-    <value>dataGridViewTextBoxColumn18</value>
-  </data>
-  <data name="&gt;&gt;dataGridViewTextBoxColumn18.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;dataGridViewTextBoxColumn19.Name" xml:space="preserve">
-    <value>dataGridViewTextBoxColumn19</value>
-  </data>
-  <data name="&gt;&gt;dataGridViewTextBoxColumn19.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;appointmentsBindingSource.Name" xml:space="preserve">
     <value>appointmentsBindingSource</value>
@@ -6193,6 +5935,114 @@
   </data>
   <data name="&gt;&gt;timer1.Type" xml:space="preserve">
     <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn19.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn19</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn19.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn18.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn18</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn18.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn17.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn17</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn17.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn16.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn16</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn15.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn15</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn14.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn14</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn13.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn13</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn12.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn12</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn11.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn11</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn10.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn10</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn8.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn8</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn7.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn7</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn6.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn6</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn5.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn5</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn4.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn4</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn3.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn3</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn2.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn2</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn1.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn1</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>ManagementForm</value>
