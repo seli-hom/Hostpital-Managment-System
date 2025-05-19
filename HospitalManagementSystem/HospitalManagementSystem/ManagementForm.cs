@@ -391,7 +391,6 @@ namespace HospitalManagementSystem
                 //doctorsTabPage.ForeColor = Color.White;
                 appointmentsTabPage.BackColor = Color.FromArgb(64, 64, 64);
                 //appointmentsTabPage.ForeColor = Color.White;
-                recordsTabPage.BackColor = Color.FromArgb(64, 64, 64);
                 //recordsTabPage.ForeColor = Color.White;
 
             }
@@ -407,8 +406,6 @@ namespace HospitalManagementSystem
                 doctorsTabPage.ForeColor = Color.Black;
                 appointmentsTabPage.BackColor = Color.AliceBlue;
                 appointmentsTabPage.ForeColor = Color.Black;
-                recordsTabPage.BackColor = Color.AliceBlue;
-                recordsTabPage.ForeColor = Color.Black;
             }
         }
 
