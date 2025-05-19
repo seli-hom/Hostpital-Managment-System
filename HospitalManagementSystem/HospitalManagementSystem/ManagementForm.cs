@@ -17,11 +17,17 @@ namespace HospitalManagementSystem
 
         string connectionString = System.Configuration.ConfigurationManager.ConnectionStrings["HospitalDBConnectionString"].ConnectionString;
         private bool isAdminUser;
+        private string currentUser;
+        private int minutesElapsed = 0;
+        private const int timeoutMinutes = 10;
+        private bool warningShown = false;
 
-        public ManagementForm(bool isAdmin)
+
+        public ManagementForm(bool isAdmin, string currentUsername)
         {
             InitializeComponent();
             isAdminUser = isAdmin;
+            currentUser = currentUsername;
         }
 
         private void patientsBindingNavigatorSaveItem_Click(object sender, EventArgs e)
@@ -42,6 +48,11 @@ namespace HospitalManagementSystem
 
             //Set Default Language
             languageComboBox.SelectedIndex = 0;
+
+            //for logout feature
+            minutesElapsed = 0;
+            warningShown = false;
+            timoutTimer.Start();
         }
 
         private void logoutButton_Click(object sender, EventArgs e)
@@ -54,15 +65,6 @@ namespace HospitalManagementSystem
 
         private void languageComboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
-            //if (languageComboBox.SelectedIndex == 0)
-            //{
-            //
-            //}
-            //if (languageComboBox.SelectedIndex == 1)
-            //{
-            //   
-            //}
-
             var changeLanguage = new ChangeLanguage();
             switch (languageComboBox.SelectedIndex) 
             {
@@ -347,32 +349,21 @@ namespace HospitalManagementSystem
 
         private void viewTodayBtn_Click(object sender, EventArgs e)
         {
-            string today = DateTime.Now.ToString("yyyy-MM-dd"); // Corrected the usage of DateTime.Now and formatted the date
-            string query = "SELECT * FROM Appointments WHERE Date = @Today";
-            DataTable dataTable = new DataTable();
-
-            using (SqlConnection connection = new SqlConnection(connectionString))
+            try
             {
-                SqlCommand cmd = new SqlCommand(query, connection);
+                var adapter = new HospitalDatabaseDataSetTableAdapters.AppointmentsTableAdapter();
+                var table = adapter.GetDataByToday();  // If using Fill method, bind to a dataset table instead
 
-                try
-                {
-                    connection.Open();  // Open the connection to the database
-                    SqlDataReader reader = cmd.ExecuteReader();
-                    dataTable.Load(reader);  // Load the data into the DataTable
-
-                    // Bind the DataTable to the DataGridView to display the results
-                    patientsDataGridView.DataSource = dataTable;
-                }
-                catch (Exception ex)
-                {
-                    MessageBox.Show($"An error occurred: {ex.Message}");
-                }
+                appointmentsDataGridView.DataSource = table;
+            }
+            catch (Exception errror)
+            {
+                MessageBox.Show("Sorry, failed load appointments: " + errror.Message, "Database Problen", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
 
       public void DisplayAllAppointments()
-        {
+      {
             string query = "SELECT * FROM Appointments";
             DataTable dataTable = new DataTable();
 
@@ -445,5 +436,35 @@ namespace HospitalManagementSystem
                 this.Close();
             }
         }
+
+        private void timoutTimer_Tick(object sender, EventArgs e)
+        {
+            minutesElapsed++;
+
+            if (minutesElapsed == timeoutMinutes - 1 && !warningShown)
+            {
+                MessageBox.Show("You will be logged out in 1 minute for to security reasons.", "Timeout Warning", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                warningShown = true;
+            }
+            else if (minutesElapsed >= timeoutMinutes)
+            {
+                timoutTimer.Stop();
+                MessageBox.Show("Session expired, so we will return to login.", "Timeout", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                //login form
+                this.Hide();
+                LoginForm loginForm = new LoginForm();
+                loginForm.Show();
+                this.Close();
+            }
+        }
+
+        private void changePswButton_Click(object sender, EventArgs e)
+        {
+            ChangePswForm changeForm = new ChangePswForm(currentUser); // pass logged-in username for the form
+
+            changeForm.ShowDialog();
+        }
     }
 }
+

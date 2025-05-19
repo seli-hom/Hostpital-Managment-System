@@ -34,7 +34,7 @@ namespace HospitalManagementSystem
                 bool isAdmin = username.Equals("admin");// the user is an admin, they will be able to add users
                 loginAttempts = 0;
                 this.Hide();
-                ManagementForm mainForm = new ManagementForm(isAdmin);
+                ManagementForm mainForm = new ManagementForm(isAdmin, username);
                 mainForm.ShowDialog();
                 this.Close();
                 return;

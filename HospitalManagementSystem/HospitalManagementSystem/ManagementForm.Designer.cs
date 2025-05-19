@@ -110,15 +110,18 @@
             this.bindingNavigatorSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.patientsBindingNavigatorSaveItem = new System.Windows.Forms.ToolStripButton();
             this.findPatientTip = new System.Windows.Forms.ToolTip(this.components);
+            this.themeButton = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.timeUserControl1 = new HospitalManagementSystem.TimeUserControl();
             this.dateUserControl1 = new HospitalManagementSystem.DateUserControl();
             this.logoutButton = new System.Windows.Forms.Button();
             this.languageComboBox = new System.Windows.Forms.ComboBox();
             this.languageLabel = new System.Windows.Forms.Label();
-            this.themeButton = new System.Windows.Forms.Button();
             this.patientsTableAdapter = new HospitalManagementSystem.HospitalDatabaseDataSetTableAdapters.PatientsTableAdapter();
             this.addNewUserButton = new System.Windows.Forms.Button();
+            this.timoutTimer = new System.Windows.Forms.Timer(this.components);
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.changePswButton = new System.Windows.Forms.Button();
             patientIdLabelRecords = new System.Windows.Forms.Label();
             doctorFirstNameLabelRecords = new System.Windows.Forms.Label();
             specialtyLabel = new System.Windows.Forms.Label();
@@ -345,6 +348,7 @@
             // 
             // doctorsTabPage
             // 
+            this.doctorsTabPage.BackColor = System.Drawing.Color.AliceBlue;
             this.doctorsTabPage.Controls.Add(this.doctorIdTextBoxDoctors);
             this.doctorsTabPage.Controls.Add(this.doctorIdLabelDoctors);
             this.doctorsTabPage.Controls.Add(this.doctorNameTextBox);
@@ -356,7 +360,6 @@
             this.doctorsTabPage.ForeColor = System.Drawing.SystemColors.ControlText;
             resources.ApplyResources(this.doctorsTabPage, "doctorsTabPage");
             this.doctorsTabPage.Name = "doctorsTabPage";
-            this.doctorsTabPage.UseVisualStyleBackColor = true;
             // 
             // doctorIdTextBoxDoctors
             // 
@@ -455,12 +458,12 @@
             // 
             // appointmentsTabPage
             // 
+            this.appointmentsTabPage.BackColor = System.Drawing.Color.AliceBlue;
             this.appointmentsTabPage.Controls.Add(this.displayAppintmentsBtn);
             this.appointmentsTabPage.Controls.Add(this.appointmentsDataGridView);
             this.appointmentsTabPage.Controls.Add(this.viewTodayBtn);
             resources.ApplyResources(this.appointmentsTabPage, "appointmentsTabPage");
             this.appointmentsTabPage.Name = "appointmentsTabPage";
-            this.appointmentsTabPage.UseVisualStyleBackColor = true;
             // 
             // displayAppintmentsBtn
             // 
@@ -716,6 +719,16 @@
             this.patientsBindingNavigatorSaveItem.Name = "patientsBindingNavigatorSaveItem";
             this.patientsBindingNavigatorSaveItem.Click += new System.EventHandler(this.patientsBindingNavigatorSaveItem_Click);
             // 
+            // themeButton
+            // 
+            this.themeButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.themeButton.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            resources.ApplyResources(this.themeButton, "themeButton");
+            this.themeButton.Name = "themeButton";
+            this.findPatientTip.SetToolTip(this.themeButton, resources.GetString("themeButton.ToolTip"));
+            this.themeButton.UseVisualStyleBackColor = false;
+            this.themeButton.Click += new System.EventHandler(this.themeButton_Click);
+            // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.timeUserControl1);
@@ -756,16 +769,6 @@
             resources.ApplyResources(this.languageLabel, "languageLabel");
             this.languageLabel.Name = "languageLabel";
             // 
-            // themeButton
-            // 
-            this.themeButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.themeButton.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            resources.ApplyResources(this.themeButton, "themeButton");
-            this.themeButton.Name = "themeButton";
-            this.findPatientTip.SetToolTip(this.themeButton, resources.GetString("themeButton.ToolTip"));
-            this.themeButton.UseVisualStyleBackColor = false;
-            this.themeButton.Click += new System.EventHandler(this.themeButton_Click);
-            // 
             // patientsTableAdapter
             // 
             this.patientsTableAdapter.ClearBeforeFill = true;
@@ -777,11 +780,25 @@
             this.addNewUserButton.UseVisualStyleBackColor = true;
             this.addNewUserButton.Click += new System.EventHandler(this.addNewUserButton_Click);
             // 
+            // timoutTimer
+            // 
+            this.timoutTimer.Enabled = true;
+            this.timoutTimer.Interval = 60000;
+            this.timoutTimer.Tick += new System.EventHandler(this.timoutTimer_Tick);
+            // 
+            // changePswButton
+            // 
+            resources.ApplyResources(this.changePswButton, "changePswButton");
+            this.changePswButton.Name = "changePswButton";
+            this.changePswButton.UseVisualStyleBackColor = true;
+            this.changePswButton.Click += new System.EventHandler(this.changePswButton_Click);
+            // 
             // ManagementForm
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.Controls.Add(this.changePswButton);
             this.Controls.Add(this.addNewUserButton);
             this.Controls.Add(this.themeButton);
             this.Controls.Add(this.languageLabel);
@@ -906,6 +923,9 @@
         private System.Windows.Forms.Button filterByBloodButton;
         private System.Windows.Forms.Button themeButton;
         private System.Windows.Forms.Button addNewUserButton;
+        private System.Windows.Forms.Timer timoutTimer;
+        private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Button changePswButton;
     }
 }
 
